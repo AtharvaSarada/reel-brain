@@ -1,0 +1,1072 @@
+{
+ "updated": "2026-10-26T18:34Z",
+ "categories": [
+  {
+   "id": "stories",
+   "label": "Next video stories",
+   "icon": "book-open-text",
+   "blurb": "Short reel stories to research in full and direct as long-form KaalAurKatha videos"
+  },
+  {
+   "id": "recreate",
+   "label": "Recreate better",
+   "icon": "arrows-clockwise",
+   "blurb": "Reels to rebuild in our style and beat"
+  },
+  {
+   "id": "editing",
+   "label": "Video editing & effects",
+   "icon": "film-strip",
+   "blurb": "Transitions, text effects, sound and music cuts, edit styles"
+  },
+  {
+   "id": "ai",
+   "label": "AI video & image generation",
+   "icon": "magic-wand",
+   "blurb": "Generation methods, cinematic composition, lighting"
+  },
+  {
+   "id": "design",
+   "label": "Design & typography",
+   "icon": "text-aa",
+   "blurb": "Colour, type scale, fonts"
+  },
+  {
+   "id": "web",
+   "label": "Web & app development",
+   "icon": "browsers",
+   "blurb": "Launch protocols, dev tools, agents"
+  },
+  {
+   "id": "marketing",
+   "label": "Marketing, ads & growth",
+   "icon": "megaphone",
+   "blurb": "Paid ads, copy, persuasion, ad formats, content strategy"
+  },
+  {
+   "id": "business",
+   "label": "Business",
+   "icon": "briefcase",
+   "blurb": "Thinking tools for business ideas"
+  },
+  {
+   "id": "research",
+   "label": "Research & tools",
+   "icon": "magnifying-glass",
+   "blurb": "Sources, scrapers, productivity"
+  },
+  {
+   "id": "fitness",
+   "label": "Fitness reels",
+   "icon": "barbell",
+   "blurb": "For the gym Instagram page"
+  },
+  {
+   "id": "waiting",
+   "label": "Not learned yet",
+   "icon": "hourglass-medium",
+   "blurb": "Shared, waiting for the next hourly run"
+  },
+  {
+   "id": "failed",
+   "label": "Couldn't extract",
+   "icon": "warning-circle",
+   "blurb": "Private, deleted or blocked reels and posts"
+  }
+ ],
+ "items": [
+  {
+   "title": "Endless Tools: browser app that stacks effects on footage, images, text and 3D (template gallery)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "HyperFrames"
+   ],
+   "creator": "@antonmehto",
+   "teaches": "A web app (@endlesstools) where you upload footage, an image, text or a 3D object and stack mix-and-match effects on it: the demo shows a chromatic liquid smear and a bloom pass. It also has a gallery of \"customizable, art-directed templates\" (Background, Illustration, Key Visual, Logo, Typography). The link is gated behind \"comment Tool\" and never shown, so nothing was opened; pricing and export unknown. Everything it demos EffectCraft and HyperFrames already do at zero credits, so its value is the template gallery as a look reference.",
+   "use": "One browser look at its template gallery before a client key visual or a site hero (same role as prompt-motion.com): borrow the look, build it in EffectCraft or HyperFrames. Not a pipeline tool.",
+   "link": "https://www.instagram.com/reel/Db-5wxbN0_f/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Three GitHub repos for code-rendered video with Opus 5.5: P(doom) music video, Awesome Opus Videos, Lemo-Opuscar (59 film styles)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "HyperFrames",
+    "Code",
+    "Claude"
+   ],
+   "creator": "@aiwithaddy",
+   "teaches": "Three repos, read from the README frames: (1) \"I'm Upping My P(doom)\", a music video where every frame is a deterministic function of song time, with word-level lyric alignment (Demucs + forced alignment + Whisper). (2) \"Awesome Opus 5.5 Videos\", 418 viral code-made videos each with the prompt used (HTML, Canvas, SVG, Three.js). (3) \"Lemo-Opuscar\" (lemonno-ai), 59 film styles made in code, MIT + CC BY 4.0, 7.2K stars, incl. 8 \"Evidence Films\" styles that film real material with every number sourced. Links gated behind \"comment Opus\"; nothing cloned or run.",
+   "use": "Same lane as our HyperFrames motion-graphics skills (code, not AI video). On Keep: read Lemo-Opuscar's Evidence Films styles and port one into a HyperFrames composition for a KaalAurKatha facts reel or a Cutaway explainer; use the P(doom) word-alignment model for our caption pass. Awesome-Opus is a prompt gallery, reference only.",
+   "link": "https://www.instagram.com/reel/De7O1knyumF/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "The 20-item \"don't get sued\" legal checklist to run on every app and site before launch",
+   "category": "web",
+   "kind": "Method / prompt",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@krishanu.builds (Krishanu Mahapatra)",
+   "teaches": "One checklist to paste into Claude before any launch: privacy policy, terms, refund and cookie policies, cookie banner, form consents, data minimisation, third-party SDK audit, no dark patterns, hidden fees, fake reviews or unsupported claims, alt text, colour contrast, keyboard navigation, business details, age consent for kids' data, unsubscribe link, licensed fonts and images, data deletion requests. Full list is in the caption, nothing gated. For India this maps onto the DPDP Act 2023 and the e-commerce rules; add a grievance officer contact and GST identity. Not legal advice.",
+   "use": "A pre-deploy legal pass on kaalaurkatha.com and the Pocket Ledger app (bank-SMS ingest needs the data items most), run as one prompt right before the 20-item performance pass from 25 Oct. Your note says every app from now on, so on Keep it becomes a rule line in the web_app_design pack.",
+   "link": "https://www.instagram.com/reel/DeUfhA6gqyl/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Roast Room: seven AI advisors (Bezos, Buffett, Hormozi...) debate a business decision inside Claude Code",
+   "category": "business",
+   "kind": "Knowledge",
+   "status": "Needs you",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@nateherkai",
+   "teaches": "GitHub nateherkai/roast-room (893 stars): each advisor is a Claude agent built from that person's public videos, letters and books (Hormozi: 124 videos, 1.3M words). You type /roast-room \"Should I raise my prices?\", Claude picks the advisors, a local web UI runs Brief → Openings → Fault lines → Debate → Vote → Verdict, forces a devil's advocate if they agree too fast, scores every option and gives a PDF. /newroaster adds anyone. Nothing installed, code not read (it has a web app and .env keys). QUESTION: your note wants it in every business-idea chat, which is the Always tier (one line in CLAUDE.md, costs every chat). OK with Always, or With its pack (fires only in tool/app tasks)?",
+   "use": "Devil's advocate for real decisions: a new channel format, a client's pricing, whether Pocket Ledger goes public, the Cutaway launch. Add Indian creators/operators as roasters. On Keep: read all its code first, install hidden (skillOverrides), list in its pack; if Always, one trigger line in CLAUDE.md core.",
+   "link": "https://www.instagram.com/reel/De7MatdDOnZ/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Five viral background songs by vibe (Now or Never, ELBM, Evergreen, Daisies, Runaway)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@maxcreates.mp4",
+   "teaches": "A music-only reel: five song clips scroll past on a Premiere timeline, each tagged with a vibe. Now or Never = Motivational, ELBM = Storytelling, Evergreen (tiktok) = Hopeful, Daisies = Vibey/Happy, Runaway = Dramatic. Caption says all five are on YouTube; add 'instrumental' to the search for a no-vocals version. They are commercial tracks, so on YouTube long-form they draw Content ID claims; the useful part is the vibe map as a reference for describing the feel to Gemini when we generate our own bed.",
+   "use": "Music placement on a tutorial or explainer cut (Cutaway channel narration, a fitness-page tutorial reel): pick the vibe from this five-way map, then describe that feel to Gemini for a free, claim-safe bed instead of using the track. Example: a 'hopeful' Cutaway explainer bed described as slow fingerpicked acoustic with a soft build.",
+   "link": "https://www.instagram.com/reel/DeHilziNINA/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Type hierarchy from one base size × one ratio (golden-ratio type scale)",
+   "category": "design",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "PhotoCraft",
+    "ChatGPT image",
+    "Code"
+   ],
+   "creator": "@aevyvideoschool",
+   "teaches": "Stop sizing each line by eye. Pick one base size (demo: 200 pt), then multiply or divide by one ratio for every other level: 200 × 1.618 = 323.6 pt above, 200 / 1.618 = 123.61 pt below. The ratio sets the feel: 1.618 golden = premium/luxury, 1.414 silver = modern/tech UI, 1.333 = friendly posters and H1–H2, 1.25 = soft buttons and body, 1.2 = subtle editorial. One error on the card: 1.25 is the major third, not the perfect fifth (1.5). Demo poster rebuilt live in Photoshop.",
+   "use": "Every design with text: ChatGPT cover prompts phrase it as proportions (subline about 60% of the headline height, since the model ignores pt sizes); kaalaurkatha.com and Pocket Ledger get a CSS type scale with one --ratio variable, and any off-scale font size is a review flag; a client layouts pick the ratio from the brand vibe first. Example: a 1080-wide KaalAurKatha cover on a 1.618 scale from a 120 px headline is 120 → 74 → 46.",
+   "link": "https://www.instagram.com/reel/DbdRXxTTPJy/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Three ways to start music naturally: reversed ending, stem cut, riser + whoosh",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "SoundCraft",
+    "FilmCraft"
+   ],
+   "creator": "@iam_ar_un",
+   "teaches": "Instead of hard-starting the music at the playhead, put a lead-in on the track below that ends exactly on the music's first downbeat. Three versions shown on a Premiere timeline: (1) End cut reversed: the song's own last 2–3 s, reversed, swelling into bar one. (2) The stem cut: one instrument stem of the same song plays a bar or two, then the full mix drops. (3) Riser & whoosh: a riser/transition SFX plus a deep whoosh and a mid whoosh with fade curves that crescendo into the downbeat. All three are buildable headless with ffmpeg; the node has the commands and a frame/envelope verifier plan for Phase 2.",
+   "use": "The music entry on cinematic cuts, as you asked: the Raktabeej teaser at the moment the title card hits, an a client ad at the first product reveal, the first beat after a katha's cold open. Default to riser + whoosh for AI-video teasers; use the reversed ending when the bed is our own Gemini track (we have the full file).",
+   "link": "https://www.instagram.com/reel/DdMMNnco3ka/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Meta ads reel (could not download)",
+   "category": "failed",
+   "kind": "Failed",
+   "status": "Failed",
+   "apps": [],
+   "creator": "",
+   "teaches": "Download failed twice on 2026-10-26: Instagram returned an empty media response for this reel, which means it is private, deleted, or only visible when logged in. The worker never logs in to Instagram. If the reel is public for you, re-share it or share a different link to the same video; if it is from a private account, it cannot be fetched.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/De8ow1MOuJS/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "16 marketing psychology levers, Level 1–4, with Indian examples (scarcity to bandwagon)",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude"
+   ],
+   "creator": "@dhruv_wan",
+   "teaches": "A hand-held card per lever: name, one-line definition, an Indian example and a 'used on you' line. Level 1: scarcity, social proof, FOMO, anchoring. Level 2: charm pricing, loss aversion, the free effect, reciprocity. Level 3: decoy effect, paradox of choice, halo effect, framing. Level 4: mere exposure, commitment bias, endowment effect, bandwagon. All 16 cards are transcribed in full in the brain. Gate: 'comment MKT' for the slides; not needed, the frames carried everything.",
+   "use": "A 16-row checklist on every client ad brief: which ONE lever does this ad pull, and at which second? (a client product ads are mostly social proof + anchoring + a festival-window scarcity; a client is halo + endowment.) For KaalAurKatha titles, pinned comments and captions, the honest levers are framing and commitment ('Day 7 of 11'); social-proof numbers only when true.",
+   "link": "https://www.instagram.com/reel/DeWZmg-I0GO/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Radial shutter transition: edge-only directional blur + 2-frame flash (FilmCraft)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@genovix.in",
+   "teaches": "A cut that stutters through a few 3-frame slivers, with the frame edges smeared by a vertical Directional Blur (angle 90) on an adjustment layer while the subject stays sharp through an inverted ellipse mask on Opacity (feather 200, expansion 100; Alpha Adjust with Ignore Alpha on). A second 2-frame adjustment layer in Linear Dodge (Add) sits at the head of every sliver as the flash. No plug-in. Not shown: the blur length.",
+   "use": "Hard location cuts that need a hit in short-form: the Raktabeej teaser palace-to-battlefield cut, KaalAurKatha shorts, the product-reveal cut in an a client ad. Phase 2 can rebuild it in FilmCraft and verify frame by frame against the reel's own demo (0:00-0:03).",
+   "link": "https://www.instagram.com/reel/DerK-ukjvQM/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Visual exaggeration conceptual ads: blow the one benefit up until it is impossible",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "ChatGPT image"
+   ],
+   "creator": "@deepaksisodiadesigns",
+   "teaches": "A concepting method for image ads: pick the product's single benefit and show it exaggerated to an impossible degree; the bigger the exaggeration the harder it lands. Four examples read from the frames: Otrivin (nostrils bricked up, 'Break the block'), Lay's (surfer on a wave of crisps), Michelin (a tyre in a ring box, 'Man's most precious gift') and his own Skybags ad (suitcase lifted by balloons, 'Too light to stay grounded'). Reference pool: Pinterest search 'Visual Exaggeration Conceptual Ads'.",
+   "use": "A brief rule for a client / a client image ads: which one benefit, and what is the impossible version of it? Also the prompt shape for AI image ads ([hero object] [impossible exaggeration of one benefit], flat background, brand colour, copy space). Stored as a method; nothing generated.",
+   "link": "https://www.instagram.com/reel/Dacuaj_CISh/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Piyush Pandey's rules for Meta ads: problem first, local tongue, inhale life",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@adsandcopy",
+   "teaches": "Three of Piyush Pandey's principles applied to Meta ads: (1) open on the exact consumer problem and close on proof of the product as the solution, with the actor, accent and location matching the audience; (2) write in the buyer's regional language (his proof: 150 ads for Supernova AI in Malayalam, Kannada, Telugu, Hindi, Gujarati); (3) 'inhale life': ideas come from observing how people actually talk, so write copy raw and authentic and think twice before letting AI write it. Three more principles are in his next reel (list blurred, not read).",
+   "use": "A three-line check on every a client ad brief: first 2 s = the customer's complaint in her words; the ad's language = the buyer's language; last shot = the product doing the thing. Shapes the brief only; the VO still comes from her Notion Script Doc.",
+   "link": "https://www.instagram.com/reel/Dcdfr8VyQrA/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "The 60-30-10 colour rule: give every colour one job",
+   "category": "design",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code",
+    "PhotoCraft"
+   ],
+   "creator": "@designs_by_max",
+   "teaches": "Don't let every colour do everything: 60% of the design is the background colour, 30% a contrasting colour for the content on top, and the brand/accent colour is only 10%, on the important parts (main text, button). The demo rebuilds a Japanese market poster from all-brown to charcoal 60 / white type 30 / brand brown 10 on one headline word, and it reads at a glance. Same split as good cinematography.",
+   "use": "kaalaurkatha.com and any UI: dark ground 60, text and cards 30, saffron/gold accent 10 on CTAs and one headline word. Client image ads and KaalAurKatha covers: the brand colour is the 10%, never the 60%. Pairs with the text-size ratio rule filed yesterday.",
+   "link": "https://www.instagram.com/reel/DbtPLnWxwQg/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "End any song smoothly: 10-frame nest + Studio Reverb at max decay (FilmCraft / SoundCraft)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "SoundCraft"
+   ],
+   "creator": "@himanshujainfilms",
+   "teaches": "How to stop the music where the cut needs it without an ugly cut or dissolve. Cut the last 10 frames of the song into their own clip, nest it, put a ~5 s Black Video inside the nest so the clip can be extended past the music, Constant Power crossfades on both sides, then Studio Reverb on that nested clip with Decay dragged from 2500 to 10000 ms (everything else default: dry 75 / wet 25). The last note rings out over the silence. Sibling of the music-start reel filed earlier today.",
+   "use": "Every short where the music must end before the last line or the end card: KaalAurKatha shorts, the Raktabeej teaser's final title card, an a client ad before the logo sting. Headless ffmpeg stand-in is written in the node; SoundCraft reverb pass to verify in Phase 2.",
+   "link": "https://www.instagram.com/reel/DcoR25_IZYw/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Gradient shimmer text: blurred colour map through the type with CC Blobbylize, threshold + cross-blur sheen, glow",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@cancelled.name",
+   "teaches": "A chrome-like title where a moving colour gradient lives inside the letters. Any colourful image is blurred and swirled with Turbulent Displace, pushed through the text's alpha with CC Blobbylize (softness 4, cut away 25), then a duplicate gets CC Threshold 63.8% + CC Cross Blur 300/300 in Screen for the sheen, and a glow on top. Every effect is native After Effects except Deep Glow, which our native Glow replaces. Full values are in the node.",
+   "use": "Hero titles: a KaalAurKatha episode title or deity name in Devanagari with a gold/saffron colour map instead of magenta; a brand word in an a client reel with the fabric photo as the bump map. Not for captions or lower thirds.",
+   "link": "https://www.instagram.com/reel/DdeV0x9sYQr/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Shutter Slide: 10-frame photo stack, each photo drops in from above with Transform shutter blur",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@theeditingcanvas",
+   "teaches": "A photo-burst slam after a video shot. Set every photo to 10 frames, stagger them stair-step on rising tracks 3-4 frames apart, put the Transform effect on the first one with Position keyframed from y=-660 (above frame) to its resting place over 4 frames and Shutter Angle 180 for the motion blur, then Paste Attributes onto the rest. No plug-in. Values read from the Premiere panel because the Hindi VO did not transcribe.",
+   "use": "A beat-synced burst of 6-8 iconography stills before the hook line of a KaalAurKatha facts reel, a product colourway burst in a client ad before the price card, or a PR montage on the fitness page.",
+   "link": "https://www.instagram.com/reel/DdfyORozFSq/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Prism Lens transition: 12+2-frame nested window into a two-slot transition comp with a prism/light-leak smear",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "EffectCraft"
+   ],
+   "creator": "@ulucfx",
+   "teaches": "The structure of a sold Premiere transition pack: razor the last 12 frames of clip A and the first 2 of clip B, nest each, drop the transition on top and drag the nests into Media Holder 01/02. Five looks: light leak, horizontal and vertical stretch smears, soft zoom, RGB prism split. The preset itself is gatekept (comment 'prism' for a DM), so the node records the 14-frame structure and a native smear we build ourselves in EffectCraft.",
+   "use": "Your note: gym Instagram videos. Set-to-set cuts and the PR reveal on the beat (light-leak variant on the last rep, RGB-prism into the slow-mo). Also palace-to-battlefield teaser cuts for KaalAurKatha. Proposed 'With its pack' for fitness so every gym edit sees it.",
+   "link": "https://www.instagram.com/reel/De7fs0yMotn/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Colour grade system: one accent colour, one scheme, mute everything else (luminance then saturation)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "PhotoCraft",
+    "FilmCraft",
+    "Resolve"
+   ],
+   "creator": "@aevyvideoschool",
+   "teaches": "Stop fixing colours one slider at a time. Pick ONE accent colour (he eyedrops the lantern orange), choose a scheme for the rest (complementary, monochromatic or analogous), pull the other colours into that palette, and in the HSL mixer drop the luminance and then the saturation of every hue the scene does not need. The neon izakaya demo goes from five fighting colours to orange-on-teal. Filed as a four-line grading checklist.",
+   "use": "A checklist before any Lumetri/Resolve grade and for muting stray greens and magentas in generated plates instead of regenerating them; also the way to phrase palettes in image prompts (one accent, teal shadows, muted greens).",
+   "link": "https://www.instagram.com/reel/DehNhFJT_YK/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Cosmic chrome text: 5-colour palette mapped through a bevel depth, Phase animated, Deep Glow on top (paid plug-in settings)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@graphic_stuzo",
+   "teaches": "A glowing chrome script word. The reel is a settings list for the paid After Effects plug-in 'Cosmic' (palette of 5 colours, angle 11, offset -100, saturation 132, brightness 130; depth angle 115, contrast 250, bulge 135, rounding 78; its own glow off; animate Phase) plus Deep Glow 2 (threshold 74, smooth 35, saturation bias 20). We do not have either plug-in, so the node carries a native rebuild: Bevel Alpha for the depth, Colorama for the 5-colour cycle with Phase keyframed, native Glow. The download was only 360p.",
+   "use": "An episode title or deity name in chrome with a gold-crimson-indigo palette where the light travels along the strokes; brand words in brand colours for client reels. Sibling of the shimmer-text node from the same run; pick by whether the shimmer should swirl or travel.",
+   "link": "https://www.instagram.com/reel/DezGDHusJe2/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Ink transition: ink overlay as a reversed Luma Track Matte",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@azeems.feed",
+   "teaches": "Clip A on track 1, clip B on track 2, a free black-on-white ink overlay on track 3. Put Track Matte Key on clip B: Matte = Video 3, Composite Using = Matte Luma, Reverse ON. B then bleeds in through the growing ink blots, and captions on a higher track stay untouched. No plug-in, nothing gatekept.",
+   "use": "His note: \"Ink transition for text in Premiere Pro\". Example: a KaalAurKatha short cutting from a palace to a battlefield under word-pop captions, with the ink reading as a manuscript page. We can draw our own ink blots in EffectCraft so we never depend on a downloaded overlay.",
+   "link": "https://www.instagram.com/reel/Det1ob3hXC-/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Five composition rules for cinematic AI shots",
+   "category": "ai",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Seedance",
+    "Flow / Omni",
+    "ChatGPT image"
+   ],
+   "creator": "@jxframes",
+   "teaches": "Five framing rules, one card each: golden spiral (a small subject at the spiral point of a vast landscape), juxtaposition (two worlds split by one diagonal), frame in a frame (a bright scene seen through a dark window edge), rule of thirds, and symmetry (one-point, dead centre). It's music-only, so the content comes from the cards. Each rule is filed as a prompt phrase.",
+   "use": "His note: \"Use this for cinematic scenes that we generate in our Ai videos\". Example: in the Raktabeej shot list, \"seen through a temple arch, dark foreground border framing the battlefield\" for frame in a frame, or a symmetrical throne shot for the goddess. It goes right after SUBJECT in each Seedance shot line.",
+   "link": "https://www.instagram.com/reel/De8e8ZJp5TE/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Shard character intro (split-mask portrait + distressed name title)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@octagonediting",
+   "teaches": "A cut-out portrait on a red card with a radial glow, broken into 5 tilted rectangular shards, one mask per layer, each with a white Stroke (size 8, hardness 100%). Behind it sits the name in huge type: a black-to-white Gradient Ramp, Texturize with concrete (contrast 0.3), and Spiky Roughen Edges (border 3, sharpness 10), on a grunge wall. The creator's 'Split Mask' script is comment-gated, so the node rebuilds it by hand (duplicate the layer once per mask). The animation is saved for his next episode.",
+   "use": "His note: \"An effect for After Effects\". Example: a KaalAurKatha character card for a deity or king, with a painted portrait on a deep-red card and the name in distressed type. For a client founder intro, build it only from their real photo.",
+   "link": "https://www.instagram.com/reel/Dc80D8CKlOK/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Material-based metaphor image ads",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "ChatGPT image",
+    "PhotoCraft"
+   ],
+   "creator": "@deepaksisodiadesigns",
+   "teaches": "Keep a familiar object's shape and rebuild it in a material that carries the idea. Examples: a red onion standing in for a breast (breast-cancer awareness, said indirectly), a mouse made of bread (\"Tasty ideas. Fresh design.\"), a chocolate-bar keyboard (\"Alternate escape.\"), and a soft, liquid-clear Dell mouse (\"The soft touch of innovation\"). Find more on Pinterest under \"material based metaphor advertisement\".",
+   "use": "His note: \"Different type: one more different type of image advertisement\". Example for a client: a kurta folded from flower petals to sell softness. It's filed next to the visual-exaggeration entry from the same creator, with a prompt template. Nothing gets generated without his yes.",
+   "link": "https://www.instagram.com/reel/DakyR6uCWeH/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "The Speed effect: cut-out zips out of frame in 6 frames",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "FilmCraft"
+   ],
+   "creator": "@futurist__",
+   "teaches": "Film a fast move, then the same framing empty. Cut the move clip at take-off and keep just 6 frames over the empty plate. Roto Brush the person out, keyframe Position from rest to fully off-frame to the left, and turn on Motion Blur, so they streak out and leave the location behind. Repeat for every clip. This needs a static camera.",
+   "use": "No note on this row, so it loads only when asked by name. Example: his fitness reels (a jump that zips him out of the gym frame into the next set), or a KaalAurKatha short where a god leaps away on a static AI shot plus an empty plate of the same location.",
+   "link": "https://www.instagram.com/reel/DXW0u-zjLE7/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Floating clones: make yourself levitate (roto + keyframes)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@futurist__",
+   "teaches": "Shoot a low wide hero shot, then shoot yourself jumping from the same spot at a high frame rate. Roto each jump out (Roto Brush in After Effects = EffectCraft), shrink it, place it in the sky and keyframe it up a little so it drifts. Repeat for 6-8 copies, then roto the hero out too and put that layer on top so the clones float behind him.",
+   "use": "No note given. Example: a 'many forms' moment in a KaalAurKatha short (a deva appearing in several forms around the hero), or a fitness/BTS reel with his own footage.",
+   "link": "https://www.instagram.com/reel/DVJSeKsCDQK/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Glowing ring + green energy object from particle dust (Resolve Fusion)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "Resolve"
+   ],
+   "creator": "@flash.resolve",
+   "teaches": "A Green Lantern style shot built from Fusion node chains: Magic Mask on the ring, then Glow and a Lens Flare; a dollar bill cut out with a Polygon, turned into green ASCII and assembled from drifting particle dust. The 'Flash -' nodes are the creator's paid, comment-gated macros, so the node page has a native rebuild (Soft Glow, Hot Spot, pEmitter particles). Magic Mask needs Resolve Studio; on free we use a tracked mask or a SAM matte.",
+   "use": "Your note: \"This one is for DaVinci Resolve.\" Example: a divine weapon or mantra lighting up and an astra materialising from glowing saffron dust in a KaalAurKatha video.",
+   "link": "https://www.instagram.com/reel/Ddy6GBJAB3y/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Freeze-frame character intro with name card (Premiere → FilmCraft)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@ctrlzsaveme",
+   "teaches": "Insert Frame Hold Segment to freeze about 2 s, copy the frozen clip up a track and mask the person out (Opacity Mask + Roughen Edges). Under the cut-out put a Color Matte with a 4-Color Gradient (red/orange), a dust overlay on Soft Light, then the animated NAME / -Role title. The shot unfreezes and plays on.",
+   "use": "No note given. Example: introducing each character the first time they appear in a KaalAurKatha video, with a Devanagari name and role.",
+   "link": "https://www.instagram.com/reel/DdGHlIGN2Pe/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Colour splash: only one person in colour, rest grey",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@vitzai_visuals",
+   "teaches": "Duplicate the clip, remove the background from the top copy so only the subject is left, then drop the saturation on the bottom clip (the reel uses CapCut, Saturation -50; it works the same in any editor). The subject stays in colour, everyone else goes grey. The node page also adds your time-pause version: freeze the moment first, then run the splash on the held frame.",
+   "use": "Your note: \"We can use this for an ad for a client, where we need to show the time pause. We can desaturate everybody except the father...\" Example: in the a client ad, freeze the family moment, keep the father in colour and drain everyone else to grey, then let time resume.",
+   "link": "https://www.instagram.com/reel/DdoaZlSN7-s/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Four compositions: diagonal, symmetry, tunnel, rule of thirds",
+   "category": "ai",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Seedance",
+    "Flow / Omni",
+    "ChatGPT image"
+   ],
+   "creator": "@jdonswrld",
+   "teaches": "Four framing rules, each drawn as a red line over a real shot: a diagonal (escalator corner to corner) for motion, balance symmetry (a centre post splitting bridge and ferry), a tunnel (shooting from a dark passage toward a bright opening with a figure walking out) and the rule of thirds on a busy night street. Each one is written up as a ready prompt phrase. It also opens on an eye-opening close-up as a hook.",
+   "use": "Your note: \"Some more composition methods for cinematic AI video generation\". Example: 'shot from deep inside a dark cave, the bright mouth small in the left half, a lone sage in silhouette walking out into dawn' in a Seedance shot line.",
+   "link": "https://www.instagram.com/reel/DdF8T54z_4c/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Five futuristic display fonts (Planet Kosmos, Aquire, Revoid, Terrano, Universa)",
+   "category": "design",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code",
+    "FilmCraft",
+    "PhotoCraft"
+   ],
+   "creator": "@raktimcreates",
+   "teaches": "An image carousel (not a video) showing five sci-fi display fonts: Planet Kosmos (heavy italic, spiky), Aquire (wide geometric caps), Revoid (tall minimal caps), Terrano (ultra-wide thin) and Universa (squarish, rounded). Each is shown huge on a space image with a three-word tagline. The download link is gated behind 'comment fonts', so the licences still have to be checked by name before use.",
+   "use": "Your note: \"These fonts can be used in any projects, including video projects, website development projects, and app development projects.\" Example: Aquire or Revoid for Pocket Ledger or Cutaway chapter headings, Terrano for a wide logotype, after a licence check.",
+   "link": "https://www.instagram.com/p/Dd1CC4wD0KD/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Beat-sync background flicker: subject cut-out over a 0.1 s landscape montage, mirror-mask reveal",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "EffectCraft",
+    "Resolve"
+   ],
+   "creator": "@mxtuts126",
+   "teaches": "A CapCut tutorial: cut a dozen landscapes to 0.1 s each, export, loop it to the subject clip's length. Put it above the subject, then put a background-removed copy of the subject on top. A mirror (band) mask on the landscape layer starts as a thin line at the chin and is rotated to about -22° and widened, so the backgrounds strobe in behind a still subject. No plug-ins; recorded step by step with FilmCraft, EffectCraft and Resolve equivalents.",
+   "use": "Your note: \"This exact effect can be recreated in Film Craft or Effect Craft. और even in DaVinci\". Example: a deity held still while Kurukshetra, Lanka and Kailash plates flicker behind on the drum hits, cut to the beat grid instead of a fixed 3 frames.",
+   "link": "https://www.instagram.com/reel/DdRKooroJ6e/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Format: 'The Blue Boy' (childhood → miracle → destiny flash-forward → mother's tears), rap music",
+   "category": "recreate",
+   "kind": "Recreate better",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "Seedance"
+   ],
+   "creator": "@visionmachina",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/De5qkiNRfO7/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Colour theory for realism: analogous palette + one complementary accent + blue shadows",
+   "category": "ai",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Seedance",
+    "Flow / Omni",
+    "ChatGPT image",
+    "Resolve"
+   ],
+   "creator": "@pixeleditorshub",
+   "teaches": "Films keep a scene's colours close together on the colour wheel to push one emotion (red = danger, orange = heat or anger, blue = isolation or fear). To make a hero stand out they add ONE colour from the opposite side (a teal light behind warm skin, a green dress, a blue shirt). Shadows, smoke and fog are tinted blue, never pure black. Filed with a prompt recipe (palette + accent + shadow colour) and a vectorscope grading routine for AI clips.",
+   "use": "Your note: \"This will hugely help with making our AI mythological videos look more realistic by using proper lighting and background.\" Example: Raktabeej battle shots prompted as a red-orange torchlit palette with a single teal rim light on the Devi and blue-tinted haze in the shadows.",
+   "link": "https://www.instagram.com/reel/DZg4EhgyKwU/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Five Devanagari display fonts (Brahmos, Koyla, AMS Minar, AMS Shikha, AMS Manoja)",
+   "category": "design",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "PhotoCraft",
+    "HyperFrames"
+   ],
+   "creator": "@raktimcreates",
+   "teaches": "An image carousel showing five Hindi display fonts, each set on one emotion word: Brahmos Devanagari (heavy, squared), Koyla Devanagari (ultra-bold, chunky), AMS Minar (thin brush calligraphy), AMS Shikha (bold calligraphic) and AMS Manoja (soft, rounded). The link is gated behind 'comment FONTS', so each font has to be found by name and its licence checked.",
+   "use": "Your note: \"This is for Devanagari fonts especially.\" Example: AMS Shikha for a KaalAurKatha episode title card, Brahmos for a vadh or battle title, AMS Minar for a quoted shloka line, all set in PhotoCraft or HyperFrames rather than by the image model.",
+   "link": "https://www.instagram.com/p/Dd6JjAwjylh/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Different types of cinematic composition: frame compositions",
+   "category": "failed",
+   "kind": "Failed",
+   "status": "Failed",
+   "apps": [],
+   "creator": "",
+   "teaches": "Could not download: Instagram says this reel \"isn't available to everyone: it can't be seen by certain audiences\" (an audience-restricted / age-gated post that needs a login). No login was attempted. If you want it learned, screen-record it on your phone and share the file, or paste the reel's key points as a note.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/Den6OYhBcNZ/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Hanuman's hidden origin: rebuke hook, shloka card, one-colour-per-god boon montage (recreate)",
+   "category": "recreate",
+   "kind": "Recreate better",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "FilmCraft"
+   ],
+   "creator": "@akashstarkkk",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DejzmOJh7tv/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Jambavan, the wise bear king: next-video topic",
+   "category": "stories",
+   "kind": "Story → long-form",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@akashstarkkk",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DeKDpbzhfSu/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "4 YouTube videos on content strategy, digested (3 of 4)",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@seanwerbowskii",
+   "teaches": "A carousel recommending four YouTube videos. Three were read in full from their captions: Caleb Ralston's 6h personal-brand course (multiplier sheet, accordion method, platform-native repackaging), Oren's 35-min playbook (4 pillars scored monthly, a rationed signature series) and the Tristan Workman × Briar Cochran podcast (split every post into hook / format / topic / illustration and test one at a time; check non-follower %; re-hook at 15 s). The fourth, Harry Dry's copywriting class, was blocked by YouTube rate-limiting (429); the next run retries it. All of it is on a new channel_growth shelf with a 9-point 'what transfers to KaalAurKatha' list.",
+   "use": "\"Try analyzing all the YouTube videos shown on each page of this post.\" Example: start a multiplier sheet for KaalAurKatha (each reel scored against the 90-day median, 11 days after posting), and log each reel's hook / format / topic / illustration so we test one variable a week.",
+   "link": "https://www.instagram.com/p/DeK39yMD0j0/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Arcane-style painterly Lanka battle: the look to recreate, with a story",
+   "category": "recreate",
+   "kind": "Recreate better",
+   "status": "Learned",
+   "apps": [
+    "Seedance"
+   ],
+   "creator": "@mkchanti",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DdjJIxmBsuj/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Gangsta extract transition (blur + invert + Extract on a 5-frame layer)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@beingviplesh",
+   "teaches": "A punchy beat-cut transition: a 4–6 frame adjustment layer over each cut with Directional Blur (90°, amount 0→90→0), Alpha Adjust (Ignore Alpha), Invert on Luminance (Blend With 0→100→0) and Extract (black 64, white 192, softness 70). For a few frames each cut turns into a smeared black-and-white silhouette, then snaps back. All native effects, so it rebuilds 1:1 in FilmCraft. His 'premium sound effect' is DM-gated (not done).",
+   "use": "Your note: \"Gangster transition for Premiere Pro.\" Use it on beat-synced montage cuts: a Raktabeej teaser weapon or demon-reveal run, fitness trend reels, or an a client product montage. Too aggressive for narration-led long-form.",
+   "link": "https://www.instagram.com/reel/Dex3rE1z_YB/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Hypit: agent skill that clones a viral reel's format (what it is + limits)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "HyperFrames"
+   ],
+   "creator": "@haneefbuilds.ai",
+   "teaches": "Hypit (github hypit-ai/hypit, ~25.8k stars) is a Claude Code / Codex skill. Give it a reference reel and it rebuilds the format as an editable composition (captions, B-roll, effects keyed to the words), then lets you swap host, hook, product or language and render variants in headless Chromium, like HyperFrames. Limits: the A-roll and images come from paid models on its own hosts (Seedance 2 Mini 720p, GPT Image 2, about $1.10 a video), outside our credit and prompt rules. Timing anchors to speech, so music-only reels give it little to work with. It copies a format, not a story or a fact check. The licence is Apache 2.0 with conditions. Installing it = full Mac access, so Keep + full code read first. The reel's demo is a mock-up. Best use: port its format-analysis step into our Format-to-recreate flow.",
+   "use": "Your note: \"Figure out what this is and how we can use this. What is the limitation of this skill?\" Use: read its clone prompts and composition schema, and port the 'reference reel → word-keyed beats, caption track, B-roll slots' analysis into our Format-to-recreate rows (e.g. The Blue Boy → Bal Hanuman), rendering in HyperFrames/FilmCraft with generation on our own hosts. Nothing installed until you Keep it.",
+   "link": "https://www.instagram.com/reel/De9aQjNpTj4/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/Da4Cue3Trdd/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/De7D6OeJfGS/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/Dcf2gHpyOxX/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DaFq5eCSXM-/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DdT_OwyFeoj/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/p/DekGoHSGgkl/",
+   "post": true,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Top 10 Claude/Codex security skills (list, not installed)",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@brochbuilds",
+   "teaches": "A music-only listicle of 10 GitHub security skills for Claude Code/Codex (Cloudflare Security Audit, Trail of Bits, Anthropic's Defending Code, CC Safety Net, AgentGuard and more). Full table in the brain. None verified or installed: a third-party skill gets full access to the Mac and costs context in every chat. We already have built-in /security-review for free.",
+   "use": "Before the kaalaurkatha.com site or the Pocket Ledger app goes public: run the built-in /security-review first. Only if that misses things, read the code of #4 CC Safety Net (blocks destructive commands and .env leaks, useful now that the hourly worker runs unattended) and #3 Anthropic Defending Code, then decide.",
+   "link": "https://www.instagram.com/reel/Dew5OaVgfmG/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Meta ads budget scaling: +20% every 3 days, never double",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@dukaandari.tv",
+   "teaches": "A Hinglish two-character sketch (Ads ka Hisaab #02). Doubling a Meta ad budget in one jump (₹2,000→₹4,000) gave 6→7 orders, cost per order ₹333→₹571, because the ad re-enters learning and the extra money buys pricier people. Rule: raise 20%, wait 3 days, check orders, repeat; stop at the first step that adds budget but no orders; if ROAS falls, drop back one step. Bonus: those two weeks reveal the winning creative, so next time launch it straight at the plateau budget. Gatekept: comment SCALE for a planner (not fetched). Example numbers are illustrative, not data.",
+   "use": "The first paid-media note in the brain. Use it the day we put money behind anything: boosting a KaalAurKatha reel, or a brandaurkatha client asking to scale a working ad. Step +20% per 3 days, log cost per result per step, stop at the plateau, roll back one step on a ROAS drop, relaunch the winning creative at the plateau budget. Craft note: the dialogue-plus-data-board format is a good model for a numbers-driven Hinglish explainer series.",
+   "link": "https://www.instagram.com/reel/DehFRsUzla-/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Shannon: open-source AI pentester for web apps and APIs",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@codernormie",
+   "teaches": "Shannon (github.com/KeygraphHQ/shannon) is an open-source AI pentester for web apps and APIs, authorised testing only. He points Claude Code at the repo (\"setup this repo in this directory\"), picks the AI provider (he used his ChatGPT subscription), runs it without Docker, then gives it the live URL plus the source folder. It runs a pentest pipeline (Temporal workflow) over injection, auth, authz and SSRF classes and writes a report; his 5-second demo shows the dashboard, not a real finding. Nothing installed; its code must be read first.",
+   "use": "Pre-launch security pass on our own deployed sites only: kaalaurkatha.com and the Pocket Ledger app (its Apps Script ingest endpoint), run against our URL + our repo, after the free built-in /security-review. Same family as the 25 Oct security-skills list; pick one, not all.",
+   "link": "https://www.instagram.com/reel/Dej8FMXBlT9/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "/brag: one Claude Code command turns a project into a 20-second launch video (HyperFrames)",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "HyperFrames"
+   ],
+   "creator": "@codernormie",
+   "teaches": "/brag (github.com/latent-spaces/brag, MIT) is a Claude Code plugin: one command turns the site or app you just built into a 20-second launch video with music, motion and share copy, rendered with HyperFrames. Install is two plugin commands (marketplace add latent-spaces/brag, then install brag@brag); it adds /brag and /brag-slim, and letsbrag.app renders the same from a pasted URL with no install. He demoed it on his founder-ideas site. We already have HyperFrames and the hidden product-launch-video skill, so this is a candidate to compare, not a gap. Not installed.",
+   "use": "A 20-second launch reel for kaalaurkatha.com, the Pocket Ledger app or a client's site/app, for IG and the portfolio. On Keep: read its code, run it on the site repo, judge it against our own product-launch-video skill; install hidden only if it wins.",
+   "link": "https://www.instagram.com/reel/DepIdSqBeIH/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "MiroFish: a synthetic focus group of AI people that argues about your idea before you build",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@nick_saraev",
+   "teaches": "MiroFish is an open-source simulation engine (the reel claims 80k GitHub stars; demo at 666ghj.github.io/mirofish-demo). You upload a pitch, idea doc or rough MVP as PDF/MD/TXT; it builds a graph of simulated people with personalities and opinions, drops them on a simulated social platform, lets them argue, then writes a report on why they loved or hated it and what to change, and you can chat with any single agent. It is a synthetic focus group, not real users: good for finding objections and fixing messaging before launch, never proof of demand. Gatekept CTA (comment STARTUP) not followed.",
+   "use": "At the end of each build stage of kaalaurkatha.com or the Pocket Ledger app: feed the pitch and screenshots, read the objections, fix the copy before going public. Also a cheap pre-test for a client ad concept with the brief and script as seeds.",
+   "link": "https://www.instagram.com/reel/De7Fx7sPof8/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Google ARTEMIS: open-source agent that drives a real Android phone from plain English (MCP for Claude Code)",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@jagu.builds",
+   "teaches": "ARTEMIS (google/artemis on GitHub, Apache 2.0, ~14k stars per the reel) lets an AI agent operate a real Android phone or emulator from plain English, e.g. uv run artemis run \"Open Settings, find Battery and tell me the current level\". It ships an MCP server (mobile_run_task, mobile_get_device_state, mobile_inspect_trace, mobile_diagnose) and uv run artemis mcp --install all wires it into Claude Code, Codex, Cursor and more. Flash mode is a fast reactive loop (3–5 s a step); Pro mode is planner + operator + checker (15–40 s a step). The 99.1% AndroidWorld score is Google's own, self-reported. Nothing installed.",
+   "use": "Automated QA of the Pocket Ledger app on your own Pixel: build, install, log in with a test account, tap every screen, catch popups, screenshot everything. The Android counterpart of the iOS Simulator tool we already have.",
+   "link": "https://www.instagram.com/reel/De4GZyShemf/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "The 20-item \"make my vibe-coded site fast\" prompt (ends with a Lighthouse audit)",
+   "category": "web",
+   "kind": "Method / prompt",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@joshtheaiguy",
+   "teaches": "One prompt to Claude listing every standard web performance fix: compress images, lazy loading, code splitting, cache API responses, CDN, minify JS/CSS, index the database, cut unnecessary re-renders, debounce input handlers, paginate large lists, remove unused dependencies, defer non-critical scripts, loading skeletons, load balancer, compress API payloads, DB connection pooling, cache expensive computed results, fix N+1 queries, server-side caching, then a Lighthouse audit. Caption: Claude does not optimise for scale by default, especially with Supabase. The full table is in the brain.",
+   "use": "A pre-ship performance pass for kaalaurkatha.com (front-end + delivery items only, it is static Astro) and the Pocket Ledger app, run as one prompt and verified by Lighthouse. Your note asks for it on every site from now on, so on Keep it becomes a rule line in the web_app_design pack.",
+   "link": "https://www.instagram.com/reel/DdP1ySxAsxT/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Moving Image Archive: free public-domain footage, searched by describing the shot",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@sneha_sidequest",
+   "teaches": "movingimagearchive.com (by Cole @covacut, free): 100,000+ public-domain clips from 1894 to 2021, cut into single shots and matched with CLIP, so you type \"san francisco, 1906\" instead of tags. Every clip has a provenance/rights panel. Not opened yet; download format and rights-for-India unchecked.",
+   "use": "Footage source in the asset-manifest step of any KaalAurKatha episode or facts reel that touches the last ~130 years (freedom movement, old city streets, trains, temples on film), and period B-roll for the Cutaway channel. Not for mythological episodes.",
+   "link": "https://www.instagram.com/reel/De6j24huFex/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Agent Reach: one CLI that lets an agent search Reddit, Twitter, YouTube, GitHub with no API fees",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@codernormie",
+   "teaches": "GitHub iqjiy/agent_reach (~87k stars on screen, MIT, Chinese README): opencli commands that read and search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu through your browser logins, returning only matches so Claude burns fewer tokens. Demo: Claude runs opencli reddit search on his niche. Not installed, code not read. Overlaps Apify and our local yt-dlp path; new bit is free Reddit/Twitter search for trends.",
+   "use": "Trends and discovery research in youtube_story (what Reddit/Twitter say about a topic before an episode brief) at zero cost. If you Keep it: I read the whole repo first, install outside Drive in its own venv, and never point it at Instagram.",
+   "link": "https://www.instagram.com/reel/Dd9LgpwsVvP/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Mixed-media collage kinetic type (grain paper, duotone portrait, neon word, paper panels)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "HyperFrames"
+   ],
+   "creator": "@johnbucog",
+   "teaches": "A 24 s promo where every cut is a different material: grained dark paper, a solarised cyan duotone of the speaker with glitch blocks, huge condensed headline words popping on each spoken beat, a red neon word, flat red/cyan paper panels, red marker scribbles, RGB-smear transitions. Median shot 0.7 s. Steps, timestamps and our EffectCraft build are on the node page. The reel's content (LTX Trainer: train a style model instead of prompting) is a separate untested method note.",
+   "use": "Short-form hooks: a KaalAurKatha facts reel or channel trailer where the headline words slam on-beat over a duotone of the deity plate; or a a client process reel with the maker's portrait in duotone. Too loud for the itihas long form.",
+   "link": "https://www.instagram.com/reel/Dcb4oFBBSFH/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Paper-cutout brand promo (cream paper type, red paper cut-outs, marker handwriting, macro metaphor B-roll)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "PhotoCraft",
+    "EffectCraft"
+   ],
+   "creator": "@jordans.archivess (Jordan Watkins)",
+   "teaches": "An 82 s sponsored promo built from three materials: cream paper carrying the type (grotesque captions + a Didone italic for one precious word + red marker handwriting), red paper carrying physical cut-outs placed stop-motion, and the real room dressed in the same red and cream. Every graphic gets a physical twin (the word Software becomes a sticker held to the lens). Chess macro as metaphor B-roll; whip-pan, VHS rainbow smear, neon flicker and scanner sweep as the only transitions. Median shot 1.8 s.",
+   "use": "brandaurkatha client promos (a client, a client product lines): the product and its benefits as paper cut-outs on brand-colour paper, red marker accents, one macro metaphor. Also a KaalAurKatha channel trailer or 'how we make an episode' reel.",
+   "link": "https://www.instagram.com/reel/Da0a4KGRp4L/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "getdesign.md: drop a big brand's design system into a project as DESIGN.md",
+   "category": "design",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code",
+    "Claude"
+   ],
+   "creator": "@codernormie",
+   "teaches": "getdesign.md hosts DESIGN.md analyses of ~70 brands (Spotify, Apple, Stripe, Linear, Figma...): colours with roles, type, buttons, cards, forms. npx getdesign@latest add spotify writes spotify/DESIGN.md into the project; you tell the coding agent to read it before writing any UI. Site calls them inspiration, not a licence. Not run; package code not read.",
+   "use": "kaalaurkatha.com and the Pocket Ledger app: pull one close reference (Spotify for dark media UI, Linear for the ledger) as a starting DESIGN.md, then rewrite into our own tokens. Bigger takeaway: keep a DESIGN.md in every web project so each session reads one file before touching UI.",
+   "link": "https://www.instagram.com/reel/DYmwr_wvrU0/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Pixel-icon kinetic monologue (paper type, thermal silhouette, icon ring, word spelled by icons) + its 5-line script shape",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "HyperFrames",
+    "PhotoCraft"
+   ],
+   "creator": "@jordans.archivess (Jordan Watkins)",
+   "teaches": "A 20 s spoken monologue illustrated with zero AI: bold grotesque type on off-white paper, 16-bit pixel icons that burst into a rotating ring, a real person turned into a thermal-camera silhouette, red marker loops, and the last word LOVE spelled out one letter at a time with an icon standing in for each letter. The script has a fixed shape: question → \"You don't.\" → \"You just show it.\" → three abstract nouns → one closing phrase ending on a single spellable word. Node page has every beat with timestamps, the EffectCraft build and a worked example of writing a new script the same way.",
+   "use": "KaalAurKatha facts reel or channel trailer: a new 5-line script in this shape (e.g. \"How do you know a story is true? / You don't. / You just carry it. / Through memory, ritual, doubt, / through one's own need to...\"), pixel icons drawn from the episode's props, the deity silhouette as the thermal plate. Also a a client process reel with the maker's hands as the thermal shot.",
+   "link": "https://www.instagram.com/reel/DeKDmkmh_gM/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Stop saving reels: share to Recall, triage the old pile with Claude",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude"
+   ],
+   "creator": "@anas.helloworld",
+   "teaches": "New reels: share to the Recall app instead of saving (it transcribes them, so they're searchable). Old pile: Accounts Center → Export your information → Saved only → JSON, then paste into Claude to get topics, 10 to watch tonight and an unsave list. Limit: Claude sees only links, not content. We do better: download + transcribe every reel locally. This reel started the Skill Library.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/Devi-jZv9yb/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-22"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reel Brain</title>
+  <meta name="description" content="Everything Claude learned from the reels and posts Atharva shared, sorted by the kind of work it serves.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0e0f11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f7f8" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23e8643a'/%3E%3Cpath d='M11 23V9h6a4.5 4.5 0 0 1 0 9h-6m6 0 4 5' fill='none' stroke='%230e0f11' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the list</a>
+
+  <header class="top">
+    <div class="brand">
+      <h1>Reel Brain</h1>
+      <p class="sub">What Claude learned from the reels and posts you shared, sorted by the work it serves.</p>
+    </div>
+    <div class="top-tools">
+      <span class="updated" id="updated" aria-live="polite"></span>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch light or dark">
+        <i class="ph ph-moon-stars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <section class="pulse" aria-label="Progress">
+    <div class="pulse-bar" id="pulseBar" role="img"></div>
+    <ul class="pulse-legend" id="pulseLegend"></ul>
+  </section>
+
+  <div class="shell">
+    <nav class="cats" aria-label="Categories">
+      <ul id="catList"></ul>
+    </nav>
+
+    <main id="main" tabindex="-1">
+      <div class="toolbar">
+        <label class="search">
+          <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+          <span class="sr">Search</span>
+          <input id="q" type="search" placeholder="Search titles, apps, creators" autocomplete="off">
+        </label>
+        <div class="seg" role="radiogroup" aria-label="Filter by kind" id="kindSeg"></div>
+      </div>
+
+      <div id="board"></div>
+      <div id="list"></div>
+    </main>
+  </div>
+
+  <footer class="foot">
+    <p>Built from the Notion Reel Inbox. Client names and private notes are never published.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
