@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T16:26Z",
+ "updated": "2026-10-27T17:07Z",
  "categories": [
   {
    "id": "stories",
@@ -281,143 +281,150 @@
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Laptop screen replacement: Mocha AE corner pin + Keylight hand matte",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "Resolve"
+   ],
+   "creator": "@brothersinart1",
+   "teaches": "Replace a green laptop/phone screen so the new video sticks to it and the person's hand still passes in front. Track the screen with Mocha AE (planar track), export a Corner Pin onto a solid, precompose it with the new clip inside, then key the green on a copy of the footage (Keylight + Invert) and use that as the Track Matte so fingers cut through the replacement. Resolve free can do the same with the Fusion Planar Tracker + Delta Keyer.",
+   "use": "Shared untitled, so routed by content. Example: a client ad showing their app on a phone held in hand, or a KaalAurKatha short where a character watches a screen (generate the plate with a green screen, drop real content in later).",
    "link": "https://www.instagram.com/reel/DaPxyPTsjdH/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
+   "title": "8 underrated websites for creative inspiration (Godly, Landbook, Are.na…)",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
    "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "creator": "@workwitharike",
+   "teaches": "A list of places to find references before designing: Are.na (mood boards), Godly and Landbook (website and landing-page layouts), It's Nice That (art and design outside your niche), Ads of the World (ad campaigns). Plus three tools: Repurpose.io (repost one video to every platform), PinClicks (Pinterest keywords), Wispr Flow (speech to polished text). Filed on a new shelf so design and ad tasks check it first.",
+   "use": "Shared untitled, so routed by content. Example: open Godly + Landbook before the next kaalaurkatha.com design pass, and Ads of the World before writing a client ad concept.",
    "link": "https://www.instagram.com/p/Deq09VBkYKi/",
    "post": true,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Figure-ground contrast: fix a dull talking-head edit by building the world behind the subject",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@aevyvideoschool",
+   "teaches": "A critique of a viewer's edit: the subject on a flat background doesn't catch the eye (figure-ground contrast). The fix: generate a backdrop that names the topic with a table in the foreground and put the subject behind it, then colour isolation + value contrast + vignette, a smoke overlay, one prop that slides in, and sound effects under every move (\"video is always 50% audio\", free SFX at mixkit.co).",
+   "use": "Shared untitled, so routed by content. Example: a KaalAurKatha presenter or a client ad shot, placed inside a themed AI backdrop with a foreground element, then vignette + smoke + SFX.",
    "link": "https://www.instagram.com/reel/DZH0SD0SP7d/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
+   "title": "Two safe colours + one unexpected accent (three ready palettes)",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
    "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "creator": "@uxui_shrut",
+   "teaches": "A colour pair that looks fine stays forgettable; add one unexpected accent and it becomes memorable. Three palettes with hex codes: charcoal + forest green + crimson red (powerful), lemon + charcoal + electric lavender (bold), mocha brown + champagne gold + burnt amber (rich). Use the accent sparingly: headline word, one hero object.",
+   "use": "Your note: \"Some design conception ideas\". Example: offer safe pair vs pair + accent side by side for the next kaalaurkatha.com section or cover; mocha/champagne/amber fits the temple-gold look.",
    "link": "https://www.instagram.com/reel/De37Qbfodht/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
+   "title": "Hanuman never used his gada: one stat for a Hanuman vs superheroes video",
+   "category": "stories",
+   "kind": "Story → long-form",
+   "status": "Learned",
    "apps": [],
-   "creator": "",
+   "creator": "@thepuranicstoryteller",
    "teaches": "",
    "use": "",
    "link": "https://www.instagram.com/reel/De9Tj7hIGzQ/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
+   "title": "How heavy was Hanuman's mountain? A text feat run through real-world numbers",
+   "category": "recreate",
+   "kind": "Recreate better",
+   "status": "Learned",
    "apps": [],
-   "creator": "",
+   "creator": "@tejaexplains_",
    "teaches": "",
    "use": "",
    "link": "https://www.instagram.com/reel/Dex0CLxvDvp/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
+   "title": "Abhimanyu alone in the chakravyuha: six maharathis against one boy",
+   "category": "stories",
+   "kind": "Story → long-form",
+   "status": "Learned",
    "apps": [],
-   "creator": "",
+   "creator": "@faithvsfact",
    "teaches": "",
    "use": "",
    "link": "https://www.instagram.com/reel/De9jZZXP9ir/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Build a fortress one defence at a time (Blender build-it explainer format)",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Blender"
+   ],
+   "creator": "@fyra417",
+   "teaches": "A 2:11 3D explainer (246k likes) that builds a fortress the same way our cutaway channel works: 'But the enemy still... So you add...' (cross-shaped walls, corner bastions, a barbican with a side gate, a moat and S-shaped road, rivers for sieges, a drawbridge), ending 'Congratulations, you created...'. Filed as the first proposed topic in a new cutaway topic bank (toward your 5-video launch bank), with an Indian-fort version (Daulatabad, Kumbhalgarh, Golconda, Chittorgarh) to fact-check first.",
+   "use": "Your note: create such videos in Blender for the new explainer channel once there is a bank of 5. Example: 'build Daulatabad fort one defence at a time' as a cutaway episode.",
    "link": "https://www.instagram.com/reel/DemXEa8vPGX/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
+   "title": "Verdict → reversal hook: \"Dronacharya was so evil… But that's not the real story\"",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
    "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "creator": "@faithvsfact",
+   "teaches": "The hook states the harshest popular verdict as if true ('Dronacharya was so evil that he asked Eklavya his thumb'), then turns in two seconds ('But that's not the real story'), pays it off with context, and lands the opposite verdict. Filed in the new hook library with use cases (Karna, Kaikeyi, Ravana, Bhishma, client ads, editing and fitness tips). Note: the reel's own payoff is an interpretation; the text's stated motive is Drona's promise to Arjuna.",
+   "use": "Your note: use this negative hook style for any video, and keep a hook library with use cases per hook. Example: 'Kaikeyi was so cruel that she sent Rama to the forest. But that's not the real story.'",
    "link": "https://www.instagram.com/reel/DeKk6vgTVAQ/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
+   "title": "The wisest man couldn't stop gambling: Yudhishthira's dice, to remake as a Hindi AI-visual edit",
+   "category": "recreate",
+   "kind": "Recreate better",
+   "status": "Learned",
    "apps": [],
-   "creator": "",
+   "creator": "@jayonthewhy",
    "teaches": "",
    "use": "",
    "link": "https://www.instagram.com/reel/DebWEIsNFql/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
@@ -1743,6 +1750,24 @@
     "link": "https://www.instagram.com/reel/DdqxsmBTFma/"
    },
    {
+    "id": "shelf:_shared/design_principles#4",
+    "label": "Figure-ground contrast: fix a dull talking-head edit by building the world behind the subject",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/DZH0SD0SP7d/"
+   },
+   {
+    "id": "shelf:_shared/design_principles#5",
+    "label": "Two safe colours + one unexpected accent = a memorable design (three ready palettes)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@uxui_shrut",
+    "link": "https://www.instagram.com/reel/De37Qbfodht/"
+   },
+   {
     "id": "shelf:_shared/font_library",
     "label": "Font library (display fonts and Devanagari fonts to pick from)",
     "kind": "shelf",
@@ -1778,6 +1803,22 @@
     "date": "2026-10-26",
     "creator": "@raktimcreates",
     "link": "https://www.instagram.com/p/Dd6JjAwjylh/"
+   },
+   {
+    "id": "shelf:_shared/inspiration_sources",
+    "label": "Where to look for references and inspiration (sites, galleries, swipe files)",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "starting any design, website, ad campaign or content piece and wanting references, mood boards or \"what are our alternatives\" before making it"
+   },
+   {
+    "id": "shelf:_shared/inspiration_sources#0",
+    "label": "Eight underrated websites for creative inspiration",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@workwitharike",
+    "link": "https://www.instagram.com/p/Deq09VBkYKi/"
    },
    {
     "id": "shelf:ai_generation/color_and_light",
@@ -1843,6 +1884,28 @@
     "link": "https://www.instagram.com/reel/DdF8T54z_4c/"
    },
    {
+    "id": "shelf:cutaway/topic_bank",
+    "label": "Cutaway channel topic bank (the 5-video bank before launch)",
+    "kind": "shelf",
+    "group": "cutaway",
+    "trigger": "choosing the next cutaway / Blender build-it episode, or counting how close the channel is to its 5-video launch bank"
+   },
+   {
+    "id": "pack:cutaway",
+    "label": "Cutaway channel",
+    "kind": "pack",
+    "group": "cutaway"
+   },
+   {
+    "id": "shelf:cutaway/topic_bank#0",
+    "label": "\"How this ancient fortress outsmarted entire armies\" (build a fortress, one defence at a time)",
+    "kind": "entry",
+    "group": "cutaway",
+    "date": "2026-10-27",
+    "creator": "@fyra417",
+    "link": "https://www.instagram.com/reel/DemXEa8vPGX/"
+   },
+   {
     "id": "shelf:editing_vfx/cut_grammar",
     "label": "Cut grammar: which cut to suggest between two shots",
     "kind": "shelf",
@@ -1890,6 +1953,15 @@
     "category": "compositing",
     "status": "untested",
     "link": "https://www.instagram.com/reel/De_OHv9PZ8u/"
+   },
+   {
+    "id": "tech:screen_replace_mocha_keylight_hand_matte",
+    "label": "Replace a green laptop screen with Mocha AE corner pin + a Keylight hand matte so fingers stay in front",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "compositing",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DaPxyPTsjdH/"
    },
    {
     "id": "tech:documentary_war_map_theme",
@@ -2158,12 +2230,6 @@
     "group": "fitness"
    },
    {
-    "id": "pack:cutaway",
-    "label": "Cutaway channel",
-    "kind": "pack",
-    "group": "cutaway"
-   },
-   {
     "id": "shelf:editing_vfx/sound_libraries#0",
     "label": "\"all sfx\" Drive pack: ~6,150 sound effects + music beds · shared by Atharva (pack by \"contentsingh\")",
     "kind": "entry",
@@ -2171,6 +2237,15 @@
     "date": "2026-10-26",
     "creator": "",
     "link": ""
+   },
+   {
+    "id": "shelf:editing_vfx/sound_libraries#1",
+    "label": "Mixkit (mixkit.co): free sound effects",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/DZH0SD0SP7d/"
    },
    {
     "id": "tech:music_end_reverb_tail",
@@ -2617,6 +2692,15 @@
     "link": "https://www.instagram.com/p/DecyemRmAly/"
    },
    {
+    "id": "shelf:youtube_story/hook_library#1",
+    "label": "\"Dronacharya was so evil…\": state the popular verdict as fact, then \"But that's not the real story\"",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-27",
+    "creator": "@faithvsfact",
+    "link": "https://www.instagram.com/reel/DeKk6vgTVAQ/"
+   },
+   {
     "id": "shelf:youtube_story/research_sources",
     "label": "Research and footage sources",
     "kind": "shelf",
@@ -2674,6 +2758,24 @@
     "date": "2026-10-26",
     "creator": "@mkchanti",
     "link": "https://www.instagram.com/reel/DdjJIxmBsuj/"
+   },
+   {
+    "id": "shelf:youtube_story/viral_formats#3",
+    "label": "\"How heavy was Hanuman's mountain?\": a feat from the text, run through real-world numbers",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-27",
+    "creator": "@tejaexplains_",
+    "link": "https://www.instagram.com/reel/Dex0CLxvDvp/"
+   },
+   {
+    "id": "shelf:youtube_story/viral_formats#4",
+    "label": "\"The wisest man in the Mahabharata couldn't stop gambling\": paradox hook → refrain → forgotten detail → \"what is your dice?\"",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-27",
+    "creator": "@jayonthewhy",
+    "link": "https://www.instagram.com/reel/DebWEIsNFql/"
    }
   ],
   "links": [
@@ -2710,6 +2812,14 @@
     "target": "shelf:_shared/design_principles#3"
    },
    {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#4"
+   },
+   {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#5"
+   },
+   {
     "source": "pack:editing_vfx",
     "target": "shelf:_shared/font_library"
    },
@@ -2740,6 +2850,30 @@
    {
     "source": "shelf:_shared/font_library",
     "target": "shelf:_shared/font_library#1"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:_shared/inspiration_sources"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:_shared/inspiration_sources"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:_shared/inspiration_sources"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:_shared/inspiration_sources"
+   },
+   {
+    "source": "pack:youtube_story",
+    "target": "shelf:_shared/inspiration_sources"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources",
+    "target": "shelf:_shared/inspiration_sources#0"
    },
    {
     "source": "pack:ai_generation",
@@ -2774,6 +2908,14 @@
     "target": "shelf:ai_generation/shot_composition#1"
    },
    {
+    "source": "pack:cutaway",
+    "target": "shelf:cutaway/topic_bank"
+   },
+   {
+    "source": "shelf:cutaway/topic_bank",
+    "target": "shelf:cutaway/topic_bank#0"
+   },
+   {
     "source": "pack:editing_vfx",
     "target": "shelf:editing_vfx/cut_grammar"
    },
@@ -2804,6 +2946,14 @@
    {
     "source": "app:editing_vfx:EffectCraft",
     "target": "tech:recolor_dark_garment_roto_lighten_multiply"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:screen_replace_mocha_keylight_hand_matte"
    },
    {
     "source": "pack:editing_vfx",
@@ -3036,6 +3186,10 @@
    {
     "source": "shelf:editing_vfx/sound_libraries",
     "target": "shelf:editing_vfx/sound_libraries#0"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries",
+    "target": "shelf:editing_vfx/sound_libraries#1"
    },
    {
     "source": "pack:editing_vfx",
@@ -3286,6 +3440,10 @@
     "target": "shelf:youtube_story/hook_library#0"
    },
    {
+    "source": "shelf:youtube_story/hook_library",
+    "target": "shelf:youtube_story/hook_library#1"
+   },
+   {
     "source": "pack:youtube_story",
     "target": "shelf:youtube_story/research_sources"
    },
@@ -3320,6 +3478,14 @@
    {
     "source": "shelf:youtube_story/viral_formats",
     "target": "shelf:youtube_story/viral_formats#2"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats",
+    "target": "shelf:youtube_story/viral_formats#3"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats",
+    "target": "shelf:youtube_story/viral_formats#4"
    },
    {
     "source": "router",
