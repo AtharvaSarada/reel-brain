@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T13:04Z",
+ "updated": "2026-10-27T14:01Z",
  "categories": [
   {
    "id": "stories",
@@ -76,45 +76,53 @@
  ],
  "items": [
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Three free Claude skills for motion: Remotion, GSAP, Three.js",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "HyperFrames",
+    "Claude"
+   ],
+   "creator": "@aevyvideoschool",
+   "teaches": "Claude animates much better with skills installed: remotion-dev/skills (maps, charts, documentary motion graphics), greensock/gsap-skills (polished 2D sequences) and CloudAI-X/threejs-skills (3D product shots, exploded views). We already have the GSAP skills and HyperFrames (which can port Remotion), so only the Three.js skills would be new. Nothing installed.",
+   "use": "Untitled share, routed by content. Route maps and animated charts for KaalAurKatha facts reels in HyperFrames; Three.js skills only if you Keep this, for 3D on the website.",
    "link": "https://www.instagram.com/reel/De_EWr0RgNZ/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "10 open-source repos for motion capture from a normal camera",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Blender"
+   ],
+   "creator": "@syntaix.ai",
+   "teaches": "A carousel of 10 free tools that turn ordinary video into body motion: MediaPipe, OpenPose, MMPose/RTMPose and MoveNet for 2D keypoints; VideoPose3D, WHAM, 4D-Humans and EasyMocap for 3D motion; Blender to put it on a rigged character. The chain is phone video → keypoints → 3D motion → Blender. Several are research or non-commercial licences. Nothing installed.",
+   "use": "Untitled share, routed by content. For the Cutaway channel: film a hand or worker demonstrating a step on the phone and retarget it onto a Blender figure, no mocap suit and no AI video.",
    "link": "https://www.instagram.com/p/De1frq7ifup/",
    "post": true,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Documentary war-map redesign: one colour theme, article match cut, inverted map",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "ChatGPT image"
+   ],
+   "creator": "@aevyvideoschool",
+   "teaches": "A flat war edit is rebuilt into a documentary sequence: one theme (black, white, red + grunge overlay), a red 3D bomb falling, a newspaper 'article match cut' on the headline (paperanimator.com) inverted to fit the theme, then a black-and-white satellite map from ChatGPT with a plane passing over red-glowing explosions and red city names. The rule: every documentary edit gets a fixed colour, texture and overlay.",
+   "use": "Untitled share, routed by content. KaalAurKatha battle sequences: fixed black / bone / blood-red palette, plus a manuscript-page match cut on a key verse word instead of a news article.",
    "link": "https://www.instagram.com/reel/DafLb9nzKwY/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
@@ -488,22 +496,6 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Profile bounce: a screenshot splits into layers that bounce in one by one",
-   "category": "editing",
-   "kind": "Skill",
-   "status": "Learned",
-   "apps": [
-    "EffectCraft"
-   ],
-   "creator": "@octagonediting",
-   "teaches": "Cut a screenshot (an Instagram profile) into about 14 layers, one per element, using rectangle masks. Key out the black background with Color Key, then keyframe each layer flying into place over about 20 frames. An inertial-bounce expression (freq 3, decay 5) adds the overshoot, and the layers are staggered 5 frames apart. The creator's Split Mask script is gated, so the node rebuilds that step by hand.",
-   "use": "No note given. Example: a KaalAurKatha character card whose name, weapon and boons assemble line by line, or a client app screen that builds itself in a promo.",
-   "link": "https://www.instagram.com/reel/Dba7juMqrfD/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
    "title": "Beat-sync background flicker: subject cut-out over a 0.1 s landscape montage, mirror-mask reveal",
    "category": "editing",
    "kind": "Skill",
@@ -682,22 +674,6 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "PentAGI: open-source AI agents that pen-test your own website",
-   "category": "web",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "Code"
-   ],
-   "creator": "@omkar.docs",
-   "teaches": "PentAGI (github.com/vxcontrol/pentagi, MIT, ~28k stars) is a self-hosted team of AI agents: you describe a target and a goal, it runs tools like nmap and sqlmap inside a Docker sandbox and writes a security report. It is for authorised testing only, so for us that means our own sites before a launch. Heavy to run (Docker, database, a paid LLM key), so it is a one-off audit tool, not something to install now.",
-   "use": "No note given. Example: a security pass on kaalaurkatha.com or Pocket Ledger before launch, run in a sandbox, never against a site we don't own.",
-   "link": "https://www.instagram.com/reel/DemNqCvIcoN/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
    "title": "Freeze-frame character intro with name card (Premiere → FilmCraft)",
    "category": "editing",
    "kind": "Skill",
@@ -798,20 +774,6 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Reel DcAn325tNVa (could not download)",
-   "category": "failed",
-   "kind": "Failed",
-   "status": "Failed",
-   "apps": [],
-   "creator": "",
-   "teaches": "Could not download: Instagram sent an empty media response twice, which means the reel is private, removed or login-gated. No login was attempted. If you can still open it, paste the link in chat with a note on what you want from it.",
-   "use": "",
-   "link": "https://www.instagram.com/reel/DcAn325tNVa/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
    "title": "Hypit: agent skill that clones a viral reel's format (what it is + limits)",
    "category": "editing",
    "kind": "Knowledge",
@@ -826,34 +788,6 @@
    "link": "https://www.instagram.com/reel/De9aQjNpTj4/",
    "post": false,
    "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "52 negative hooks in 5 families (first entry in the new Hook Library)",
-   "category": "marketing",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [],
-   "creator": "@katrinalebar",
-   "teaches": "A 6-slide carousel of opening lines that start with friction: blunt call-out, unpopular opinion, the mistake, comparison and reality check, and spicy or polarising. They work because they contradict what the viewer believes, so the viewer stays to see the turn. It is filed as the first entry of a new Hook Library shelf, with use cases for our videos and ads beside each family.",
-   "use": "No note given. Filed in the hook library your Dronacharya note asked for. Example: \"You've only heard half of Karna's story\" (comparison and reality check) as the hook of a myth-busting short.",
-   "link": "https://www.instagram.com/p/DecyemRmAly/",
-   "post": true,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/DecMZSDubaV/",
-   "post": false,
-   "decision": "",
    "shared": "2026-10-26"
   },
   {
@@ -875,22 +809,6 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "day-trader-skill: 11 Claude skills for trade research + 10,000-run simulator",
-   "category": "web",
-   "kind": "Knowledge",
-   "status": "Needs you",
-   "apps": [
-    "Claude"
-   ],
-   "creator": "@swapsays_wtf",
-   "teaches": "A free MIT repo (github.com/Jakeschincariol/day-trader-skill) with 11 Claude skills: chart scanner, news, entry/exit, a Time Machine that replays a setup 10,000 times, risk/budget checks, alerts, and an Alpaca broker skill (paper by default). QUESTION: what is \"our demo\"? A demo video/landing page using its UI patterns, or do you want the skills installed? Install only after your Keep + full code read, broker skill left out.",
-   "use": "Your note: \"Trading skill to build our demo\". Example: rebuild its animated cards (chart-grid scan, 10,000-path fan, three-stat result row) with mock data for a product demo video.",
-   "link": "https://www.instagram.com/reel/De63EgSxsXo/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
    "title": "16 marketing psychology levers, Level 1–4, with Indian examples (scarcity to bandwagon)",
    "category": "marketing",
    "kind": "Knowledge",
@@ -902,22 +820,6 @@
    "teaches": "A hand-held card per lever: name, one-line definition, an Indian example and a 'used on you' line. Level 1: scarcity, social proof, FOMO, anchoring. Level 2: charm pricing, loss aversion, the free effect, reciprocity. Level 3: decoy effect, paradox of choice, halo effect, framing. Level 4: mere exposure, commitment bias, endowment effect, bandwagon. All 16 cards are transcribed in full in the brain. Gate: 'comment MKT' for the slides; not needed, the frames carried everything.",
    "use": "A 16-row checklist on every client ad brief: which ONE lever does this ad pull, and at which second? (a client product ads are mostly social proof + anchoring + a festival-window scarcity; a client is halo + endowment.) For KaalAurKatha titles, pinned comments and captions, the honest levers are framing and commitment ('Day 7 of 11'); social-proof numbers only when true.",
    "link": "https://www.instagram.com/reel/DeWZmg-I0GO/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Motion Dock: free After Effects panel with 28 tools",
-   "category": "editing",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "EffectCraft"
-   ],
-   "creator": "@harss.raaj",
-   "teaches": "motionfun.net/motion-dock is a free After Effects panel that puts 28 small tools in one dock: counters (Odo), spring motion without expressions (Springy), linked colour palettes (Petals), one-click anchor points, bulk edits across layers (Ditto, Switched). It is an AE-only panel, so for EffectCraft it is a checklist of presets worth having, not an install.",
-   "use": "No note given. Example: when a KaalAurKatha short needs a number counter or a bouncy title, build the EffectCraft/HyperFrames equivalent of Odo/Springy.",
-   "link": "https://www.instagram.com/reel/De8pdyhPjyV/",
    "post": false,
    "decision": "Pending",
    "shared": "2026-10-26"
@@ -1006,38 +908,6 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Rapid Zoom Out: 3-frame photo burst, Transform 200→100 with shutter blur",
-   "category": "editing",
-   "kind": "Skill",
-   "status": "Learned",
-   "apps": [
-    "FilmCraft"
-   ],
-   "creator": "@theeditingcanvas",
-   "teaches": "Photos cut to 3 frames each. On the first one, Transform Scale goes 200 to 100 (Ease Out, then Ease In), with Use Composition's Shutter Angle off and Shutter Angle 200 for the blur. Paste Attributes onto all the others, then Black & White on all. The result is a fast zoom-out photo burst. Values were read from upscaled panel crops, because the reel is only 360p.",
-   "use": "No note given. Example: a 1-second flashback burst of AI stills from a character's life in a KaalAurKatha short, landed on a beat.",
-   "link": "https://www.instagram.com/reel/DaopNPtzIM1/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Six cuts: repeat, match, invisible, smash, L and J",
-   "category": "editing",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "FilmCraft"
-   ],
-   "creator": "@planetinpixel",
-   "teaches": "Six named cuts: repeat (show an action twice to stress it), match (same action carries across two scenes), invisible (hide the cut in motion), smash (cut between very different moods), L (scene 1's audio runs over scene 2, good for flashbacks) and J (scene 2's audio starts early). From now on every edit plan names the cut between each pair of shots.",
-   "use": "Your note: \"For you to learn and improve cinematic suggestions\". Example: in a KaalAurKatha video, a J cut brings Raktabeej's roar in before we see him, and AI clips are generated to end and start on a matching action for a match cut.",
-   "link": "https://www.instagram.com/reel/De9QrEghQNT/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
    "title": "The 60-30-10 colour rule: give every colour one job",
    "category": "design",
    "kind": "Knowledge",
@@ -1114,40 +984,6 @@
    "teaches": "",
    "use": "",
    "link": "https://www.instagram.com/reel/DejzmOJh7tv/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Swishy: AI motion designer website (prompt → editable animation)",
-   "category": "editing",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "HyperFrames",
-    "EffectCraft"
-   ],
-   "creator": "@myselfrachit",
-   "teaches": "swishy.ai turns a text prompt (plus an optional image or video) into a short motion graphic you can edit: font, colours, scale, then export. It has a template gallery (counters, toggles, logo stings, kinetic type, UI mock-ups). The Mini model is free; Starter, Best and Pro cost credits. The reel shows a full prompt for a yellow swipe-in text reveal, which is a good model for briefing it.",
-   "use": "Your note: \"Save these websites in your brain.\" Example: a quick \"follow @kaalaurkatha\" text sting or a stat counter overlay for a short, when building it in HyperFrames would take longer. First check whether Export gives a transparent background.",
-   "link": "https://www.instagram.com/reel/DaQKsk6PbEo/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "X-Ray Transition: negative frame + AI X-ray/wireframe still at the cut",
-   "category": "editing",
-   "kind": "Skill",
-   "status": "Learned",
-   "apps": [
-    "FilmCraft",
-    "ChatGPT image"
-   ],
-   "creator": "@artistbuildingacademy",
-   "teaches": "Export the last frame of the outgoing clip and the first frame of the incoming one, and have ChatGPT image turn each into a see-through X-ray or wireframe version. At the cut, duplicate each clip, mask the subject, raise exposure and set the blend mode to Difference to get a bright negative. Then order the cut as clip, negative, X-ray still, X-ray still, negative, next clip, with a zap sound. The exact prompt is comment-gated; most of it was read off the screen.",
-   "use": "No note given. Example: a \"what's inside\" reveal of a weapon or chariot in a KaalAurKatha short (the X-ray stills are an image generation, so it waits for your yes).",
-   "link": "https://www.instagram.com/reel/DdcCMkyNwNq/",
    "post": false,
    "decision": "Pending",
    "shared": "2026-10-26"
@@ -1236,20 +1072,6 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Search Console regex: find the exact questions people Google",
-   "category": "web",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [],
-   "creator": "@ghulam_ali_seo",
-   "teaches": "In Google Search Console → Performance → Add filter → Query → Custom (regex), paste ^(who|what|why|how|when|where|which|can|does|do|is|are|should|will|could|would)\\b to see only the question-shaped searches that already bring people to your site. Each one is a page to write. Yes, it matters to us: verify kaalaurkatha.com in Search Console now so data builds up, then run this monthly.",
-   "use": "Your note: \"Check this out and remind me if this is important to us\". Example: once kaalaurkatha.com has traffic, run the filter monthly; questions like \"why did Karna lose\" become blog posts and Idea Box topics.",
-   "link": "https://www.instagram.com/reel/De9PgGQFakj/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
    "title": "Cosmic chrome text: 5-colour palette mapped through a bevel depth, Phase animated, Deep Glow on top (paid plug-in settings)",
    "category": "editing",
    "kind": "Skill",
@@ -1314,20 +1136,6 @@
    "link": "https://www.instagram.com/reel/DakyR6uCWeH/",
    "post": false,
    "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/De8icqdNjmU/",
-   "post": false,
-   "decision": "",
    "shared": "2026-10-26"
   },
   {
@@ -1407,6 +1215,206 @@
    "teaches": "A punchy beat-cut transition: a 4–6 frame adjustment layer over each cut with Directional Blur (90°, amount 0→90→0), Alpha Adjust (Ignore Alpha), Invert on Luminance (Blend With 0→100→0) and Extract (black 64, white 192, softness 70). For a few frames each cut turns into a smeared black-and-white silhouette, then snaps back. All native effects, so it rebuilds 1:1 in FilmCraft. His 'premium sound effect' is DM-gated (not done).",
    "use": "Your note: \"Gangster transition for Premiere Pro.\" Use it on beat-synced montage cuts: a Raktabeej teaser weapon or demon-reveal run, fitness trend reels, or an a client product montage. Too aggressive for narration-led long-form.",
    "link": "https://www.instagram.com/reel/Dex3rE1z_YB/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Reel DcAn325tNVa (could not download)",
+   "category": "failed",
+   "kind": "Failed",
+   "status": "Failed",
+   "apps": [],
+   "creator": "",
+   "teaches": "Could not download: Instagram sent an empty media response twice, which means the reel is private, removed or login-gated. No login was attempted. If you can still open it, paste the link in chat with a note on what you want from it.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DcAn325tNVa/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Search Console regex: find the exact questions people Google",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@ghulam_ali_seo",
+   "teaches": "In Google Search Console → Performance → Add filter → Query → Custom (regex), paste ^(who|what|why|how|when|where|which|can|does|do|is|are|should|will|could|would)\\b to see only the question-shaped searches that already bring people to your site. Each one is a page to write. Yes, it matters to us: verify kaalaurkatha.com in Search Console now so data builds up, then run this monthly.",
+   "use": "Your note: \"Check this out and remind me if this is important to us\". Example: once kaalaurkatha.com has traffic, run the filter monthly; questions like \"why did Karna lose\" become blog posts and Idea Box topics.",
+   "link": "https://www.instagram.com/reel/De9PgGQFakj/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "day-trader-skill: 11 Claude skills for trade research + 10,000-run simulator",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Needs you",
+   "apps": [
+    "Claude"
+   ],
+   "creator": "@swapsays_wtf",
+   "teaches": "A free MIT repo (github.com/Jakeschincariol/day-trader-skill) with 11 Claude skills: chart scanner, news, entry/exit, a Time Machine that replays a setup 10,000 times, risk/budget checks, alerts, and an Alpaca broker skill (paper by default). QUESTION: what is \"our demo\"? A demo video/landing page using its UI patterns, or do you want the skills installed? Install only after your Keep + full code read, broker skill left out.",
+   "use": "Your note: \"Trading skill to build our demo\". Example: rebuild its animated cards (chart-grid scan, 10,000-path fan, three-stat result row) with mock data for a product demo video.",
+   "link": "https://www.instagram.com/reel/De63EgSxsXo/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Motion Dock: free After Effects panel with 28 tools",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@harss.raaj",
+   "teaches": "motionfun.net/motion-dock is a free After Effects panel that puts 28 small tools in one dock: counters (Odo), spring motion without expressions (Springy), linked colour palettes (Petals), one-click anchor points, bulk edits across layers (Ditto, Switched). It is an AE-only panel, so for EffectCraft it is a checklist of presets worth having, not an install.",
+   "use": "No note given. Example: when a KaalAurKatha short needs a number counter or a bouncy title, build the EffectCraft/HyperFrames equivalent of Odo/Springy.",
+   "link": "https://www.instagram.com/reel/De8pdyhPjyV/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Six cuts: repeat, match, invisible, smash, L and J",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@planetinpixel",
+   "teaches": "Six named cuts: repeat (show an action twice to stress it), match (same action carries across two scenes), invisible (hide the cut in motion), smash (cut between very different moods), L (scene 1's audio runs over scene 2, good for flashbacks) and J (scene 2's audio starts early). From now on every edit plan names the cut between each pair of shots.",
+   "use": "Your note: \"For you to learn and improve cinematic suggestions\". Example: in a KaalAurKatha video, a J cut brings Raktabeej's roar in before we see him, and AI clips are generated to end and start on a matching action for a match cut.",
+   "link": "https://www.instagram.com/reel/De9QrEghQNT/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Profile bounce: a screenshot splits into layers that bounce in one by one",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@octagonediting",
+   "teaches": "Cut a screenshot (an Instagram profile) into about 14 layers, one per element, using rectangle masks. Key out the black background with Color Key, then keyframe each layer flying into place over about 20 frames. An inertial-bounce expression (freq 3, decay 5) adds the overshoot, and the layers are staggered 5 frames apart. The creator's Split Mask script is gated, so the node rebuilds that step by hand.",
+   "use": "No note given. Example: a KaalAurKatha character card whose name, weapon and boons assemble line by line, or a client app screen that builds itself in a promo.",
+   "link": "https://www.instagram.com/reel/Dba7juMqrfD/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Swishy: AI motion designer website (prompt → editable animation)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "HyperFrames",
+    "EffectCraft"
+   ],
+   "creator": "@myselfrachit",
+   "teaches": "swishy.ai turns a text prompt (plus an optional image or video) into a short motion graphic you can edit: font, colours, scale, then export. It has a template gallery (counters, toggles, logo stings, kinetic type, UI mock-ups). The Mini model is free; Starter, Best and Pro cost credits. The reel shows a full prompt for a yellow swipe-in text reveal, which is a good model for briefing it.",
+   "use": "Your note: \"Save these websites in your brain.\" Example: a quick \"follow @kaalaurkatha\" text sting or a stat counter overlay for a short, when building it in HyperFrames would take longer. First check whether Export gives a transparent background.",
+   "link": "https://www.instagram.com/reel/DaQKsk6PbEo/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "PentAGI: open-source AI agents that pen-test your own website",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@omkar.docs",
+   "teaches": "PentAGI (github.com/vxcontrol/pentagi, MIT, ~28k stars) is a self-hosted team of AI agents: you describe a target and a goal, it runs tools like nmap and sqlmap inside a Docker sandbox and writes a security report. It is for authorised testing only, so for us that means our own sites before a launch. Heavy to run (Docker, database, a paid LLM key), so it is a one-off audit tool, not something to install now.",
+   "use": "No note given. Example: a security pass on kaalaurkatha.com or Pocket Ledger before launch, run in a sandbox, never against a site we don't own.",
+   "link": "https://www.instagram.com/reel/DemNqCvIcoN/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Rapid Zoom Out: 3-frame photo burst, Transform 200→100 with shutter blur",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@theeditingcanvas",
+   "teaches": "Photos cut to 3 frames each. On the first one, Transform Scale goes 200 to 100 (Ease Out, then Ease In), with Use Composition's Shutter Angle off and Shutter Angle 200 for the blur. Paste Attributes onto all the others, then Black & White on all. The result is a fast zoom-out photo burst. Values were read from upscaled panel crops, because the reel is only 360p.",
+   "use": "No note given. Example: a 1-second flashback burst of AI stills from a character's life in a KaalAurKatha short, landed on a beat.",
+   "link": "https://www.instagram.com/reel/DaopNPtzIM1/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "52 negative hooks in 5 families (first entry in the new Hook Library)",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@katrinalebar",
+   "teaches": "A 6-slide carousel of opening lines that start with friction: blunt call-out, unpopular opinion, the mistake, comparison and reality check, and spicy or polarising. They work because they contradict what the viewer believes, so the viewer stays to see the turn. It is filed as the first entry of a new Hook Library shelf, with use cases for our videos and ads beside each family.",
+   "use": "No note given. Filed in the hook library your Dronacharya note asked for. Example: \"You've only heard half of Karna's story\" (comparison and reality check) as the hook of a myth-busting short.",
+   "link": "https://www.instagram.com/p/DecyemRmAly/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "X-Ray Transition: negative frame + AI X-ray/wireframe still at the cut",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "ChatGPT image"
+   ],
+   "creator": "@artistbuildingacademy",
+   "teaches": "Export the last frame of the outgoing clip and the first frame of the incoming one, and have ChatGPT image turn each into a see-through X-ray or wireframe version. At the cut, duplicate each clip, mask the subject, raise exposure and set the blend mode to Difference to get a bright negative. Then order the cut as clip, negative, X-ray still, X-ray still, negative, next clip, with a zap sound. The exact prompt is comment-gated; most of it was read off the screen.",
+   "use": "No note given. Example: a \"what's inside\" reveal of a weapon or chariot in a KaalAurKatha short (the X-ray stills are an image generation, so it waits for your yes).",
+   "link": "https://www.instagram.com/reel/DdcCMkyNwNq/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Spendo: estimate a competitor's Meta ad spend and sales",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@jxn0373728",
+   "teaches": "A Chrome extension (Spendo – Ad Spend & Sales Insights) adds an estimated spend, sales and orders panel to every ad in the Meta Ad Library, plus a guessed campaign setup (objective, budget, attribution). Demo: an Allen Solly ad at ~₹9.4 L spend and ~₹35.9 L sales. Meta doesn't publish spend for normal ads in India, so these are estimates: useful to rank which competitor ads are working, not as exact budgets. Not installed.",
+   "use": "Untitled share, routed by content. Competitor research before a client ad brief: list the longest-running ads in a client's category in the Ad Library, then use estimates only to rank them.",
+   "link": "https://www.instagram.com/reel/De8icqdNjmU/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "10 things to do right after a website goes live",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@udayan.builds",
+   "teaches": "A post-launch checklist: link Search Console to Analytics, add Microsoft Clarity (free heatmaps and recordings), check Core Web Vitals, list the business on Bing Places and Apple Maps, put the link in every bio, check backlinks and top queries in Search Console, set up uptime alerts, and ask ChatGPT what it knows about you.",
+   "use": "Untitled share, routed by content. Run it after every kaalaurkatha.com deploy: Clarity, Core Web Vitals and an uptime alert are the missing pieces.",
+   "link": "https://www.instagram.com/reel/DecMZSDubaV/",
    "post": false,
    "decision": "Pending",
    "shared": "2026-10-26"
