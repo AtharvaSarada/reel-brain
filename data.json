@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:03Z",
+ "updated": "2026-10-27T12:21Z",
  "categories": [
   {
    "id": "stories",
@@ -488,6 +488,22 @@
    "shared": "2026-10-26"
   },
   {
+   "title": "Profile bounce: a screenshot splits into layers that bounce in one by one",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@octagonediting",
+   "teaches": "Cut a screenshot (an Instagram profile) into about 14 layers, one per element, using rectangle masks. Key out the black background with Color Key, then keyframe each layer flying into place over about 20 frames. An inertial-bounce expression (freq 3, decay 5) adds the overshoot, and the layers are staggered 5 frames apart. The creator's Split Mask script is gated, so the node rebuilds that step by hand.",
+   "use": "No note given. Example: a KaalAurKatha character card whose name, weapon and boons assemble line by line, or a client app screen that builds itself in a promo.",
+   "link": "https://www.instagram.com/reel/Dba7juMqrfD/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
    "title": "Beat-sync background flicker: subject cut-out over a 0.1 s landscape montage, mirror-mask reveal",
    "category": "editing",
    "kind": "Skill",
@@ -666,6 +682,20 @@
    "shared": "2026-10-26"
   },
   {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DemNqCvIcoN/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
    "title": "Freeze-frame character intro with name card (Premiere → FilmCraft)",
    "category": "editing",
    "kind": "Skill",
@@ -766,6 +796,20 @@
    "shared": "2026-10-26"
   },
   {
+   "title": "Reel DcAn325tNVa (could not download)",
+   "category": "failed",
+   "kind": "Failed",
+   "status": "Failed",
+   "apps": [],
+   "creator": "",
+   "teaches": "Could not download: Instagram sent an empty media response twice, which means the reel is private, removed or login-gated. No login was attempted. If you can still open it, paste the link in chat with a note on what you want from it.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DcAn325tNVa/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
    "title": "Hypit: agent skill that clones a viral reel's format (what it is + limits)",
    "category": "editing",
    "kind": "Knowledge",
@@ -780,6 +824,34 @@
    "link": "https://www.instagram.com/reel/De9aQjNpTj4/",
    "post": false,
    "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/p/DecyemRmAly/",
+   "post": true,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DecMZSDubaV/",
+   "post": false,
+   "decision": "",
    "shared": "2026-10-26"
   },
   {
@@ -801,6 +873,22 @@
    "shared": "2026-10-26"
   },
   {
+   "title": "day-trader-skill: 11 Claude skills for trade research + 10,000-run simulator",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Needs you",
+   "apps": [
+    "Claude"
+   ],
+   "creator": "@swapsays_wtf",
+   "teaches": "A free MIT repo (github.com/Jakeschincariol/day-trader-skill) with 11 Claude skills: chart scanner, news, entry/exit, a Time Machine that replays a setup 10,000 times, risk/budget checks, alerts, and an Alpaca broker skill (paper by default). QUESTION: what is \"our demo\"? A demo video/landing page using its UI patterns, or do you want the skills installed? Install only after your Keep + full code read, broker skill left out.",
+   "use": "Your note: \"Trading skill to build our demo\". Example: rebuild its animated cards (chart-grid scan, 10,000-path fan, three-stat result row) with mock data for a product demo video.",
+   "link": "https://www.instagram.com/reel/De63EgSxsXo/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
    "title": "16 marketing psychology levers, Level 1–4, with Indian examples (scarcity to bandwagon)",
    "category": "marketing",
    "kind": "Knowledge",
@@ -812,6 +900,22 @@
    "teaches": "A hand-held card per lever: name, one-line definition, an Indian example and a 'used on you' line. Level 1: scarcity, social proof, FOMO, anchoring. Level 2: charm pricing, loss aversion, the free effect, reciprocity. Level 3: decoy effect, paradox of choice, halo effect, framing. Level 4: mere exposure, commitment bias, endowment effect, bandwagon. All 16 cards are transcribed in full in the brain. Gate: 'comment MKT' for the slides; not needed, the frames carried everything.",
    "use": "A 16-row checklist on every client ad brief: which ONE lever does this ad pull, and at which second? (a client product ads are mostly social proof + anchoring + a festival-window scarcity; a client is halo + endowment.) For KaalAurKatha titles, pinned comments and captions, the honest levers are framing and commitment ('Day 7 of 11'); social-proof numbers only when true.",
    "link": "https://www.instagram.com/reel/DeWZmg-I0GO/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Motion Dock: free After Effects panel with 28 tools",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@harss.raaj",
+   "teaches": "motionfun.net/motion-dock is a free After Effects panel that puts 28 small tools in one dock: counters (Odo), spring motion without expressions (Springy), linked colour palettes (Petals), one-click anchor points, bulk edits across layers (Ditto, Switched). It is an AE-only panel, so for EffectCraft it is a checklist of presets worth having, not an install.",
+   "use": "No note given. Example: when a KaalAurKatha short needs a number counter or a bouncy title, build the EffectCraft/HyperFrames equivalent of Odo/Springy.",
+   "link": "https://www.instagram.com/reel/De8pdyhPjyV/",
    "post": false,
    "decision": "Pending",
    "shared": "2026-10-26"
@@ -900,6 +1004,36 @@
    "shared": "2026-10-26"
   },
   {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DaopNPtzIM1/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Six cuts: repeat, match, invisible, smash, L and J",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@planetinpixel",
+   "teaches": "Six named cuts: repeat (show an action twice to stress it), match (same action carries across two scenes), invisible (hide the cut in motion), smash (cut between very different moods), L (scene 1's audio runs over scene 2, good for flashbacks) and J (scene 2's audio starts early). From now on every edit plan names the cut between each pair of shots.",
+   "use": "Your note: \"For you to learn and improve cinematic suggestions\". Example: in a KaalAurKatha video, a J cut brings Raktabeej's roar in before we see him, and AI clips are generated to end and start on a matching action for a match cut.",
+   "link": "https://www.instagram.com/reel/De9QrEghQNT/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
    "title": "The 60-30-10 colour rule: give every colour one job",
    "category": "design",
    "kind": "Knowledge",
@@ -978,6 +1112,34 @@
    "link": "https://www.instagram.com/reel/DejzmOJh7tv/",
    "post": false,
    "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DaQKsk6PbEo/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DdcCMkyNwNq/",
+   "post": false,
+   "decision": "",
    "shared": "2026-10-26"
   },
   {
@@ -1064,6 +1226,20 @@
    "shared": "2026-10-26"
   },
   {
+   "title": "Search Console regex: find the exact questions people Google",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@ghulam_ali_seo",
+   "teaches": "In Google Search Console → Performance → Add filter → Query → Custom (regex), paste ^(who|what|why|how|when|where|which|can|does|do|is|are|should|will|could|would)\\b to see only the question-shaped searches that already bring people to your site. Each one is a page to write. Yes, it matters to us: verify kaalaurkatha.com in Search Console now so data builds up, then run this monthly.",
+   "use": "Your note: \"Check this out and remind me if this is important to us\". Example: once kaalaurkatha.com has traffic, run the filter monthly; questions like \"why did Karna lose\" become blog posts and Idea Box topics.",
+   "link": "https://www.instagram.com/reel/De9PgGQFakj/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
    "title": "Cosmic chrome text: 5-colour palette mapped through a bevel depth, Phase animated, Deep Glow on top (paid plug-in settings)",
    "category": "editing",
    "kind": "Skill",
@@ -1128,6 +1304,20 @@
    "link": "https://www.instagram.com/reel/DakyR6uCWeH/",
    "post": false,
    "decision": "Pending",
+   "shared": "2026-10-26"
+  },
+  {
+   "title": "Waiting to be learned",
+   "category": "waiting",
+   "kind": "Waiting",
+   "status": "Waiting",
+   "apps": [],
+   "creator": "",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/De8icqdNjmU/",
+   "post": false,
+   "decision": "",
    "shared": "2026-10-26"
   },
   {
@@ -1209,188 +1399,6 @@
    "link": "https://www.instagram.com/reel/Dex3rE1z_YB/",
    "post": false,
    "decision": "Pending",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Reel DcAn325tNVa (could not download)",
-   "category": "failed",
-   "kind": "Failed",
-   "status": "Failed",
-   "apps": [],
-   "creator": "",
-   "teaches": "Could not download: Instagram sent an empty media response twice, which means the reel is private, removed or login-gated. No login was attempted. If you can still open it, paste the link in chat with a note on what you want from it.",
-   "use": "",
-   "link": "https://www.instagram.com/reel/DcAn325tNVa/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/De9PgGQFakj/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/De63EgSxsXo/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/De8pdyhPjyV/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/De9QrEghQNT/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/Dba7juMqrfD/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/DaQKsk6PbEo/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/DemNqCvIcoN/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/DaopNPtzIM1/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/p/DecyemRmAly/",
-   "post": true,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/DdcCMkyNwNq/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/De8icqdNjmU/",
-   "post": false,
-   "decision": "",
-   "shared": "2026-10-26"
-  },
-  {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
-   "link": "https://www.instagram.com/reel/DecMZSDubaV/",
-   "post": false,
-   "decision": "",
    "shared": "2026-10-26"
   },
   {
