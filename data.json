@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:21Z",
+ "updated": "2026-10-27T13:04Z",
  "categories": [
   {
    "id": "stories",
@@ -682,17 +682,19 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "PentAGI: open-source AI agents that pen-test your own website",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@omkar.docs",
+   "teaches": "PentAGI (github.com/vxcontrol/pentagi, MIT, ~28k stars) is a self-hosted team of AI agents: you describe a target and a goal, it runs tools like nmap and sqlmap inside a Docker sandbox and writes a security report. It is for authorised testing only, so for us that means our own sites before a launch. Heavy to run (Docker, database, a paid LLM key), so it is a one-off audit tool, not something to install now.",
+   "use": "No note given. Example: a security pass on kaalaurkatha.com or Pocket Ledger before launch, run in a sandbox, never against a site we don't own.",
    "link": "https://www.instagram.com/reel/DemNqCvIcoN/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-26"
   },
   {
@@ -827,17 +829,17 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
+   "title": "52 negative hooks in 5 families (first entry in the new Hook Library)",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
    "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "creator": "@katrinalebar",
+   "teaches": "A 6-slide carousel of opening lines that start with friction: blunt call-out, unpopular opinion, the mistake, comparison and reality check, and spicy or polarising. They work because they contradict what the viewer believes, so the viewer stays to see the turn. It is filed as the first entry of a new Hook Library shelf, with use cases for our videos and ads beside each family.",
+   "use": "No note given. Filed in the hook library your Dronacharya note asked for. Example: \"You've only heard half of Karna's story\" (comparison and reality check) as the hook of a myth-busting short.",
    "link": "https://www.instagram.com/p/DecyemRmAly/",
    "post": true,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-26"
   },
   {
@@ -1004,17 +1006,19 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Rapid Zoom Out: 3-frame photo burst, Transform 200→100 with shutter blur",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@theeditingcanvas",
+   "teaches": "Photos cut to 3 frames each. On the first one, Transform Scale goes 200 to 100 (Ease Out, then Ease In), with Use Composition's Shutter Angle off and Shutter Angle 200 for the blur. Paste Attributes onto all the others, then Black & White on all. The result is a fast zoom-out photo burst. Values were read from upscaled panel crops, because the reel is only 360p.",
+   "use": "No note given. Example: a 1-second flashback burst of AI stills from a character's life in a KaalAurKatha short, landed on a beat.",
    "link": "https://www.instagram.com/reel/DaopNPtzIM1/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-26"
   },
   {
@@ -1115,31 +1119,37 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Swishy: AI motion designer website (prompt → editable animation)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "HyperFrames",
+    "EffectCraft"
+   ],
+   "creator": "@myselfrachit",
+   "teaches": "swishy.ai turns a text prompt (plus an optional image or video) into a short motion graphic you can edit: font, colours, scale, then export. It has a template gallery (counters, toggles, logo stings, kinetic type, UI mock-ups). The Mini model is free; Starter, Best and Pro cost credits. The reel shows a full prompt for a yellow swipe-in text reveal, which is a good model for briefing it.",
+   "use": "Your note: \"Save these websites in your brain.\" Example: a quick \"follow @kaalaurkatha\" text sting or a stat counter overlay for a short, when building it in HyperFrames would take longer. First check whether Export gives a transparent background.",
    "link": "https://www.instagram.com/reel/DaQKsk6PbEo/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-26"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "X-Ray Transition: negative frame + AI X-ray/wireframe still at the cut",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "ChatGPT image"
+   ],
+   "creator": "@artistbuildingacademy",
+   "teaches": "Export the last frame of the outgoing clip and the first frame of the incoming one, and have ChatGPT image turn each into a see-through X-ray or wireframe version. At the cut, duplicate each clip, mask the subject, raise exposure and set the blend mode to Difference to get a bright negative. Then order the cut as clip, negative, X-ray still, X-ray still, negative, next clip, with a zap sound. The exact prompt is comment-gated; most of it was read off the screen.",
+   "use": "No note given. Example: a \"what's inside\" reveal of a weapon or chariot in a KaalAurKatha short (the X-ray stills are an image generation, so it waits for your yes).",
    "link": "https://www.instagram.com/reel/DdcCMkyNwNq/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-26"
   },
   {
