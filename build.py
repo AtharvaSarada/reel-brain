@@ -52,10 +52,18 @@ def jl(v):
         return [v]
 
 
+NOTE_LEAD = re.compile(r"^\s*(?:Your|His) note\b.*?(?=Example:|$)", re.S | re.I)
+NOTE_SENT = re.compile(r"[^.!?]*\b(?:your|his) note\b[^.!?]*[.!?]\s*", re.I)
+NOTE_PAREN = re.compile(r"\s*\((?:his|your) note[^)]*\)", re.I)
+
+
 def clean(s):
     s = s or ""
+    # his own note is private: drop the "Your note: …" lead-in and any sentence that quotes or mentions it
+    s = NOTE_PAREN.sub("", NOTE_SENT.sub("", NOTE_LEAD.sub("", s)))
     for rx, rep in REDACT:
         s = rx.sub(rep, s)
+    s = re.sub(r"\ban a client\b", "a client", s)
     return re.sub(r"\s{2,}", " ", s).strip(" ·")
 
 
@@ -172,13 +180,127 @@ def build_graph(brain: Path):
             link(aid, tid)
     for pk in sorted(packs_with):
         link("router", "pack:" + pk)
+
+    # ---------- relations: stories, characters, tools, creators (2026-10-27) ----------
+    def rel(a, b, kind):
+        links.append({"source": a, "target": b, "type": kind})
+    texts = {}  # node id -> text to scan for characters / tools
+    for p in sorted(lib.rglob("*.md")):
+        if p.name in {"HOME.md", "WORKER.md", "INDEX.md", "TECHNIQUES.md", "CONSULT.md"}:
+            continue
+        t = p.read_text(errors="ignore"); f = front_matter(t)
+        if "shelf" in f:
+            sid = "shelf:" + f["shelf"]
+            for i, part in enumerate(re.split(r"(?m)^## (?=\d{4}-\d{2}-\d{2} · )", t)[1:]):
+                texts[f"{sid}#{i}"] = part[:2500]
+        elif "id" in f:
+            texts["tech:" + f["id"]] = t[:3000] + " " + f.get("app", "")
+    # story bank
+    bank = brain / "50_episodes/_story_bank"
+    STAGES = ["new", "researching", "researched", "scripted", "posted"]
+    if bank.exists():
+        node("hub:stories", "Story bank", "hub", "youtube_story")
+        node("pack:youtube_story", PACK_LABEL["youtube_story"], "pack", "youtube_story")
+        link("pack:youtube_story", "hub:stories")
+        for st in STAGES:
+            node("status:" + st, st.capitalize(), "status", "status_" + st)
+            link("hub:stories", "status:" + st)
+        by_link = {}
+        for nid, n in [(n["id"], n) for n in nodes if n.get("link")]:
+            m = re.search(r"/(?:reel|p)/([\w-]+)", n["link"])
+            if m: by_link.setdefault(m.group(1), []).append(nid)
+        for p in sorted(bank.glob("*.md")):
+            if p.name == "README.md":
+                continue
+            t = p.read_text(errors="ignore"); f = front_matter(t)
+            if "story" not in f:
+                continue
+            st = (f.get("status") or "new").lower()
+            st = st if st in STAGES else "new"
+            sid = "story:" + f["story"]
+            node(sid, f.get("title", f["story"]), "story", "youtube_story", status=st, typ=f.get("type", ""),
+                 posted=f.get("posted", ""), link=(as_list(f.get("source_reels")) or [""])[0])
+            link("status:" + st, sid)
+            texts[sid] = f.get("title", "") + " " + " ".join(as_list(f.get("characters")))
+            for url in as_list(f.get("source_reels")):          # story <- the learning its reel produced
+                m = re.search(r"/(?:reel|p)/([\w-]+)", url)
+                for other in by_link.get(m.group(1) if m else "", []):
+                    if other != sid:
+                        rel(other, sid, "story")
+    CHAR = {"Hanuman": ["hanuman"], "Rama": [r"\brama\b", r"\bram\b(?!a)", "shri ram"], "Sita": [r"\bsita\b"], "Lakshmana": ["lakshman"],
+            "Ravana": [r"\bravan"], "Krishna": ["krishna"], "Arjuna": [r"\barjun"], "Karna": [r"\bkarna\b", r"\bkern\b"], "Bhishma": ["bhishma"],
+            "Dronacharya": [r"\bdrona"], "Eklavya": ["eklavya", "ekalavya"], "Abhimanyu": ["abhimanyu"], "Yudhishthira": ["yudhishthir"],
+            "Draupadi": ["draupadi"], "Duryodhana": ["duryodhan"], "Shakuni": ["shakuni"], "Shiva": [r"\bshiva\b", "mahadev"], "Parvati": ["parvati"],
+            "Ganesha": ["ganesh", "ganpati"], "Durga": [r"\bdurga\b"], "Kali": [r"\bkali\b", "mahakali"], "Vishnu": ["vishnu"], "Brahma": [r"\bbrahma\b"],
+            "Indra": [r"\bindra\b"], "Surya": [r"\bsurya\b"], "Vayu": [r"\bvayu\b"], "Parashurama": ["parashuram", "purushram", "parshuram"],
+            "Jambavan": ["jambavan", "jamvant"], "Sugriva": ["sugriv"], "Raktabeej": ["raktabeej", "raktbeez", "raktabija"], "Jayadratha": ["jayadrath"],
+            "Kunti": [r"\bkunti\b"], "Vidura": [r"\bvidura?\b"], "Ashvatthama": ["ashvatthama", "ashwatthama"], "Yashoda": ["yashoda"]}
+    TOOL = {"FilmCraft": ["filmcraft", "premiere"], "EffectCraft": ["effectcraft", "after effects"], "PhotoCraft": ["photocraft", "photoshop"],
+            "SoundCraft": ["soundcraft", "audition"], "Resolve": ["davinci", r"\bresolve\b"], "HyperFrames": ["hyperframes"], "Blender": ["blender"],
+            "Seedance": ["seedance"], "Google Flow": [r"\bflow\b", r"\bomni\b"], "ChatGPT image": ["chatgpt image", "gpt image"], "Higgsfield": ["higgsfield"],
+            "Kling": [r"\bkling\b"], "Unreal Engine": ["unreal"], "Claude Code": ["claude code"], "GSAP": [r"\bgsap\b"], "Three.js": [r"three\.js"]}
+    def scan(text, table):
+        tl = text.lower(); return [k for k, pats in table.items() if any(re.search(pt, tl) for pt in pats)]
+    char_hits, tool_hits = {}, {}
+    for nid, text in texts.items():
+        tags = re.search(r"\*\*Tags:\*\*(.+)", text)
+        src = (tags.group(1) if tags else "") + " " + text
+        for c in scan(src, CHAR): char_hits.setdefault(c, set()).add(nid)
+        for tl in scan(src, TOOL): tool_hits.setdefault(tl, set()).add(nid)
+    for c, ids in char_hits.items():
+        if len(ids) < 2 and not any(i.startswith("story:") for i in ids):
+            continue
+        node("char:" + c, c, "character", "characters")
+        for i in ids: rel(i, "char:" + c, "character")
+    for tl, ids in tool_hits.items():
+        if len(ids) < 2:
+            continue
+        node("tool:" + tl, tl, "tool", "tools")
+        for i in ids: rel(i, "tool:" + tl, "tool")
+    creators = {}
+    for n in nodes:
+        if n.get("creator"): creators.setdefault(n["creator"], []).append(n["id"])
+    for c, ids in creators.items():
+        if len(ids) >= 2:
+            node("creator:" + c, c, "creator", "creators")
+            for i in ids: rel(i, "creator:" + c, "creator")
+    # nodes created only by relations must exist before links are kept
+    ids = {n["id"] for n in nodes}
+    links[:] = [l for l in links if l["source"] in ids and l["target"] in ids]
+    for l in links: l.setdefault("type", "structure")
     return {"nodes": nodes, "links": links}
 
 
+MD_LINK = re.compile(r"\[([^\]]+)\]\((?:https?://)[^)]*\)")
+
+
+def unmd(v):
+    """View-mode exports return Notion-flavoured markdown: strip auto-links, mention tags, code tags and escapes."""
+    if not isinstance(v, str):
+        return v
+    v = re.sub(r"<mention[^>]*>(.*?)</mention>", r"\1", v, flags=re.S)
+    v = re.sub(r"</?code>", "", v)
+    v = MD_LINK.sub(r"\1", v)
+    return re.sub(r"\\([_~*`#\[\]()>-])", r"\1", v)
+
+
+def load_rows(paths):
+    """Merge one or more exports (SQL or view mode, any order). The newest file wins for the same reel."""
+    merged = {}
+    for path in paths:
+        raw = Path(path).read_text()
+        for r in json.loads(raw[raw.index("{"):])["results"]:
+            r = {k: unmd(v) for k, v in r.items()}
+            r.setdefault("createdTime", r.get("Shared", ""))
+            m = re.search(r"/(?:reel|reels|p|tv)/([\w-]+)", r.get("Link") or "")
+            key = m.group(1) if m else (r.get("url") or r.get("Reel") or str(len(merged)))
+            merged[key] = r
+    return list(merged.values())
+
+
 def main():
-    src = Path(sys.argv[1])
-    raw = src.read_text()
-    rows = json.loads(raw[raw.index("{"):])["results"]
+    srcs = [a for a in sys.argv[1:] if not a.startswith("--")]
+    rows = load_rows(srcs)
     items = []
     for r in rows:
         cat = category(r)
@@ -199,7 +321,7 @@ def main():
             "link": link,
             "post": "/p/" in link,
             "decision": r.get("Your decision") or "",
-            "shared": (r.get("createdTime") or "")[:10],
+            "shared": (r.get("createdTime") or r.get("Shared") or "")[:10],
         })
     items.sort(key=lambda x: x["shared"], reverse=True)
     out = {

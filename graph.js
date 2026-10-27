@@ -3,12 +3,19 @@
 // click opens a detail card, the legend focuses one pack, and the search box lights the matching nodes.
 (() => {
   const RB = window.RB || {};
-  const KIND_LABEL = { router: "Router", pack: "Pack", shelf: "Shelf", app: "App group", entry: "Learning", technique: "Technique" };
-  const R = { router: 13, pack: 9, shelf: 5.5, app: 5.5, entry: 3.2, technique: 3.6 };
+  const KIND_LABEL = { router: "Router", pack: "Pack", shelf: "Shelf", app: "App group", entry: "Learning", technique: "Technique",
+    hub: "Story bank", status: "Story stage", story: "Story", character: "Character", tool: "Tool", creator: "Creator" };
+  const EXTRA_HUE = { characters: 62, tools: 200, creators: 280, status_new: 250, status_researching: 300, status_researched: 190, status_scripted: 335, status_posted: 150 };
+  const LAYERS = [["story", "Stories"], ["character", "Characters"], ["tool", "Tools"], ["creator", "Creators"]];
+  const layerOn = { story: true, character: true, tool: true, creator: false };
+  const LAYER_KIND = { character: "character", tool: "tool", creator: "creator" };
+  const R = { router: 13, pack: 9, shelf: 5.5, app: 5.5, entry: 3.2, technique: 3.6, hub: 8, status: 6.5, story: 6, character: 5, tool: 5, creator: 4 };
   let shell, canvas, ctx, sim, zoomT = d3.zoomIdentity, W = 0, H = 0, DPR = 1, raf = 0, nodes = [], links = [], adj = new Map();
   let hover = null, selected = null, focusPack = null, query = "", matchSet = null, dark = true, zoomer;
 
-  const hue = (n) => (RB.PACK_HUE?.[n.kind === "router" ? "router" : n.group]) ?? 26;
+  const hue = (n) => EXTRA_HUE[n.group] ?? (RB.PACK_HUE?.[n.kind === "router" ? "router" : n.group]) ?? 26;
+  const hidden = (n) => LAYER_KIND[n.kind] && !layerOn[n.kind] || (n.kind === "story" || n.kind === "status" || n.kind === "hub") && !layerOn.story;
+  const linkHidden = (l) => (l.type && l.type !== "structure" && !layerOn[l.type]) || hidden(l.source) || hidden(l.target);
   const col = (n, a = 1, l) => `oklch(${l ?? (dark ? 0.8 : 0.55)} 0.14 ${hue(n)} / ${a})`;
   const esc = RB.esc || ((s) => s);
 
@@ -22,6 +29,7 @@
           <p>How Claude retrieves what it learned: the router picks a pack for the task, the pack lists its shelves and techniques, and only those open. ${data.graph.nodes.length} nodes, ${data.graph.links.length} links.</p></div>
           <div class="graph-tools"><button class="g-btn" type="button" data-g="fit">Fit</button><button class="g-btn" type="button" data-g="reset">Reset</button></div>
         </div>
+        <div class="legend layers" aria-label="Relation layers">${LAYERS.map(([k, l]) => `<button type="button" class="legend-chip layer" data-layer="${k}" aria-pressed="${layerOn[k]}" style="--hue:${{story: 52, character: 62, tool: 200, creator: 280}[k]}"><i></i>${l}</button>`).join("")}</div>
         <div class="legend">${packs.map((p) => `<button type="button" class="legend-chip" data-pack="${esc(p.group)}" style="--hue:${RB.PACK_HUE?.[p.group] ?? 26}"><i></i>${esc(p.label)}</button>`).join("")}</div>
         <div class="graph-stage"><canvas class="graph-canvas" aria-label="Knowledge graph. Use the list view for a text version." role="img"></canvas>
           <div class="graph-tip" hidden></div><aside class="graph-card" hidden></aside>
@@ -39,8 +47,8 @@
 
     size();
     sim = d3.forceSimulation(nodes)
-      .force("link", d3.forceLink(links).distance((l) => (l.source.kind === "router" ? 190 : l.target.kind === "entry" || l.target.kind === "technique" ? 36 : 80)).strength(0.8))
-      .force("charge", d3.forceManyBody().strength((d) => (d.kind === "router" ? -1200 : d.kind === "pack" ? -760 : d.kind === "shelf" || d.kind === "app" ? -150 : -40)))
+      .force("link", d3.forceLink(links).distance((l) => (l.type && l.type !== "structure" ? 120 : l.source.kind === "router" ? 190 : l.target.kind === "entry" || l.target.kind === "technique" || l.target.kind === "story" ? 40 : 80)).strength((l) => (l.type && l.type !== "structure" ? 0.06 : 0.8)))
+      .force("charge", d3.forceManyBody().strength((d) => (d.kind === "router" ? -1200 : d.kind === "pack" ? -760 : d.kind === "hub" ? -500 : d.kind === "shelf" || d.kind === "app" || d.kind === "status" ? -150 : d.kind === "character" || d.kind === "tool" ? -110 : -40)))
       .force("collide", d3.forceCollide((d) => R[d.kind] + 3))
       .force("x", d3.forceX(0).strength(0.03)).force("y", d3.forceY(0).strength(0.03))
       .alphaDecay(0.03);
@@ -60,12 +68,13 @@
     canvas.addEventListener("pointerleave", () => { hover = null; tip(); });
     canvas.addEventListener("click", (e) => { const n = pick(e); select(n); });
     shell.addEventListener("click", (e) => {
-      const b = e.target.closest("[data-g],[data-pack],[data-node],[data-close]"); if (!b) return;
+      const b = e.target.closest("[data-g],[data-pack],[data-node],[data-close],[data-layer]"); if (!b) return;
       if (b.dataset.g === "fit") fit();
       if (b.dataset.g === "reset") { focusPack = null; select(null); legendState(); fit(); }
       if (b.dataset.pack) { focusPack = focusPack === b.dataset.pack ? null : b.dataset.pack; legendState(); fit(focusPack); }
       if (b.dataset.node) select(nodes.find((n) => n.id === b.dataset.node));
       if (b.dataset.close != null) select(null);
+      if (b.dataset.layer) { layerOn[b.dataset.layer] = !layerOn[b.dataset.layer]; b.setAttribute("aria-pressed", layerOn[b.dataset.layer]); }
     });
     addEventListener("resize", onResize);
     addEventListener("rb-theme", onTheme);
@@ -88,14 +97,17 @@
   function pick(e) {
     const [mx, my] = zoomT.invert(d3.pointer(e, canvas));
     let best = null, bd = Infinity;
-    for (const n of nodes) { const d = Math.hypot(n.x - mx, n.y - my), r = R[n.kind] + 6 / zoomT.k; if (d < r && d < bd) { bd = d; best = n; } }
+    for (const n of nodes) { if (hidden(n)) continue; const d = Math.hypot(n.x - mx, n.y - my), r = R[n.kind] + 6 / zoomT.k; if (d < r && d < bd) { bd = d; best = n; } }
     return best;
   }
   function fit(pack) {
     if (!nodes.length || !canvas) return;
     const set = pack ? nodes.filter((n) => n.group === pack || n.kind === "router" || [...adj.get(n.id)].some((m) => m.group === pack && m.kind === "pack")) : nodes;
-    const xs = set.map((n) => n.x), ys = set.map((n) => n.y);
-    const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+    // frame what is shown, and let a few far-flung leaves sit off-screen instead of shrinking the whole graph
+    const shown = set.filter((n) => !hidden(n)), q = shown.length > 40 ? 0.015 : 0;
+    const xs = shown.map((n) => n.x).sort(d3.ascending), ys = shown.map((n) => n.y).sort(d3.ascending);
+    if (!xs.length) return;
+    const x0 = d3.quantileSorted(xs, q), x1 = d3.quantileSorted(xs, 1 - q), y0 = d3.quantileSorted(ys, q), y1 = d3.quantileSorted(ys, 1 - q);
     const k = Math.min(4, 0.88 / Math.max((x1 - x0) / W, (y1 - y0) / H));
     const t = d3.zoomIdentity.translate(W / 2, H / 2).scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2);
     d3.select(canvas).transition().duration(RB.REDUCED ? 0 : 900).ease(d3.easeCubicOut).call(zoomer.transform, t);
@@ -124,11 +136,12 @@
       ${n.category ? `<p><b>Category</b> ${esc(n.category)}${n.status ? ` · ${esc(n.status)}` : ""}</p>` : ""}
       ${n.creator || n.date ? `<p>${esc(n.creator || "")} ${n.date ? RB.fmtDate?.(n.date) || n.date : ""}</p>` : ""}
       ${n.link ? `<a class="open-link" href="${esc(n.link)}" target="_blank" rel="noopener">Open the source on Instagram ↗</a>` : ""}
+      ${n.kind === "story" ? `<p><b>Stage</b> ${esc(n.status || "new")}${n.typ ? ` · ${esc(n.typ)}` : ""}${n.posted ? ` · posted ${esc(n.posted)}` : ""}</p><p>Ready for research: its page in the Story bank holds what the reels show, what is missing and a research brief.</p>` : ""}
       ${parents.length ? `<h4>Reached from</h4><ul>${parents.map(li).join("")}</ul>` : ""}
       ${kids.length ? `<h4>${n.kind === "router" ? "Packs" : "Holds"} · ${kids.length}</h4><ul>${kids.slice(0, 40).map(li).join("")}</ul>` : ""}`;
     card.hidden = false; card.classList.remove("in"); void card.offsetWidth; card.classList.add("in");
   }
-  const rank = (n) => ({ router: 0, pack: 1, shelf: 2, app: 2, entry: 3, technique: 3 })[n.kind] ?? 4;
+  const rank = (n) => ({ router: 0, pack: 1, hub: 2, shelf: 2, app: 2, status: 3, entry: 3, technique: 3, story: 4, character: 5, tool: 5, creator: 5 })[n.kind] ?? 4;
 
   function search(q) {
     query = (q || "").toLowerCase().trim();
@@ -146,6 +159,9 @@
 
     // edges
     for (const l of links) {
+      if (linkHidden(l)) continue;
+      const rel = l.type && l.type !== "structure";
+      ctx.setLineDash(rel ? [3 / zoomT.k, 4 / zoomT.k] : []);
       const on = lit && (l.source === lit || l.target === lit);
       const faded = dim(l.source) && dim(l.target) || (lit && !on) || (!inFocus(l.target));
       ctx.strokeStyle = on ? col(l.target, 0.85) : col(l.target, faded ? 0.05 : dark ? 0.18 : 0.28);
@@ -158,8 +174,10 @@
         ctx.beginPath(); ctx.arc(x, y, (on ? 2.2 : 1.3) / Math.sqrt(zoomT.k), 0, 6.283); ctx.fill();
       }
     }
+    ctx.setLineDash([]);
     // nodes
     for (const n of nodes) {
+      if (hidden(n)) continue;
       const r = R[n.kind], d = dim(n), isLit = n === lit, isMatch = matchSet?.has(n);
       const pulse = n.kind === "router" ? 1 + Math.sin(t * 2) * 0.08 : 1;
       if (!d) {
@@ -175,10 +193,11 @@
     // drawn waits until you zoom in, so labels never pile on top of each other
     ctx.textAlign = "center"; ctx.textBaseline = "top";
     const boxes = [];
-    const prio = (n) => (n === lit ? 0 : n.kind === "router" ? 1 : n.kind === "pack" ? 2 : matchSet?.has(n) ? 3 : near?.has(n) ? 4 : n.kind === "shelf" || n.kind === "app" ? 5 : 6);
+    const prio = (n) => (n === lit ? 0 : n.kind === "router" ? 1 : n.kind === "pack" || n.kind === "hub" ? 2 : matchSet?.has(n) ? 3 : near?.has(n) ? 4 : n.kind === "status" || n.kind === "character" ? 5 : n.kind === "shelf" || n.kind === "app" || n.kind === "tool" || n.kind === "story" ? 6 : 7);
     const order = nodes.slice().sort((a, b) => prio(a) - prio(b));
     for (const n of order) {
-      const big = n.kind === "router" || n.kind === "pack", mid = n.kind === "shelf" || n.kind === "app";
+      if (hidden(n)) continue;
+      const big = n.kind === "router" || n.kind === "pack" || n.kind === "hub", mid = n.kind === "shelf" || n.kind === "app" || n.kind === "status" || n.kind === "character" || n.kind === "tool" || n.kind === "story";
       const show = n === lit || (near && near.has(n) && zoomT.k > 0.55) || matchSet?.has(n) || big || (mid && zoomT.k > 1.05) || zoomT.k > 2.3;
       if (!show || (dim(n) && !matchSet?.has(n) && n !== lit)) continue;
       const fs = (big ? 13 : 11) / Math.max(zoomT.k, 0.7);
