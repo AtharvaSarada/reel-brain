@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T15:01Z",
+ "updated": "2026-10-27T15:56Z",
  "categories": [
   {
    "id": "stories",
@@ -198,73 +198,86 @@
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "100 SEO concepts checklist",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@lawrenceaiseo",
+   "teaches": "A 4-slide list of 100 SEO terms, from search intent and topic clusters to crawling, Core Web Vitals, schema, links, local SEO and AI search (AI Overviews, llms.txt, LLM citations). No explanations; those are behind a comment gate (not followed). Filed as an audit checklist grouped into 9 families, with the ones that matter first for kaalaurkatha.com marked.",
+   "use": "Shared untitled. Use as the audit checklist when we work on kaalaurkatha.com SEO: e.g. check sitemap, canonicals, Article/VideoObject schema and llms.txt before the next launch.",
    "link": "https://www.instagram.com/p/De6Oo1RHyRA/",
    "post": true,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "3D path carousel: clips glide along a curve",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "HyperFrames"
+   ],
+   "creator": "@mobilograph.dubai",
+   "teaches": "After Effects, no plug-ins: draw an S-curve with the Pen tool, add Progress (60) and Spacing (8) sliders, give each clip a Position and Rotation expression so the clips line up along the curve, then keyframe Progress 0 to 90 over 2 s with eased curves, make it 3D with a camera and motion blur. The expressions are comment-gated, so we wrote our own (pointOnPath / tangentOnPath).",
+   "use": "Shared untitled. A teaser or channel-trailer opener where a ribbon of KaalAurKatha scene stills glides through the frame.",
    "link": "https://www.instagram.com/reel/De_VhQxIPgZ/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Cinematic scroll website from AI video frames",
+   "category": "web",
+   "kind": "Method / prompt",
+   "status": "Learned",
+   "apps": [
+    "Code",
+    "Flow / Omni"
+   ],
+   "creator": "@heyyaliweb",
+   "teaches": "Make 3 stills (first, middle, last frame), turn them into 2 first-to-last-frame clips in Google Flow, join them in Clipchamp, then have an AI agent build a site that plays the video's frames as you scroll (a scroll-scrubbed image sequence on a canvas). The full prompts are comment-gated; we wrote down how the technique really works and how to build it in Claude Code with GSAP.",
+   "use": "For developing animated websites: e.g. a kaalaurkatha.com hero where scrolling flies from a temple doorway into the clouds and a deity silhouette rises (the clips need your yes, Flow credits).",
    "link": "https://www.instagram.com/reel/De_Wzk4NmsM/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "Recolour one part of a subject (black dress to any colour)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@brothersinart1",
+   "teaches": "Don't just mask and lay a solid on top: it looks flat. Instead, Roto Brush the dress on a copy of the footage, put a coloured solid on Lighten matted to it, then a Multiply copy of the footage on top with Levels to bring back the folds and shine. Swap the solid colour for each variant (red, green, blue, purple in the demo).",
+   "use": "Shared untitled. Show a client's product or outfit in four colourways from one shoot, or fix a robe colour in an AI clip without regenerating.",
    "link": "https://www.instagram.com/reel/De_OHv9PZ8u/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
-   "title": "Waiting to be learned",
-   "category": "waiting",
-   "kind": "Waiting",
-   "status": "Waiting",
-   "apps": [],
-   "creator": "",
-   "teaches": "",
-   "use": "",
+   "title": "earshot: lets the agent hear, name and make sound effects",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "SoundCraft",
+    "Claude"
+   ],
+   "creator": "@gittrend.io",
+   "teaches": "earshot (github.com/Leonxlnx/earshot, MIT) is a free local tool and MCP server that tells an AI agent in plain words what a sound file sounds like, scores whether it fits a description, finds the best moment in a long recording, measures loudness, and can make sound effects in code from a bank of about 250. Nothing was installed. It needs your Keep and a full code read first.",
+   "use": "Shared untitled. This would auto-name and tag the SFX we pull out of reels for the sound-effects library, and pick the right whoosh or hit for an edit.",
    "link": "https://www.instagram.com/reel/De_b6mpD88Q/",
    "post": false,
-   "decision": "",
+   "decision": "Pending",
    "shared": "2026-10-27"
   },
   {
