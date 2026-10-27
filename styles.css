@@ -69,7 +69,7 @@ svg { stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round
 .wrap, .top, .meters, main, .foot { max-width: 1320px; margin-inline: auto; padding-inline: 28px; }
 
 /* ---------- header ---------- */
-.top { padding-top: 34px; padding-bottom: 22px; display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; }
+.top-legacy { padding-top: 34px; padding-bottom: 22px; display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; }
 .brand h1 { margin: 0; display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 14px; }
 .wordmark { font: 700 var(--t3)/1.05 "Unbounded", "Geist", sans-serif; letter-spacing: -0.03em; }
 .deva { font: 400 var(--t2)/1 "Rozha One", serif; color: var(--accent); translate: 0 1px; }
@@ -136,8 +136,8 @@ svg { stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round
   background: radial-gradient(closest-side, oklch(var(--em-l) var(--em-c) var(--hue) / 0.16), transparent);
   transition: opacity .3s;
 }
-.tile:hover { transform: translateY(-3px); border-color: oklch(var(--em-l) var(--em-c) var(--hue) / 0.55); }
-.tile:active { transform: translateY(-1px) scale(0.99); }
+.tile:hover { border-color: oklch(var(--em-l) var(--em-c) var(--hue) / 0.55); }
+@media (hover: none) { .tile:active { transform: scale(0.98); } }
 .tile-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
 .emblem {
   width: 58px; height: 58px; border-radius: 17px; display: grid; place-items: center; flex-shrink: 0;
@@ -190,7 +190,6 @@ details.row > summary:hover { background: var(--surface-2); }
 
 /* one authored moment: the view settles in, starting already visible */
 .enter > * { animation: settle .55s var(--ease) both; }
-.tiles.enter > * { animation: settle .55s var(--ease) both; }
 .tiles.enter > *:nth-child(5n+2) { animation-delay: .04s; } .tiles.enter > *:nth-child(5n+3) { animation-delay: .08s; }
 .tiles.enter > *:nth-child(5n+4) { animation-delay: .12s; } .tiles.enter > *:nth-child(5n) { animation-delay: .16s; }
 @keyframes settle { from { opacity: 0.35; transform: translateY(8px); filter: blur(2px); } }
@@ -226,3 +225,169 @@ details.row > summary:hover { background: var(--surface-2); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 
 .back[hidden] { display: none; }
+
+
+/* =================================================================== v3: hero, switches, motion map, graph */
+:root { --ease-out: cubic-bezier(.23, 1, .32, 1); --spring: cubic-bezier(.34, 1.56, .64, 1); --bg: #0b0c0f; }
+:root[data-theme="light"] { --bg: #f5f6f8; }
+
+/* ---------- hero: synapse ignition ---------- */
+.hero { position: relative; max-width: 1320px; margin-inline: auto; padding: 40px 28px 30px; min-height: 340px; overflow: hidden; }
+.hero canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.hero::after { content: ""; position: absolute; inset: auto 0 0 0; height: 90px; pointer-events: none;
+  background: linear-gradient(to bottom, transparent, var(--bg)); }
+.hero-inner { position: relative; z-index: 2; display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
+.brand h1 { margin: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.wordmark { font: 700 calc(var(--t4) * 1.272)/1 "Unbounded", sans-serif; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; min-width: 8.2ch; }
+.deva-wrap { position: relative; display: inline-grid; place-items: center; padding: 6px 14px; isolation: isolate; }
+.deva { position: relative; font-size: var(--t3); }
+.rays { position: absolute; inset: -60% -30%; z-index: -1; pointer-events: none; opacity: 0.5;
+  background: repeating-conic-gradient(from 0deg, oklch(0.75 0.15 52 / 0.22) 0deg 6deg, transparent 6deg 24deg);
+  -webkit-mask: radial-gradient(closest-side, #000 20%, transparent 72%); mask: radial-gradient(closest-side, #000 20%, transparent 72%);
+  animation: flares-in 1.6s var(--ease-out) both, flare-burst 2.5s cubic-bezier(.175, 1.07, .375, 1) both, flare-spin 75s linear 2.5s infinite; }
+@keyframes flares-in { from { opacity: 0; } to { opacity: .5; } }
+@keyframes flare-burst { from { transform: rotate(0); } to { transform: rotate(118.23deg); } }
+@keyframes flare-spin { from { transform: rotate(118.23deg); } to { transform: rotate(478.23deg); } }
+.hero .sub { margin: 14px 0 22px; max-width: 46ch; color: var(--muted); font-size: var(--t1); line-height: 1.45; animation: rise-blur .6s var(--ease-out) .5s both; }
+@keyframes rise-blur { from { opacity: .3; transform: translateY(12px) scale(.96); filter: blur(3px); } to { opacity: 1; transform: none; filter: none; } }
+.top-tools { padding-top: 6px; }
+
+/* ---------- view switch: sliding spring pill + a light sheen on the active one ---------- */
+.viewswitch { position: relative; display: inline-flex; gap: 4px; padding: 5px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); animation: rise-blur .6s var(--ease-out) .7s both; }
+.viewswitch button { position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 18px; border: 0; border-radius: 10px;
+  background: transparent; color: var(--muted); font: 600 var(--t0) "Geist", sans-serif; cursor: pointer; transition: color .3s; }
+.viewswitch button svg { width: 18px; height: 18px; transition: transform .45s var(--spring); }
+.viewswitch button:hover svg { transform: rotate(-8deg) scale(1.12); }
+.viewswitch button[aria-selected="true"] { color: #fff; }
+.vs-pill { position: absolute; z-index: 0; top: 5px; left: 5px; height: 40px; width: 0; border-radius: 10px; overflow: hidden;
+  background: var(--accent); transition: transform .55s var(--spring), width .55s var(--spring); }
+.vs-pill::after { content: ""; position: absolute; inset: 0; width: 30%; background: linear-gradient(90deg, transparent, rgb(255 255 255 / .45), transparent); animation: final-sheen 3.2s 1s infinite; }
+@keyframes final-sheen { 0%, 72% { translate: -150%; } 100% { translate: 380%; } }
+
+/* ---------- theme: icon pops on swap ---------- */
+.icon-btn.popping svg { animation: pop .45s var(--ease-out) both; }
+@keyframes pop { 0% { opacity: 0; transform: scale(.5) rotate(-60deg); } 55% { opacity: 1; transform: scale(1.12) rotate(8deg); } 100% { transform: none; } }
+
+/* ---------- meters: rise-blur in, sheen across the fill, ping on Waiting ---------- */
+.meter { animation: rise-blur .6s var(--ease-out) var(--delay, 0s) both; }
+.fill.sheen { position: relative; overflow: hidden; }
+.fill.sheen::after { content: ""; position: absolute; inset: 0; width: 30%; background: linear-gradient(90deg, transparent, rgb(255 255 255 / .55), transparent); animation: final-sheen 3.2s 1.6s infinite; }
+.meter-label { display: inline-flex; align-items: center; gap: 8px; }
+.ping-dot { position: relative; width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.ping-dot::after { content: ""; position: absolute; inset: -4px; border-radius: 50%; border: 2px solid var(--c); animation: ping 1.8s var(--ease-out) infinite; }
+@keyframes ping { 0% { opacity: .8; transform: scale(.6); } 70%, 100% { opacity: 0; transform: scale(1.6); } }
+
+/* ---------- search: a light beam runs the border on focus ---------- */
+@property --ang { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+.search { position: relative; isolation: isolate; }
+.search::before { content: ""; position: absolute; inset: -1px; border-radius: 13px; padding: 1px; z-index: -1; opacity: 0; transition: opacity .3s;
+  background: conic-gradient(from var(--ang), transparent 0 70%, var(--accent) 85%, #ffd2bd 92%, transparent 100%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+.search:focus-within { border-color: transparent; }
+.search:focus-within::before { opacity: 1; animation: beam 2.6s linear infinite; }
+@keyframes beam { to { --ang: 360deg; } }
+
+/* ---------- kind filter: sliding indicator ---------- */
+.seg { position: relative; }
+.seg[hidden] { display: none; }
+.seg button { position: relative; z-index: 1; }
+.seg button[aria-checked="true"] { background: transparent; box-shadow: none; color: var(--text); }
+.seg-pill { position: absolute; z-index: 0; top: 4px; left: 4px; bottom: 4px; width: 0; border-radius: 8px; background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--line);
+  transition: transform .45s var(--spring), width .45s var(--spring); }
+
+/* ---------- back: the arrow nudges ---------- */
+.back:hover svg { animation: nudge .7s var(--ease-out) infinite alternate; }
+@keyframes nudge { to { transform: translateX(-3px); } }
+
+/* ---------- tiles: ticket-arrive, your tilt + shine, one emblem move per category ---------- */
+.tile { transform: perspective(900px) rotate(-1.52deg) skewX(-.27deg); transform-style: preserve-3d; will-change: transform; }
+.tile .shine { position: absolute; inset: 0; z-index: 5; border-radius: inherit; opacity: 0; mix-blend-mode: screen; transition: opacity .3s ease-out; pointer-events: none; }
+.tile.arrive { animation: ticket-arrive .9s var(--ease-out) var(--delay, 0s) both; }
+@keyframes ticket-arrive { 0% { opacity: .35; translate: 0 4.5rem; scale: .96; } 38% { opacity: 1; } 76% { translate: 0 -.125rem; scale: 1; } 100% { opacity: 1; translate: 0 0; scale: 1; } }
+.tile .fill { transform-origin: left; animation: grow-x 1.1s var(--ease-out) .5s both; }
+@keyframes grow-x { from { transform: scaleX(.05); } }
+.emblem svg, .emblem svg * { transform-box: fill-box; transform-origin: center; }
+.tile:hover .em-stories .mv { animation: twinkle .9s var(--ease-out) infinite; }
+@keyframes twinkle { 50% { transform: scale(1.6) rotate(45deg); opacity: .6; } }
+.tile:hover .em-recreate .mv { animation: spin-once .9s var(--spring); }
+@keyframes spin-once { to { transform: rotate(-360deg); } }
+.tile:hover .em-editing .mv { transform-origin: 0% 100%; animation: clap .5s var(--ease-out) 2; }
+@keyframes clap { 50% { transform: rotate(-16deg); } }
+.tile:hover .em-ai .wand { transform-origin: 0% 100%; animation: wave .8s ease-in-out infinite alternate; }
+.tile:hover .em-ai .mv, .tile:hover .em-ai .mv2 { animation: twinkle 1s var(--ease-out) infinite; }
+.tile:hover .em-ai .mv2 { animation-delay: .3s; }
+@keyframes wave { to { transform: rotate(-10deg); } }
+.tile:hover .em-design .mv { animation: drip 1.1s var(--ease-out) infinite; }
+@keyframes drip { 0% { transform: translateY(-2px); opacity: 0; } 30% { opacity: 1; } 80% { transform: translateY(5px); opacity: 1; } 100% { transform: translateY(6px); opacity: 0; } }
+.tile:hover .em-web .mv { animation: click .9s var(--ease-out) infinite; }
+@keyframes click { 0%, 100% { transform: translate(0, 0); } 40% { transform: translate(-2px, -2px); } 55% { transform: translate(-2px, -2px) scale(.82); } }
+.tile:hover .em-marketing .mv { animation: blast .9s var(--ease-out) infinite; }
+.tile:hover .em-marketing .mv2 { animation: blast .9s var(--ease-out) .18s infinite; }
+@keyframes blast { 0% { opacity: .2; transform: translateX(-2px); } 50% { opacity: 1; } 100% { opacity: .2; transform: translateX(2px); } }
+.em-business .mv { stroke-dasharray: 1; stroke-dashoffset: 0; }
+.tile:hover .em-business .mv { animation: draw 1.2s var(--ease-out) infinite; }
+@keyframes draw { 0% { stroke-dashoffset: 1; } 60%, 100% { stroke-dashoffset: 0; } }
+.tile:hover .em-research .mv { animation: scan 1.6s ease-in-out infinite; }
+@keyframes scan { 0%, 100% { transform: translate(0, 0); } 25% { transform: translate(2px, -2px); } 50% { transform: translate(-1px, -3px); } 75% { transform: translate(-2px, 1px); } }
+.tile:hover .em-fitness .mv { animation: lift .7s var(--ease-out) infinite alternate; }
+@keyframes lift { to { transform: translateY(-4px) rotate(-6deg); } }
+.tile:hover .emblem { animation: emblem-pop .5s var(--spring); }
+@keyframes emblem-pop { 50% { transform: scale(1.08); } }
+
+/* rows: rise-blur in; the body rises when a row opens */
+details.row[open] .row-body { animation: rise-blur .45s var(--ease-out) both; }
+
+/* ---------- graph view ---------- */
+body[data-view="graph"] .meters { display: none; }
+.graph-shell { margin-bottom: 40px; }
+.graph-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; margin-bottom: 14px; }
+.graph-title { margin: 0 0 6px; font: 600 var(--t2)/1.1 "Unbounded", sans-serif; letter-spacing: -0.03em; }
+.graph-head p { margin: 0; color: var(--muted); max-width: 72ch; }
+.graph-tools { display: flex; gap: 8px; }
+.g-btn { height: 38px; padding: 0 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--text); font: 500 13.5px "Geist", sans-serif; cursor: pointer; transition: transform .2s var(--spring), background .2s; }
+.g-btn:hover { background: var(--surface-2); transform: translateY(-1px); }
+.g-btn:active { transform: scale(.96); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.legend-chip { display: inline-flex; align-items: center; gap: 8px; height: 32px; padding: 0 12px; border-radius: 99px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface); color: var(--muted); font: 500 13px "Geist", sans-serif; transition: transform .25s var(--spring), color .2s, border-color .2s; }
+.legend-chip i { width: 9px; height: 9px; border-radius: 50%; background: oklch(var(--em-l) var(--em-c) var(--hue)); box-shadow: 0 0 10px oklch(var(--em-l) var(--em-c) var(--hue) / .8); }
+.legend-chip:hover { transform: translateY(-2px); color: var(--text); }
+.legend-chip[aria-pressed="true"] { color: var(--text); border-color: oklch(var(--em-l) var(--em-c) var(--hue) / .7); background: oklch(var(--em-l) var(--em-c) var(--hue) / .12); }
+.graph-stage { position: relative; height: min(74vh, 780px); border-radius: 20px; overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow);
+  background: radial-gradient(1200px 600px at 50% 40%, oklch(0.25 0.04 250 / .55), transparent 70%), var(--surface); }
+:root[data-theme="light"] .graph-stage { background: radial-gradient(1200px 600px at 50% 40%, oklch(0.95 0.03 250 / .9), transparent 70%), var(--surface); }
+.graph-canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.graph-canvas:active { cursor: grabbing; }
+.graph-tip { position: absolute; z-index: 3; pointer-events: none; max-width: 280px; padding: 8px 11px; border-radius: 10px; background: var(--surface-2); border: 1px solid var(--line); box-shadow: var(--shadow); display: grid; gap: 2px; }
+.graph-tip b { font-weight: 600; font-size: 13.5px; line-height: 1.35; }
+.graph-tip span { color: var(--faint); font: 500 11.5px "Geist Mono", monospace; }
+.graph-card { position: absolute; z-index: 4; top: 14px; right: 14px; bottom: 14px; width: min(360px, calc(100% - 28px)); overflow: auto; padding: 20px 20px 18px;
+  border-radius: 16px; border: 1px solid var(--line); background: color-mix(in oklab, var(--surface) 88%, transparent); backdrop-filter: blur(14px); box-shadow: var(--shadow); }
+.graph-card.in { animation: card-in .45s var(--ease-out) both; }
+@keyframes card-in { from { opacity: 0; transform: translateX(18px) rotate(1deg) scale(.97); } to { opacity: 1; transform: none; } }
+.graph-card h3 { margin: 10px 0 10px; font: 600 var(--t1)/1.25 "Geist", sans-serif; letter-spacing: -0.015em; }
+.graph-card h4 { margin: 16px 0 6px; font: 600 12px "Geist", sans-serif; color: var(--faint); letter-spacing: .02em; }
+.graph-card p { margin: 0 0 8px; color: var(--muted); font-size: 14px; }
+.graph-card p b { color: var(--text); font-weight: 600; margin-right: 4px; }
+.graph-card ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.graph-card li button { width: 100%; display: flex; align-items: center; gap: 9px; text-align: left; padding: 7px 8px; border: 0; border-radius: 8px; background: transparent; color: var(--text); font: 450 13.5px/1.35 "Geist", sans-serif; cursor: pointer; transition: background .15s, transform .2s var(--spring); }
+.graph-card li button:hover { background: var(--surface-2); transform: translateX(3px); }
+.graph-card li i { flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: oklch(var(--em-l) var(--em-c) var(--hue)); }
+.g-kind { display: inline-flex; height: 24px; align-items: center; padding: 0 10px; border-radius: 99px; font: 600 11.5px "Geist Mono", monospace;
+  color: oklch(var(--em-l) var(--em-c) var(--hue)); background: oklch(var(--em-l) var(--em-c) var(--hue) / .14); }
+.g-close { position: absolute; top: 12px; right: 12px; width: 30px; height: 30px; border-radius: 9px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: 18px; line-height: 1; cursor: pointer; }
+.g-close:hover { color: var(--text); }
+.graph-hint { position: absolute; left: 14px; bottom: 12px; color: var(--faint); font: 500 11.5px "Geist Mono", monospace; pointer-events: none; }
+
+@media (max-width: 700px) {
+  .hero { padding: 26px 16px 20px; min-height: 300px; }
+  .wordmark { font-size: var(--t3); min-width: 0; }
+  .deva { font-size: var(--t2); }
+  .hero .sub { font-size: var(--t0); margin-bottom: 16px; }
+  .viewswitch button { padding: 0 14px; height: 38px; }
+  .vs-pill { height: 38px; }
+  .graph-head { flex-direction: column; align-items: flex-start; }
+  .graph-stage { height: 70vh; }
+  .graph-card { top: auto; height: 55%; width: calc(100% - 20px); right: 10px; bottom: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { .rays { animation: none; transform: rotate(118deg); opacity: .5; } }

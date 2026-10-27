@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T15:56Z",
+ "updated": "2026-10-27T16:26Z",
  "categories": [
   {
    "id": "stories",
@@ -1666,5 +1666,1705 @@
    "decision": "",
    "shared": "2026-10-22"
   }
- ]
+ ],
+ "graph": {
+  "nodes": [
+   {
+    "id": "router",
+    "label": "Router · CLAUDE.md",
+    "kind": "router",
+    "group": "router"
+   },
+   {
+    "id": "shelf:_shared/design_principles",
+    "label": "Design principles (colour, type scale)",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "any visual design: website/app UI, thumbnails and covers, ad creatives, text overlaid on a ChatGPT image"
+   },
+   {
+    "id": "pack:web_app_design",
+    "label": "Web & app",
+    "kind": "pack",
+    "group": "web_app_design"
+   },
+   {
+    "id": "pack:post_production",
+    "label": "Post production",
+    "kind": "pack",
+    "group": "post_production"
+   },
+   {
+    "id": "pack:clients",
+    "label": "Clients",
+    "kind": "pack",
+    "group": "clients"
+   },
+   {
+    "id": "pack:marketing",
+    "label": "Marketing",
+    "kind": "pack",
+    "group": "marketing"
+   },
+   {
+    "id": "shelf:_shared/design_principles#0",
+    "label": "Stop guessing text sizes: one base size × one ratio = the whole hierarchy",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/DbdRXxTTPJy/"
+   },
+   {
+    "id": "shelf:_shared/design_principles#1",
+    "label": "The 60-30-10 colour rule: give every colour one job",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@designs_by_max",
+    "link": "https://www.instagram.com/reel/DbtPLnWxwQg/"
+   },
+   {
+    "id": "shelf:_shared/design_principles#2",
+    "label": "Stop fixing colours one slider at a time: one accent colour, one scheme, mute the rest",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/DehNhFJT_YK/"
+   },
+   {
+    "id": "shelf:_shared/design_principles#3",
+    "label": "Stop guessing layouts: let Gestalt principles place the elements",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/DdqxsmBTFma/"
+   },
+   {
+    "id": "shelf:_shared/font_library",
+    "label": "Font library (display fonts and Devanagari fonts to pick from)",
+    "kind": "shelf",
+    "group": "editing_vfx",
+    "trigger": "choosing a typeface for anything with text: a title card, on-screen Hindi text, a cover or thumbnail, a website or app, an ad creative, a ChatGPT image with a text overlay"
+   },
+   {
+    "id": "pack:editing_vfx",
+    "label": "Editing & VFX",
+    "kind": "pack",
+    "group": "editing_vfx"
+   },
+   {
+    "id": "pack:youtube_story",
+    "label": "YouTube stories",
+    "kind": "pack",
+    "group": "youtube_story"
+   },
+   {
+    "id": "shelf:_shared/font_library#0",
+    "label": "Five futuristic display fonts (Latin)",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-26",
+    "creator": "@raktimcreates",
+    "link": "https://www.instagram.com/p/Dd1CC4wD0KD/"
+   },
+   {
+    "id": "shelf:_shared/font_library#1",
+    "label": "Five Devanagari display fonts, each shown on one emotion word",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-26",
+    "creator": "@raktimcreates",
+    "link": "https://www.instagram.com/p/Dd6JjAwjylh/"
+   },
+   {
+    "id": "shelf:ai_generation/color_and_light",
+    "label": "Colour and light for cinematic, realistic AI scenes (palette, contrast colour, shadow tint)",
+    "kind": "shelf",
+    "group": "ai_generation",
+    "trigger": "writing the lighting, palette or background of an AI image/video prompt, a character sheet or location plate, or grading AI clips so they look filmed rather than generated"
+   },
+   {
+    "id": "pack:ai_generation",
+    "label": "AI generation",
+    "kind": "pack",
+    "group": "ai_generation"
+   },
+   {
+    "id": "shelf:ai_generation/color_and_light#0",
+    "label": "Why the shirt is blue: analogous palettes, one complementary accent, blue shadows",
+    "kind": "entry",
+    "group": "ai_generation",
+    "date": "2026-10-26",
+    "creator": "@pixeleditorshub",
+    "link": "https://www.instagram.com/reel/DZg4EhgyKwU/"
+   },
+   {
+    "id": "shelf:ai_generation/methods",
+    "label": "AI-generation methods (untested until he approves a test)",
+    "kind": "shelf",
+    "group": "ai_generation",
+    "trigger": "choosing a generation approach, style consistency, training a style model"
+   },
+   {
+    "id": "shelf:ai_generation/methods#0",
+    "label": "LTX Trainer: train a video style model instead of prompting (method, untested)",
+    "kind": "entry",
+    "group": "ai_generation",
+    "date": "2026-10-26",
+    "creator": "@johnbucog",
+    "link": "https://www.instagram.com/reel/Dcb4oFBBSFH/"
+   },
+   {
+    "id": "shelf:ai_generation/shot_composition",
+    "label": "Shot composition for cinematic AI scenes (framing words that go into a prompt)",
+    "kind": "shelf",
+    "group": "ai_generation",
+    "trigger": "writing or reviewing the framing of a cinematic AI shot (Seedance / Flow / Higgsfield / ChatGPT image), a location plate, or a storyboard frame"
+   },
+   {
+    "id": "shelf:ai_generation/shot_composition#0",
+    "label": "Five composition rules, each drawn as a line overlay (knowledge)",
+    "kind": "entry",
+    "group": "ai_generation",
+    "date": "2026-10-26",
+    "creator": "@jxframes",
+    "link": "https://www.instagram.com/reel/De8e8ZJp5TE/"
+   },
+   {
+    "id": "shelf:ai_generation/shot_composition#1",
+    "label": "Four more compositions: diagonal, symmetry, tunnel, rule of thirds (knowledge)",
+    "kind": "entry",
+    "group": "ai_generation",
+    "date": "2026-10-26",
+    "creator": "@jdonswrld",
+    "link": "https://www.instagram.com/reel/DdF8T54z_4c/"
+   },
+   {
+    "id": "shelf:editing_vfx/cut_grammar",
+    "label": "Cut grammar: which cut to suggest between two shots",
+    "kind": "shelf",
+    "group": "editing_vfx",
+    "trigger": "planning the cuts between shots or scenes, writing an edit plan or shot list, or suggesting cinematic choices for a video or ad"
+   },
+   {
+    "id": "shelf:editing_vfx/cut_grammar#0",
+    "label": "Six cuts you have seen without noticing",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@planetinpixel",
+    "link": "https://www.instagram.com/reel/De9QrEghQNT/"
+   },
+   {
+    "id": "shelf:editing_vfx/cut_grammar#1",
+    "label": "Give every video a mài: one hidden thread that pulls the viewer forward",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@autoaeonline",
+    "link": "https://www.instagram.com/reel/De9SYDwhTG0/"
+   },
+   {
+    "id": "app:editing_vfx:EffectCraft",
+    "label": "EffectCraft techniques",
+    "kind": "app",
+    "group": "editing_vfx"
+   },
+   {
+    "id": "tech:floating_clones_levitation",
+    "label": "Floating clones: rotoscoped high-frame-rate jumps, scaled down, keyframed upward, foreground re-cut on top",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "compositing",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DVJSeKsCDQK/"
+   },
+   {
+    "id": "tech:recolor_dark_garment_roto_lighten_multiply",
+    "label": "Recolour one part of a subject (a black dress to red/green/blue) with Roto Brush + a solid on Lighten + a Multiply copy",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "compositing",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/De_OHv9PZ8u/"
+   },
+   {
+    "id": "tech:documentary_war_map_theme",
+    "label": "Documentary war-map redesign: one colour theme, 3D falling bomb, article match cut, inverted B&W satellite map with explosions",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "motion_graphics",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DafLb9nzKwY/"
+   },
+   {
+    "id": "tech:mixed_media_collage_type",
+    "label": "Mixed-media collage kinetic type (grain paper, duotone portrait, neon word, paper panels)",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "kinetic type / mixed media",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Dcb4oFBBSFH/"
+   },
+   {
+    "id": "tech:path_carousel_3d_two_expressions",
+    "label": "3D path carousel: clips glide in a ribbon along a pen-drawn S-curve, driven by two expressions and a Progress slider",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "motion_graphics",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/De_VhQxIPgZ/"
+   },
+   {
+    "id": "tech:pendulum_light_logo_reveal",
+    "label": "Pendulum light logo reveal: a swinging bulb whose glow lights up the logo (India's Got Latent S2 opener)",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "motion_graphics",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DaFq5eCSXM-/"
+   },
+   {
+    "id": "tech:pixel_icon_kinetic_monologue",
+    "label": "Pixel-icon kinetic monologue (paper type, thermal silhouette, icon ring, word spelled by icons)",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "kinetic type / mixed media",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DeKDmkmh_gM/"
+   },
+   {
+    "id": "tech:profile_bounce_split_mask",
+    "label": "Profile bounce: a screenshot (Instagram profile) cut into ~14 element layers that bounce in one after another with an inertial-bounce expression",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "motion_graphics",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Dba7juMqrfD/"
+   },
+   {
+    "id": "tech:split_mask_shard_character_intro",
+    "label": "Shard character intro: a cut-out portrait split into 5 tilted rectangular shards (one mask per layer, white Stroke edge) over a red radial card and a rough-edged gradient name title",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "motion_graphics",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Dc80D8CKlOK/"
+   },
+   {
+    "id": "tech:blobbylize_gradient_shimmer_text",
+    "label": "Gradient shimmer text: a blurred, turbulent colour map pushed through the type with CC Blobbylize, then threshold + cross blur + glow",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "titles / text effects",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DdeV0x9sYQr/"
+   },
+   {
+    "id": "tech:cosmic_chrome_gradient_text",
+    "label": "Cosmic chrome text: a 5-colour palette mapped through a bevel/depth normal (angle, contrast, bulge, rounding), animated by Phase, finished with Deep Glow",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "titles / text effects",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DezGDHusJe2/"
+   },
+   {
+    "id": "tech:finger_point_tracking_to_nulls",
+    "label": "Finger point tracking: one Motion Tracker per fingertip, stop at 95% confidence, data onto Null objects",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "tracking",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Dcf2gHpyOxX/"
+   },
+   {
+    "id": "tech:speed_effect_cutout_zip",
+    "label": "The Speed effect: the subject is rotoscoped off a clean background plate and keyframed out of frame in 6 frames with motion blur, so they \"zip\" away",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DXW0u-zjLE7/"
+   },
+   {
+    "id": "app:editing_vfx:FilmCraft",
+    "label": "FilmCraft techniques",
+    "kind": "app",
+    "group": "editing_vfx"
+   },
+   {
+    "id": "tech:hit_bounce_fall_stacked_transforms",
+    "label": "Object hits a subject, bounces back and drops, built from three stacked Transform effects with motion blur",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "animation",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DbVlswLzuYv/"
+   },
+   {
+    "id": "tech:beat_sync_background_flicker_reveal",
+    "label": "Beat-sync background flicker: subject cut-out over a 0.1 s landscape montage, revealed by a rotating mirror mask",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "compositing",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DdRKooroJ6e/"
+   },
+   {
+    "id": "tech:color_splash_subject_only",
+    "label": "Colour splash: one subject stays in colour, everything else desaturated (duplicate clip + subject cut-out on top, saturation down on the base)",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "grades",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DdoaZlSN7-s/"
+   },
+   {
+    "id": "tech:paper_cutout_brand_promo",
+    "label": "Paper-cutout brand promo (cream paper type, red paper cut-outs, marker handwriting, metaphor macro B-roll)",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "visual style / brand promo",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Da0a4KGRp4L/"
+   },
+   {
+    "id": "tech:slow_shutter_echo_posterize",
+    "label": "Slow Shutter effect: Echo (8 echoes, Maximum) + Posterize Time 12 fps for a dreamy smeared-trail look",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "styles / motion look",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Da4Cue3Trdd/"
+   },
+   {
+    "id": "tech:freeze_frame_character_intro",
+    "label": "Freeze-frame character intro: frame-hold segment, masked cut-out on top, 4-colour-gradient matte behind, soft-light overlay, name + role title",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "titles",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DdGHlIGN2Pe/"
+   },
+   {
+    "id": "tech:gangsta_extract_flash",
+    "label": "Gangsta extract transition: vertical blur + luma invert + Extract (threshold) on a ~5-frame adjustment layer",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Dex3rE1z_YB/"
+   },
+   {
+    "id": "tech:ink_overlay_track_matte",
+    "label": "Ink transition: a black-on-white ink-bleed overlay used as a reversed Luma Track Matte on clip B",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Det1ob3hXC-/"
+   },
+   {
+    "id": "tech:prism_lens_smear_14f",
+    "label": "Prism Lens transition: a 14-frame window (last 12 of A + first 2 of B), each nested, dropped into a two-slot transition comp with a prism/light-leak smear",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/De7fs0yMotn/"
+   },
+   {
+    "id": "tech:radial_shutter_flash",
+    "label": "Radial shutter transition: edge-only directional blur + 2-frame Linear Dodge flash",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DerK-ukjvQM/"
+   },
+   {
+    "id": "tech:rapid_zoom_out_photo_stack",
+    "label": "Rapid Zoom Out: a burst of 3-frame photos, each zooming 200 → 100 with Transform shutter-angle blur, in black and white",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions / photo montage",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DaopNPtzIM1/"
+   },
+   {
+    "id": "tech:shutter_slide_photo_stack",
+    "label": "Shutter Slide: a stair-step stack of 10-frame photos, each dropping in from above with Transform shutter-angle blur",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions / photo montage",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DdfyORozFSq/"
+   },
+   {
+    "id": "tech:xray_wireframe_transition",
+    "label": "X-Ray Transition: a cut that flashes through a negative frame and an AI \"X-ray / wireframe\" still of the subject",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DdcCMkyNwNq/"
+   },
+   {
+    "id": "shelf:editing_vfx/music_library",
+    "label": "Background music picked by vibe",
+    "kind": "shelf",
+    "group": "editing_vfx",
+    "trigger": "choosing a music bed for a tutorial, explainer or reel"
+   },
+   {
+    "id": "shelf:editing_vfx/music_library#0",
+    "label": "Five viral background songs sorted by vibe (tutorial / explainer beds)",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-26",
+    "creator": "@maxcreates.mp4",
+    "link": "https://www.instagram.com/reel/DeHilziNINA/"
+   },
+   {
+    "id": "app:editing_vfx:Resolve",
+    "label": "Resolve techniques",
+    "kind": "app",
+    "group": "editing_vfx"
+   },
+   {
+    "id": "tech:lantern_ring_glow_ascii_dust",
+    "label": "Lantern-ring energy (Fusion): Magic Mask → glow → lens flare on the ring; Polygon → ASCII → particle dust that builds a green energy object",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "fusion",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Ddy6GBJAB3y/"
+   },
+   {
+    "id": "shelf:editing_vfx/sound_libraries",
+    "label": "Sound-effect and music-bed libraries",
+    "kind": "shelf",
+    "group": "editing_vfx",
+    "trigger": "adding sound design to ANY edit: whooshes on transitions, impacts and risers, UI clicks for motion graphics, ambience, stingers, a music bed"
+   },
+   {
+    "id": "pack:fitness",
+    "label": "Fitness",
+    "kind": "pack",
+    "group": "fitness"
+   },
+   {
+    "id": "pack:cutaway",
+    "label": "Cutaway channel",
+    "kind": "pack",
+    "group": "cutaway"
+   },
+   {
+    "id": "shelf:editing_vfx/sound_libraries#0",
+    "label": "\"all sfx\" Drive pack: ~6,150 sound effects + music beds · shared by Atharva (pack by \"contentsingh\")",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-26",
+    "creator": "",
+    "link": ""
+   },
+   {
+    "id": "tech:music_end_reverb_tail",
+    "label": "End any song smoothly: 10-frame nest, silent tail, constant-power fades, Studio Reverb with max decay",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "audio cuts / music exit",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DcoR25_IZYw/"
+   },
+   {
+    "id": "app:editing_vfx:SoundCraft",
+    "label": "SoundCraft techniques",
+    "kind": "app",
+    "group": "editing_vfx"
+   },
+   {
+    "id": "tech:music_start_three_ways",
+    "label": "Start the music naturally: reversed ending, stem cut, riser + whoosh",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "audio cuts / music entry",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DdMMNnco3ka/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos",
+    "label": "Editing / VFX / motion tools and repos",
+    "kind": "shelf",
+    "group": "editing_vfx",
+    "trigger": "an effect or motion-graphic job where an outside tool or a code-rendered repo could help"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#0",
+    "label": "Endless Tools: browser app that layers effects on footage, images, text and 3D",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-26",
+    "creator": "@antonmehto",
+    "link": "https://www.instagram.com/reel/Db-5wxbN0_f/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#1",
+    "label": "Three GitHub repos for code-rendered video with Claude Opus 5.5",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-26",
+    "creator": "@_aiwithaddy_",
+    "link": "https://www.instagram.com/reel/De7O1knyumF/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#2",
+    "label": "Hypit: an agent skill that clones a viral video's format, then swaps host, hook, product or language",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-26",
+    "creator": "@haneefbuilds.ai",
+    "link": "https://www.instagram.com/reel/De9aQjNpTj4/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#3",
+    "label": "Motion Dock: a free After Effects panel bundling 28 \"Motion Fun\" tools",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@harss.raaj",
+    "link": "https://www.instagram.com/reel/De8pdyhPjyV/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#4",
+    "label": "Swishy (swishy.ai): an AI motion designer that turns a prompt into an editable animation",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@myselfrachit",
+    "link": "https://www.instagram.com/reel/DaQKsk6PbEo/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#5",
+    "label": "Three free Claude skills for motion: Remotion, GSAP, Three.js",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/De_EWr0RgNZ/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#6",
+    "label": "10 open-source repos for markerless motion capture from an ordinary camera",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@syntaix.ai",
+    "link": "https://www.instagram.com/p/De1frq7ifup/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#7",
+    "label": "Recordly: a free, open-source Mac screen recorder that auto-zooms on every click",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@fensyy19",
+    "link": "https://www.instagram.com/reel/De97lxyO2DW/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#8",
+    "label": "earshot: gives a coding agent \"ears\" (describe, match, find and make sound effects)",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-27",
+    "creator": "@gittrend.io",
+    "link": "https://www.instagram.com/reel/De_b6mpD88Q/"
+   },
+   {
+    "id": "shelf:marketing/image_ad_formats",
+    "label": "Image-ad concepts and formats",
+    "kind": "shelf",
+    "group": "marketing",
+    "trigger": "designing an image ad or a static ad creative (ChatGPT image, PhotoCraft)"
+   },
+   {
+    "id": "shelf:marketing/image_ad_formats#0",
+    "label": "Visual exaggeration conceptual ads: blow the one benefit up until it is impossible",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-10-26",
+    "creator": "@deepaksisodiadesigns",
+    "link": "https://www.instagram.com/reel/Dacuaj_CISh/"
+   },
+   {
+    "id": "shelf:marketing/image_ad_formats#1",
+    "label": "Material-based metaphor ads: keep the object's shape, swap its material for the idea",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-10-26",
+    "creator": "@deepaksisodiadesigns",
+    "link": "https://www.instagram.com/reel/DakyR6uCWeH/"
+   },
+   {
+    "id": "shelf:marketing/meta_ads",
+    "label": "Meta / Google ads: budget, copy, strategy",
+    "kind": "shelf",
+    "group": "marketing",
+    "trigger": "running or planning paid ads (Meta, Google), ad copy, scaling a budget"
+   },
+   {
+    "id": "shelf:marketing/meta_ads#0",
+    "label": "Scaling a Meta ad budget: +20% every 3 days, never ×2",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-10-25",
+    "creator": "@dukaandari.tv",
+    "link": "https://www.instagram.com/reel/DehFRsUzla-/"
+   },
+   {
+    "id": "shelf:marketing/meta_ads#1",
+    "label": "Piyush Pandey's rules, applied to Meta ads: problem first, local tongue, inhale life",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-10-26",
+    "creator": "@adsandcopy",
+    "link": "https://www.instagram.com/reel/Dcdfr8VyQrA/"
+   },
+   {
+    "id": "shelf:marketing/meta_ads#2",
+    "label": "Spendo: a Chrome extension that estimates a competitor's Meta ad spend and sales",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-10-27",
+    "creator": "@jxn0373728",
+    "link": "https://www.instagram.com/reel/De8icqdNjmU/"
+   },
+   {
+    "id": "shelf:marketing/psychology_levers",
+    "label": "Marketing psychology levers",
+    "kind": "shelf",
+    "group": "marketing",
+    "trigger": "any promotion, offer, launch, caption or ad that has to persuade"
+   },
+   {
+    "id": "shelf:marketing/psychology_levers#0",
+    "label": "16 marketing psychology levers, Level 1 to 4, each with an Indian example",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-10-26",
+    "creator": "@dhruv_wan",
+    "link": "https://www.instagram.com/reel/DeWZmg-I0GO/"
+   },
+   {
+    "id": "shelf:misc_tools/business_thinking",
+    "label": "Business-idea thinking tools",
+    "kind": "shelf",
+    "group": "misc_tools",
+    "trigger": "he raises or discusses a business idea (his rule: bring Roast Room in)"
+   },
+   {
+    "id": "pack:misc_tools",
+    "label": "Tools & business",
+    "kind": "pack",
+    "group": "misc_tools"
+   },
+   {
+    "id": "shelf:misc_tools/business_thinking#0",
+    "label": "Roast Room: seven AI advisors debate a business decision inside Claude Code",
+    "kind": "entry",
+    "group": "misc_tools",
+    "date": "2026-10-26",
+    "creator": "@nateherkai",
+    "link": "https://www.instagram.com/reel/De7MatdDOnZ/"
+   },
+   {
+    "id": "shelf:misc_tools/business_thinking#1",
+    "label": "The startup blueprint: problem → ICP → TAM/SAM/SOM → build in public → MVP → pivot or push",
+    "kind": "entry",
+    "group": "misc_tools",
+    "date": "2026-10-27",
+    "creator": "@buildwithreema",
+    "link": "https://www.instagram.com/reel/De_W81mpSsn/"
+   },
+   {
+    "id": "shelf:skill_library/about_saving_reels",
+    "label": "About saving and triaging reels",
+    "kind": "shelf",
+    "group": "skill_library",
+    "trigger": "improving the Reel Inbox itself"
+   },
+   {
+    "id": "pack:skill_library",
+    "label": "Reel inbox",
+    "kind": "pack",
+    "group": "skill_library"
+   },
+   {
+    "id": "shelf:skill_library/about_saving_reels#0",
+    "label": "Stop saving reels, make them searchable",
+    "kind": "entry",
+    "group": "skill_library",
+    "date": "2026-10-22",
+    "creator": "@anas.helloworld",
+    "link": "https://www.instagram.com/reel/Devi-jZv9yb/"
+   },
+   {
+    "id": "shelf:web_app_design/animated_websites",
+    "label": "Animated and cinematic websites (scroll-driven video, 3D, motion)",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "building or designing an animated, scroll-driven, cinematic or 3D website or landing page (kaalaurkatha.com, a client site, a product page)"
+   },
+   {
+    "id": "shelf:web_app_design/animated_websites#0",
+    "label": "Cinematic scroll website from AI video: frames → scroll-scrubbed image sequence",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@heyyaliweb",
+    "link": "https://www.instagram.com/reel/De_Wzk4NmsM/"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools",
+    "label": "Developer tools and agents worth knowing",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "building a site/app and looking for a tool, an agent, a design-system shortcut or a launch video"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools#0",
+    "label": "/brag: one Claude Code command turns your project into a 20-second launch video",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@codernormie",
+    "link": "https://www.instagram.com/reel/DepIdSqBeIH/"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools#1",
+    "label": "Google ARTEMIS: an open-source agent that drives a real Android phone from plain English",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@jagu.builds",
+    "link": "https://www.instagram.com/reel/De4GZyShemf/"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools#2",
+    "label": "getdesign.md: drop a big brand's design system into a project as DESIGN.md",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@codernormie",
+    "link": "https://www.instagram.com/reel/DYmwr_wvrU0/"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools#3",
+    "label": "Five free tools that make Claude a better front-end designer (Taste, Impeccable, Playwright CLI, Awesome DESIGN.md, img2threejs)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@nateherkai",
+    "link": "https://www.instagram.com/reel/DdT_OwyFeoj/"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools#4",
+    "label": "Chatwoot (one inbox for email, SMS and social messages) and four other \"repos that make money\"",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@charlieautomates",
+    "link": "https://www.instagram.com/p/DekGoHSGgkl/"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools#5",
+    "label": "day-trader-skill: 11 Claude skills for stock-trade research and simulation",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@swapsays_wtf",
+    "link": "https://www.instagram.com/reel/De63EgSxsXo/"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools#6",
+    "label": "PentAGI: an open-source multi-agent system that pen-tests your own site",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@omkar.docs",
+    "link": "https://www.instagram.com/reel/DemNqCvIcoN/"
+   },
+   {
+    "id": "shelf:web_app_design/launch_protocols",
+    "label": "Launch protocols for any website or app",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "before launching, deploying or shipping any website/app, and at the end of every development stage"
+   },
+   {
+    "id": "shelf:web_app_design/launch_protocols#0",
+    "label": "Top 10 Claude / Codex security skills",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-25",
+    "creator": "@brochbuilds",
+    "link": "https://www.instagram.com/reel/Dew5OaVgfmG/"
+   },
+   {
+    "id": "shelf:web_app_design/launch_protocols#1",
+    "label": "Shannon: open-source AI pentester for web apps and APIs",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@codernormie",
+    "link": "https://www.instagram.com/reel/Dej8FMXBlT9/"
+   },
+   {
+    "id": "shelf:web_app_design/launch_protocols#2",
+    "label": "MiroFish: a synthetic focus group that argues about your idea before you build it",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@nick_saraev",
+    "link": "https://www.instagram.com/reel/De7Fx7sPof8/"
+   },
+   {
+    "id": "shelf:web_app_design/launch_protocols#3",
+    "label": "The 20-item \"make my vibe-coded site fast\" prompt",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@joshtheaiguy",
+    "link": "https://www.instagram.com/reel/DdP1ySxAsxT/"
+   },
+   {
+    "id": "shelf:web_app_design/launch_protocols#4",
+    "label": "The 20-item \"don't get sued\" checklist to run on every app and site",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-26",
+    "creator": "@krishanu.builds",
+    "link": "https://www.instagram.com/reel/DeUfhA6gqyl/"
+   },
+   {
+    "id": "shelf:web_app_design/launch_protocols#5",
+    "label": "10 things to do right after a website goes live (part 3: measure, list, monitor)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@udayan.builds",
+    "link": "https://www.instagram.com/reel/DecMZSDubaV/"
+   },
+   {
+    "id": "shelf:web_app_design/seo_and_search",
+    "label": "SEO and search traffic for our websites",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "planning content, blog posts, SEO or search traffic for kaalaurkatha.com or any site we run, or reading Google Search Console"
+   },
+   {
+    "id": "shelf:web_app_design/seo_and_search#0",
+    "label": "Search Console question filter: find the exact questions people type",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@ghulam_ali_seo",
+    "link": "https://www.instagram.com/reel/De9PgGQFakj/"
+   },
+   {
+    "id": "shelf:web_app_design/seo_and_search#1",
+    "label": "The 100 SEO concepts checklist (what to learn beyond \"use Claude for SEO\")",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-27",
+    "creator": "@lawrenceaiseo",
+    "link": "https://www.instagram.com/p/De6Oo1RHyRA/"
+   },
+   {
+    "id": "shelf:youtube_story/channel_growth",
+    "label": "Channel growth, content strategy and personal brand",
+    "kind": "shelf",
+    "group": "youtube_story",
+    "trigger": "planning what KaalAurKatha posts next and why, reviewing how reels and videos performed, choosing pillars or a series, repackaging a hit across platforms, or building an email list / offer around the channel"
+   },
+   {
+    "id": "shelf:youtube_story/channel_growth#0",
+    "label": "\"4 videos that will make you disgustingly good at content in 45 hrs\" (carousel)",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-26",
+    "creator": "@seanwerbowskii",
+    "link": "https://www.instagram.com/p/DeK39yMD0j0/"
+   },
+   {
+    "id": "shelf:youtube_story/hook_library",
+    "label": "Hook library (opening lines, by hook type, each with its use cases)",
+    "kind": "shelf",
+    "group": "youtube_story",
+    "trigger": "writing the first line of any video, reel, short, ad or caption; choosing a hook; or he says \"use a hook like that one\""
+   },
+   {
+    "id": "shelf:youtube_story/hook_library#0",
+    "label": "\"52 Negative Hooks that will increase your reach\" (6-slide carousel)",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-27",
+    "creator": "@katrinalebar",
+    "link": "https://www.instagram.com/p/DecyemRmAly/"
+   },
+   {
+    "id": "shelf:youtube_story/research_sources",
+    "label": "Research and footage sources",
+    "kind": "shelf",
+    "group": "youtube_story",
+    "trigger": "researching a story or explainer, finding archival/public-domain footage, scraping social platforms"
+   },
+   {
+    "id": "shelf:youtube_story/research_sources#0",
+    "label": "Moving Image Archive: search 100,000+ public-domain clips by describing the shot",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-26",
+    "creator": "@sneha_sidequest",
+    "link": "https://www.instagram.com/reel/De6j24huFex/"
+   },
+   {
+    "id": "shelf:youtube_story/research_sources#1",
+    "label": "Agent Reach: one CLI that lets an agent read and search Twitter, Reddit, YouTube, GitHub… with no API fees",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-26",
+    "creator": "@codernormie",
+    "link": "https://www.instagram.com/reel/Dd9LgpwsVvP/"
+   },
+   {
+    "id": "shelf:youtube_story/viral_formats",
+    "label": "Viral reel formats to rebuild in our style",
+    "kind": "shelf",
+    "group": "youtube_story",
+    "trigger": "planning a KaalAurKatha reel or short, choosing a format or hook, or he says \"recreate this concept with a different story\""
+   },
+   {
+    "id": "shelf:youtube_story/viral_formats#0",
+    "label": "\"The Blue Boy\": childhood story → one miracle → destiny flash-forward → mother's tears",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-26",
+    "creator": "@visionmachina",
+    "link": "https://www.instagram.com/reel/De5qkiNRfO7/"
+   },
+   {
+    "id": "shelf:youtube_story/viral_formats#1",
+    "label": "\"The Hidden Origin of Hanuman\": presenter rebuke hook → sun leap → vajra → every god's boon → the name",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-26",
+    "creator": "@akashstarkkk",
+    "link": "https://www.instagram.com/reel/DejzmOJh7tv/"
+   },
+   {
+    "id": "shelf:youtube_story/viral_formats#2",
+    "label": "Lanka battle in an Arcane-style painterly look (music-only, no story)",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-10-26",
+    "creator": "@mkchanti",
+    "link": "https://www.instagram.com/reel/DdjJIxmBsuj/"
+   }
+  ],
+  "links": [
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:_shared/design_principles"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:_shared/design_principles"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:_shared/design_principles"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:_shared/design_principles"
+   },
+   {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#0"
+   },
+   {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#1"
+   },
+   {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#2"
+   },
+   {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#3"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:_shared/font_library"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:_shared/font_library"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:_shared/font_library"
+   },
+   {
+    "source": "pack:youtube_story",
+    "target": "shelf:_shared/font_library"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:_shared/font_library"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:_shared/font_library"
+   },
+   {
+    "source": "shelf:_shared/font_library",
+    "target": "shelf:_shared/font_library#0"
+   },
+   {
+    "source": "shelf:_shared/font_library",
+    "target": "shelf:_shared/font_library#1"
+   },
+   {
+    "source": "pack:ai_generation",
+    "target": "shelf:ai_generation/color_and_light"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:ai_generation/color_and_light"
+   },
+   {
+    "source": "shelf:ai_generation/color_and_light",
+    "target": "shelf:ai_generation/color_and_light#0"
+   },
+   {
+    "source": "pack:ai_generation",
+    "target": "shelf:ai_generation/methods"
+   },
+   {
+    "source": "shelf:ai_generation/methods",
+    "target": "shelf:ai_generation/methods#0"
+   },
+   {
+    "source": "pack:ai_generation",
+    "target": "shelf:ai_generation/shot_composition"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition",
+    "target": "shelf:ai_generation/shot_composition#0"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition",
+    "target": "shelf:ai_generation/shot_composition#1"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:editing_vfx/cut_grammar"
+   },
+   {
+    "source": "pack:youtube_story",
+    "target": "shelf:editing_vfx/cut_grammar"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar",
+    "target": "shelf:editing_vfx/cut_grammar#0"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar",
+    "target": "shelf:editing_vfx/cut_grammar#1"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:floating_clones_levitation"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:recolor_dark_garment_roto_lighten_multiply"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:documentary_war_map_theme"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:mixed_media_collage_type"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:path_carousel_3d_two_expressions"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:pendulum_light_logo_reveal"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:pixel_icon_kinetic_monologue"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:profile_bounce_split_mask"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:split_mask_shard_character_intro"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:blobbylize_gradient_shimmer_text"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:cosmic_chrome_gradient_text"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:finger_point_tracking_to_nulls"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:speed_effect_cutout_zip"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:hit_bounce_fall_stacked_transforms"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:beat_sync_background_flicker_reveal"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:color_splash_subject_only"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:paper_cutout_brand_promo"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:slow_shutter_echo_posterize"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:freeze_frame_character_intro"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:gangsta_extract_flash"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:ink_overlay_track_matte"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:prism_lens_smear_14f"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:radial_shutter_flash"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:rapid_zoom_out_photo_stack"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:shutter_slide_photo_stack"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:xray_wireframe_transition"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:editing_vfx/music_library"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:editing_vfx/music_library"
+   },
+   {
+    "source": "shelf:editing_vfx/music_library",
+    "target": "shelf:editing_vfx/music_library#0"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:Resolve"
+   },
+   {
+    "source": "app:editing_vfx:Resolve",
+    "target": "tech:lantern_ring_glow_ascii_dust"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:editing_vfx/sound_libraries"
+   },
+   {
+    "source": "pack:fitness",
+    "target": "shelf:editing_vfx/sound_libraries"
+   },
+   {
+    "source": "pack:cutaway",
+    "target": "shelf:editing_vfx/sound_libraries"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:editing_vfx/sound_libraries"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries",
+    "target": "shelf:editing_vfx/sound_libraries#0"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:music_end_reverb_tail"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:SoundCraft"
+   },
+   {
+    "source": "app:editing_vfx:SoundCraft",
+    "target": "tech:music_start_three_ways"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:editing_vfx/tools_and_repos"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#0"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#1"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#2"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#3"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#4"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#5"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#6"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#7"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#8"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:marketing/image_ad_formats"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:marketing/image_ad_formats"
+   },
+   {
+    "source": "pack:ai_generation",
+    "target": "shelf:marketing/image_ad_formats"
+   },
+   {
+    "source": "shelf:marketing/image_ad_formats",
+    "target": "shelf:marketing/image_ad_formats#0"
+   },
+   {
+    "source": "shelf:marketing/image_ad_formats",
+    "target": "shelf:marketing/image_ad_formats#1"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:marketing/meta_ads"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:marketing/meta_ads"
+   },
+   {
+    "source": "shelf:marketing/meta_ads",
+    "target": "shelf:marketing/meta_ads#0"
+   },
+   {
+    "source": "shelf:marketing/meta_ads",
+    "target": "shelf:marketing/meta_ads#1"
+   },
+   {
+    "source": "shelf:marketing/meta_ads",
+    "target": "shelf:marketing/meta_ads#2"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:marketing/psychology_levers"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:marketing/psychology_levers"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:marketing/psychology_levers"
+   },
+   {
+    "source": "shelf:marketing/psychology_levers",
+    "target": "shelf:marketing/psychology_levers#0"
+   },
+   {
+    "source": "pack:misc_tools",
+    "target": "shelf:misc_tools/business_thinking"
+   },
+   {
+    "source": "shelf:misc_tools/business_thinking",
+    "target": "shelf:misc_tools/business_thinking#0"
+   },
+   {
+    "source": "shelf:misc_tools/business_thinking",
+    "target": "shelf:misc_tools/business_thinking#1"
+   },
+   {
+    "source": "pack:skill_library",
+    "target": "shelf:skill_library/about_saving_reels"
+   },
+   {
+    "source": "shelf:skill_library/about_saving_reels",
+    "target": "shelf:skill_library/about_saving_reels#0"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:web_app_design/animated_websites"
+   },
+   {
+    "source": "shelf:web_app_design/animated_websites",
+    "target": "shelf:web_app_design/animated_websites#0"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:web_app_design/dev_tools"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools",
+    "target": "shelf:web_app_design/dev_tools#0"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools",
+    "target": "shelf:web_app_design/dev_tools#1"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools",
+    "target": "shelf:web_app_design/dev_tools#2"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools",
+    "target": "shelf:web_app_design/dev_tools#3"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools",
+    "target": "shelf:web_app_design/dev_tools#4"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools",
+    "target": "shelf:web_app_design/dev_tools#5"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools",
+    "target": "shelf:web_app_design/dev_tools#6"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:web_app_design/launch_protocols"
+   },
+   {
+    "source": "shelf:web_app_design/launch_protocols",
+    "target": "shelf:web_app_design/launch_protocols#0"
+   },
+   {
+    "source": "shelf:web_app_design/launch_protocols",
+    "target": "shelf:web_app_design/launch_protocols#1"
+   },
+   {
+    "source": "shelf:web_app_design/launch_protocols",
+    "target": "shelf:web_app_design/launch_protocols#2"
+   },
+   {
+    "source": "shelf:web_app_design/launch_protocols",
+    "target": "shelf:web_app_design/launch_protocols#3"
+   },
+   {
+    "source": "shelf:web_app_design/launch_protocols",
+    "target": "shelf:web_app_design/launch_protocols#4"
+   },
+   {
+    "source": "shelf:web_app_design/launch_protocols",
+    "target": "shelf:web_app_design/launch_protocols#5"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:web_app_design/seo_and_search"
+   },
+   {
+    "source": "shelf:web_app_design/seo_and_search",
+    "target": "shelf:web_app_design/seo_and_search#0"
+   },
+   {
+    "source": "shelf:web_app_design/seo_and_search",
+    "target": "shelf:web_app_design/seo_and_search#1"
+   },
+   {
+    "source": "pack:youtube_story",
+    "target": "shelf:youtube_story/channel_growth"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:youtube_story/channel_growth"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:youtube_story/channel_growth"
+   },
+   {
+    "source": "shelf:youtube_story/channel_growth",
+    "target": "shelf:youtube_story/channel_growth#0"
+   },
+   {
+    "source": "pack:youtube_story",
+    "target": "shelf:youtube_story/hook_library"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:youtube_story/hook_library"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:youtube_story/hook_library"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:youtube_story/hook_library"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library",
+    "target": "shelf:youtube_story/hook_library#0"
+   },
+   {
+    "source": "pack:youtube_story",
+    "target": "shelf:youtube_story/research_sources"
+   },
+   {
+    "source": "shelf:youtube_story/research_sources",
+    "target": "shelf:youtube_story/research_sources#0"
+   },
+   {
+    "source": "shelf:youtube_story/research_sources",
+    "target": "shelf:youtube_story/research_sources#1"
+   },
+   {
+    "source": "pack:youtube_story",
+    "target": "shelf:youtube_story/viral_formats"
+   },
+   {
+    "source": "pack:ai_generation",
+    "target": "shelf:youtube_story/viral_formats"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:youtube_story/viral_formats"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats",
+    "target": "shelf:youtube_story/viral_formats#0"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats",
+    "target": "shelf:youtube_story/viral_formats#1"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats",
+    "target": "shelf:youtube_story/viral_formats#2"
+   },
+   {
+    "source": "router",
+    "target": "pack:ai_generation"
+   },
+   {
+    "source": "router",
+    "target": "pack:clients"
+   },
+   {
+    "source": "router",
+    "target": "pack:cutaway"
+   },
+   {
+    "source": "router",
+    "target": "pack:editing_vfx"
+   },
+   {
+    "source": "router",
+    "target": "pack:fitness"
+   },
+   {
+    "source": "router",
+    "target": "pack:marketing"
+   },
+   {
+    "source": "router",
+    "target": "pack:misc_tools"
+   },
+   {
+    "source": "router",
+    "target": "pack:post_production"
+   },
+   {
+    "source": "router",
+    "target": "pack:skill_library"
+   },
+   {
+    "source": "router",
+    "target": "pack:web_app_design"
+   },
+   {
+    "source": "router",
+    "target": "pack:youtube_story"
+   }
+  ]
+ }
 }

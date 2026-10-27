@@ -97,6 +97,84 @@ def category(r):
     return "research"
 
 
+# ---------------------------------------------------------------- knowledge graph (from the brain itself)
+BRAIN_DEFAULT = Path.home() / "Library/CloudStorage/GoogleDrive-atharvasarada47@gmail.com/My Drive/studio final/brain"
+PACK_LABEL = {
+    "youtube_story": "YouTube stories", "ai_generation": "AI generation", "editing_vfx": "Editing & VFX",
+    "post_production": "Post production", "clients": "Clients", "marketing": "Marketing", "web_app_design": "Web & app",
+    "cutaway": "Cutaway channel", "fitness": "Fitness", "skill_library": "Reel inbox", "files_storage": "Files",
+    "misc_tools": "Tools & business", "credits": "Credits", "handoff_chatgpt": "ChatGPT handoff", "_shared": "Shared design",
+}
+
+
+def front_matter(text):
+    m = re.match(r"---\n(.*?)\n---\n", text, re.S)
+    out = {}
+    for line in (m.group(1).split("\n") if m else []):
+        k, _, v = line.partition(":")
+        if k and not k.startswith(" ") and v.strip():
+            out[k.strip()] = re.sub(r"\s+#.*$", "", v).strip()
+    return out
+
+
+def as_list(v):
+    return [x.strip() for x in (v or "").strip("[]").split(",") if x.strip()]
+
+
+def build_graph(brain: Path):
+    lib = brain / "88_skill_library"
+    nodes, links, seen = [], [], set()
+
+    def node(nid, label, kind, group, **kw):
+        if nid not in seen:
+            seen.add(nid)
+            nodes.append({"id": nid, "label": clean(label), "kind": kind, "group": group, **kw})
+
+    def link(a, b):
+        links.append({"source": a, "target": b})
+
+    node("router", "Router · CLAUDE.md", "router", "router")
+    packs_with = set()
+    for p in sorted(lib.rglob("*.md")):
+        if p.name in {"HOME.md", "WORKER.md", "INDEX.md", "TECHNIQUES.md", "CONSULT.md"}:
+            continue
+        t = p.read_text(errors="ignore")
+        f = front_matter(t)
+        if "shelf" in f:
+            sid = "shelf:" + f["shelf"]
+            packs = as_list(f.get("listed_in_packs")) or [f["shelf"].split("/")[0]]
+            node(sid, f.get("title", f["shelf"]), "shelf", packs[0], trigger=clean(f.get("open_when", "")))
+            for pk in packs:
+                packs_with.add(pk)
+                node("pack:" + pk, PACK_LABEL.get(pk, pk), "pack", pk)
+                link("pack:" + pk, sid)
+            for i, part in enumerate(re.split(r"(?m)^## (?=\d{4}-\d{2}-\d{2} · )", t)[1:]):
+                head = part.split("\n", 1)[0]
+                m = re.match(r"(\d{4}-\d{2}-\d{2}) · (.+?)(?: · (@[\w.]+).*)?$", head)
+                if not m:
+                    continue
+                url = re.search(r"https://www\.instagram\.com/(?:reel|p)/[\w-]+/?", part)
+                eid = f"{sid}#{i}"
+                node(eid, m.group(2), "entry", packs[0], date=m.group(1), creator=m.group(3) or "", link=url.group(0) if url else "")
+                link(sid, eid)
+        elif "id" in f:
+            pk = as_list(f.get("pack")) or [p.relative_to(lib).parts[0]]
+            app = (f.get("app") or "").split("(")[0].split("+")[0].split(" and ")[0].strip() or "Other"
+            aid = f"app:{pk[0]}:{app}"
+            node("pack:" + pk[0], PACK_LABEL.get(pk[0], pk[0]), "pack", pk[0])
+            packs_with.add(pk[0])
+            node(aid, f"{app} techniques", "app", pk[0])
+            link("pack:" + pk[0], aid)
+            src = re.search(r"https://www\.instagram\.com/(?:reel|p)/[\w-]+/?", t)
+            tid = "tech:" + f["id"]
+            node(tid, f.get("title", f["id"]), "technique", pk[0], category=clean(f.get("category", "")),
+                 status=f.get("status", ""), link=src.group(0) if src else "")
+            link(aid, tid)
+    for pk in sorted(packs_with):
+        link("router", "pack:" + pk)
+    return {"nodes": nodes, "links": links}
+
+
 def main():
     src = Path(sys.argv[1])
     raw = src.read_text()
@@ -128,6 +206,7 @@ def main():
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
         "categories": [{"id": c, "label": l, "icon": i, "blurb": b} for c, l, i, b in CATS],
         "items": items,
+        "graph": build_graph(Path(next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--brain=")), BRAIN_DEFAULT))),
     }
     text = json.dumps(out, ensure_ascii=False, indent=1)
     if "--check" in sys.argv:
@@ -137,7 +216,8 @@ def main():
     counts = {}
     for it in items:
         counts[it["category"]] = counts.get(it["category"], 0) + 1
-    print(f"data.json: {len(items)} items", counts)
+    g = out["graph"]
+    print(f"data.json: {len(items)} items", counts, f"| graph {len(g['nodes'])} nodes, {len(g['links'])} links")
 
 
 if __name__ == "__main__":
