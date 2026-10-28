@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T05:59Z",
+ "updated": "2026-10-28T06:28Z",
  "categories": [
   {
    "id": "stories",
@@ -75,6 +75,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Eye-trace cut: start the next shot where the viewer's eyes already are",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@liveairprod",
+   "teaches": "The invisible cut: note where the viewer is looking at the end of a shot and open the next shot with its subject in that same spot on screen. Inside a shot you can move the gaze (a gesture, a reach), and wherever it lands becomes the spot the next cut must match. Editors call it eye trace. For our AI shots, every shot in the list gets a first-frame and last-frame focus position, written in absolute terms in each prompt.",
+   "use": "Example: in the Raktabeej shot list, if the demon's face ends upper-left, the next generated shot (Kali's reaction) opens with her face upper-left; in the FilmCraft pass, check each cut for where the eye was one frame before.",
+   "link": "https://www.instagram.com/reel/DfAZMAjseOQ/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-28"
+  },
   {
    "title": "Invert Chromatic transition: 3–6-frame negative + RGB-split hits on beat (FilmCraft)",
    "category": "editing",
@@ -1684,164 +1700,36 @@
    "shared": "2026-10-26"
   },
   {
-   "title": "Top 10 Claude/Codex security skills (list, not installed)",
-   "category": "web",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "Claude",
-    "Code"
-   ],
-   "creator": "@brochbuilds",
-   "teaches": "A music-only listicle of 10 GitHub security skills for Claude Code/Codex (Cloudflare Security Audit, Trail of Bits, Anthropic's Defending Code, CC Safety Net, AgentGuard and more). Full table in the brain. None verified or installed: a third-party skill gets full access to the Mac and costs context in every chat. We already have built-in /security-review for free.",
-   "use": "Before the kaalaurkatha.com site or the Pocket Ledger app goes public: run the built-in /security-review first. Only if that misses things, read the code of #4 CC Safety Net (blocks destructive commands and .env leaks, useful now that the hourly worker runs unattended) and #3 Anthropic Defending Code, then decide.",
-   "link": "https://www.instagram.com/reel/Dew5OaVgfmG/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "Meta ads budget scaling: +20% every 3 days, never double",
-   "category": "marketing",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [],
-   "creator": "@dukaandari.tv",
-   "teaches": "A Hinglish two-character sketch (Ads ka Hisaab #02). Doubling a Meta ad budget in one jump (₹2,000→₹4,000) gave 6→7 orders, cost per order ₹333→₹571, because the ad re-enters learning and the extra money buys pricier people. Rule: raise 20%, wait 3 days, check orders, repeat; stop at the first step that adds budget but no orders; if ROAS falls, drop back one step. Bonus: those two weeks reveal the winning creative, so next time launch it straight at the plateau budget. Gatekept: comment SCALE for a planner (not fetched). Example numbers are illustrative, not data.",
-   "use": "The first paid-media note in the brain. Use it the day we put money behind anything: boosting a KaalAurKatha reel, or a brandaurkatha client asking to scale a working ad. Step +20% per 3 days, log cost per result per step, stop at the plateau, roll back one step on a ROAS drop, relaunch the winning creative at the plateau budget. Craft note: the dialogue-plus-data-board format is a good model for a numbers-driven Hinglish explainer series.",
-   "link": "https://www.instagram.com/reel/DehFRsUzla-/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "Shannon: open-source AI pentester for web apps and APIs",
-   "category": "web",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "Claude",
-    "Code"
-   ],
-   "creator": "@codernormie",
-   "teaches": "Shannon (github.com/KeygraphHQ/shannon) is an open-source AI pentester for web apps and APIs, authorised testing only. He points Claude Code at the repo (\"setup this repo in this directory\"), picks the AI provider (he used his ChatGPT subscription), runs it without Docker, then gives it the live URL plus the source folder. It runs a pentest pipeline (Temporal workflow) over injection, auth, authz and SSRF classes and writes a report; his 5-second demo shows the dashboard, not a real finding. Nothing installed; its code must be read first.",
-   "use": "Pre-launch security pass on our own deployed sites only: kaalaurkatha.com and the Pocket Ledger app (its Apps Script ingest endpoint), run against our URL + our repo, after the free built-in /security-review. Same family as the 25 Oct security-skills list; pick one, not all.",
-   "link": "https://www.instagram.com/reel/Dej8FMXBlT9/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "/brag: one Claude Code command turns a project into a 20-second launch video (HyperFrames)",
-   "category": "web",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "Claude",
-    "HyperFrames"
-   ],
-   "creator": "@codernormie",
-   "teaches": "/brag (github.com/latent-spaces/brag, MIT) is a Claude Code plugin: one command turns the site or app you just built into a 20-second launch video with music, motion and share copy, rendered with HyperFrames. Install is two plugin commands (marketplace add latent-spaces/brag, then install brag@brag); it adds /brag and /brag-slim, and letsbrag.app renders the same from a pasted URL with no install. He demoed it on his founder-ideas site. We already have HyperFrames and the hidden product-launch-video skill, so this is a candidate to compare, not a gap. Not installed.",
-   "use": "A 20-second launch reel for kaalaurkatha.com, the Pocket Ledger app or a client's site/app, for IG and the portfolio. On Keep: read its code, run it on the site repo, judge it against our own product-launch-video skill; install hidden only if it wins.",
-   "link": "https://www.instagram.com/reel/DepIdSqBeIH/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "MiroFish: a synthetic focus group of AI people that argues about your idea before you build",
-   "category": "web",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "Code"
-   ],
-   "creator": "@nick_saraev",
-   "teaches": "MiroFish is an open-source simulation engine (the reel claims 80k GitHub stars; demo at 666ghj.github.io/mirofish-demo). You upload a pitch, idea doc or rough MVP as PDF/MD/TXT; it builds a graph of simulated people with personalities and opinions, drops them on a simulated social platform, lets them argue, then writes a report on why they loved or hated it and what to change, and you can chat with any single agent. It is a synthetic focus group, not real users: good for finding objections and fixing messaging before launch, never proof of demand. Gatekept CTA (comment STARTUP) not followed.",
-   "use": "At the end of each build stage of kaalaurkatha.com or the Pocket Ledger app: feed the pitch and screenshots, read the objections, fix the copy before going public. Also a cheap pre-test for a client ad concept with the brief and script as seeds.",
-   "link": "https://www.instagram.com/reel/De7Fx7sPof8/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "Google ARTEMIS: open-source agent that drives a real Android phone from plain English (MCP for Claude Code)",
-   "category": "web",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "Claude",
-    "Code"
-   ],
-   "creator": "@jagu.builds",
-   "teaches": "ARTEMIS (google/artemis on GitHub, Apache 2.0, ~14k stars per the reel) lets an AI agent operate a real Android phone or emulator from plain English, e.g. uv run artemis run \"Open Settings, find Battery and tell me the current level\". It ships an MCP server (mobile_run_task, mobile_get_device_state, mobile_inspect_trace, mobile_diagnose) and uv run artemis mcp --install all wires it into Claude Code, Codex, Cursor and more. Flash mode is a fast reactive loop (3–5 s a step); Pro mode is planner + operator + checker (15–40 s a step). The 99.1% AndroidWorld score is Google's own, self-reported. Nothing installed.",
-   "use": "Automated QA of the Pocket Ledger app on your own Pixel: build, install, log in with a test account, tap every screen, catch popups, screenshot everything. The Android counterpart of the iOS Simulator tool we already have.",
-   "link": "https://www.instagram.com/reel/De4GZyShemf/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "The 20-item \"make my vibe-coded site fast\" prompt (ends with a Lighthouse audit)",
-   "category": "web",
-   "kind": "Method / prompt",
-   "status": "Learned",
-   "apps": [
-    "Claude",
-    "Code"
-   ],
-   "creator": "@joshtheaiguy",
-   "teaches": "One prompt to Claude listing every standard web performance fix: compress images, lazy loading, code splitting, cache API responses, CDN, minify JS/CSS, index the database, cut unnecessary re-renders, debounce input handlers, paginate large lists, remove unused dependencies, defer non-critical scripts, loading skeletons, load balancer, compress API payloads, DB connection pooling, cache expensive computed results, fix N+1 queries, server-side caching, then a Lighthouse audit. Caption: Claude does not optimise for scale by default, especially with Supabase. The full table is in the brain.",
-   "use": "A pre-ship performance pass for kaalaurkatha.com (front-end + delivery items only, it is static Astro) and the Pocket Ledger app, run as one prompt and verified by Lighthouse.",
-   "link": "https://www.instagram.com/reel/DdP1ySxAsxT/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "Moving Image Archive: free public-domain footage, searched by describing the shot",
-   "category": "research",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [],
-   "creator": "@sneha_sidequest",
-   "teaches": "movingimagearchive.com (by Cole @covacut, free): 100,000+ public-domain clips from 1894 to 2021, cut into single shots and matched with CLIP, so you type \"san francisco, 1906\" instead of tags. Every clip has a provenance/rights panel. Not opened yet; download format and rights-for-India unchecked.",
-   "use": "Footage source in the asset-manifest step of any KaalAurKatha episode or facts reel that touches the last ~130 years (freedom movement, old city streets, trains, temples on film), and period B-roll for the Cutaway channel. Not for mythological episodes.",
-   "link": "https://www.instagram.com/reel/De6j24huFex/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "Agent Reach: one CLI that lets an agent search Reddit, Twitter, YouTube, GitHub with no API fees",
-   "category": "research",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "Claude",
-    "Code"
-   ],
-   "creator": "@codernormie",
-   "teaches": "GitHub iqjiy/agent_reach (~87k stars on screen, MIT, Chinese README): opencli commands that read and search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu through your browser logins, returning only matches so Claude burns fewer tokens. Demo: Claude runs opencli reddit search on his niche. Not installed, code not read. Overlaps Apify and our local yt-dlp path; new bit is free Reddit/Twitter search for trends.",
-   "use": "Trends and discovery research in youtube_story (what Reddit/Twitter say about a topic before an episode brief) at zero cost. If you Keep it: I read the whole repo first, install outside Drive in its own venv, and never point it at Instagram.",
-   "link": "https://www.instagram.com/reel/Dd9LgpwsVvP/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "Mixed-media collage kinetic type (grain paper, duotone portrait, neon word, paper panels)",
+   "title": "Pixel-icon kinetic monologue (paper type, thermal silhouette, icon ring, word spelled by icons) + its 5-line script shape",
    "category": "editing",
    "kind": "Skill",
    "status": "Learned",
    "apps": [
     "EffectCraft",
-    "HyperFrames"
+    "HyperFrames",
+    "PhotoCraft"
    ],
-   "creator": "@johnbucog",
-   "teaches": "A 24 s promo where every cut is a different material: grained dark paper, a solarised cyan duotone of the speaker with glitch blocks, huge condensed headline words popping on each spoken beat, a red neon word, flat red/cyan paper panels, red marker scribbles, RGB-smear transitions. Median shot 0.7 s. Steps, timestamps and our EffectCraft build are on the node page. The reel's content (LTX Trainer: train a style model instead of prompting) is a separate untested method note.",
-   "use": "Short-form hooks: a KaalAurKatha facts reel or channel trailer where the headline words slam on-beat over a duotone of the deity plate; or a a client process reel with the maker's portrait in duotone. Too loud for the itihas long form.",
-   "link": "https://www.instagram.com/reel/Dcb4oFBBSFH/",
+   "creator": "@jordans.archivess (Jordan Watkins)",
+   "teaches": "A 20 s spoken monologue illustrated with zero AI: bold grotesque type on off-white paper, 16-bit pixel icons that burst into a rotating ring, a real person turned into a thermal-camera silhouette, red marker loops, and the last word LOVE spelled out one letter at a time with an icon standing in for each letter. The script has a fixed shape: question → \"You don't.\" → \"You just show it.\" → three abstract nouns → one closing phrase ending on a single spellable word. Node page has every beat with timestamps, the EffectCraft build and a worked example of writing a new script the same way.",
+   "use": "KaalAurKatha facts reel or channel trailer: a new 5-line script in this shape (e.g. \"How do you know a story is true? / You don't. / You just carry it. / Through memory, ritual, doubt, / through one's own need to...\"), pixel icons drawn from the episode's props, the deity silhouette as the thermal plate. Also a a client process reel with the maker's hands as the thermal shot.",
+   "link": "https://www.instagram.com/reel/DeKDmkmh_gM/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "getdesign.md: drop a big brand's design system into a project as DESIGN.md",
+   "category": "design",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code",
+    "Claude"
+   ],
+   "creator": "@codernormie",
+   "teaches": "getdesign.md hosts DESIGN.md analyses of ~70 brands (Spotify, Apple, Stripe, Linear, Figma...): colours with roles, type, buttons, cards, forms. npx getdesign@latest add spotify writes spotify/DESIGN.md into the project; you tell the coding agent to read it before writing any UI. Site calls them inspiration, not a licence. Not run; package code not read.",
+   "use": "kaalaurkatha.com and the Pocket Ledger app: pull one close reference (Spotify for dark media UI, Linear for the ledger) as a starting DESIGN.md, then rewrite into our own tokens. Bigger takeaway: keep a DESIGN.md in every web project so each session reads one file before touching UI.",
+   "link": "https://www.instagram.com/reel/DYmwr_wvrU0/",
    "post": false,
    "decision": "Pending",
    "shared": "2026-10-25"
@@ -1865,36 +1753,164 @@
    "shared": "2026-10-25"
   },
   {
-   "title": "getdesign.md: drop a big brand's design system into a project as DESIGN.md",
-   "category": "design",
-   "kind": "Knowledge",
-   "status": "Learned",
-   "apps": [
-    "Code",
-    "Claude"
-   ],
-   "creator": "@codernormie",
-   "teaches": "getdesign.md hosts DESIGN.md analyses of ~70 brands (Spotify, Apple, Stripe, Linear, Figma...): colours with roles, type, buttons, cards, forms. npx getdesign@latest add spotify writes spotify/DESIGN.md into the project; you tell the coding agent to read it before writing any UI. Site calls them inspiration, not a licence. Not run; package code not read.",
-   "use": "kaalaurkatha.com and the Pocket Ledger app: pull one close reference (Spotify for dark media UI, Linear for the ledger) as a starting DESIGN.md, then rewrite into our own tokens. Bigger takeaway: keep a DESIGN.md in every web project so each session reads one file before touching UI.",
-   "link": "https://www.instagram.com/reel/DYmwr_wvrU0/",
-   "post": false,
-   "decision": "Pending",
-   "shared": "2026-10-25"
-  },
-  {
-   "title": "Pixel-icon kinetic monologue (paper type, thermal silhouette, icon ring, word spelled by icons) + its 5-line script shape",
+   "title": "Mixed-media collage kinetic type (grain paper, duotone portrait, neon word, paper panels)",
    "category": "editing",
    "kind": "Skill",
    "status": "Learned",
    "apps": [
     "EffectCraft",
-    "HyperFrames",
-    "PhotoCraft"
+    "HyperFrames"
    ],
-   "creator": "@jordans.archivess (Jordan Watkins)",
-   "teaches": "A 20 s spoken monologue illustrated with zero AI: bold grotesque type on off-white paper, 16-bit pixel icons that burst into a rotating ring, a real person turned into a thermal-camera silhouette, red marker loops, and the last word LOVE spelled out one letter at a time with an icon standing in for each letter. The script has a fixed shape: question → \"You don't.\" → \"You just show it.\" → three abstract nouns → one closing phrase ending on a single spellable word. Node page has every beat with timestamps, the EffectCraft build and a worked example of writing a new script the same way.",
-   "use": "KaalAurKatha facts reel or channel trailer: a new 5-line script in this shape (e.g. \"How do you know a story is true? / You don't. / You just carry it. / Through memory, ritual, doubt, / through one's own need to...\"), pixel icons drawn from the episode's props, the deity silhouette as the thermal plate. Also a a client process reel with the maker's hands as the thermal shot.",
-   "link": "https://www.instagram.com/reel/DeKDmkmh_gM/",
+   "creator": "@johnbucog",
+   "teaches": "A 24 s promo where every cut is a different material: grained dark paper, a solarised cyan duotone of the speaker with glitch blocks, huge condensed headline words popping on each spoken beat, a red neon word, flat red/cyan paper panels, red marker scribbles, RGB-smear transitions. Median shot 0.7 s. Steps, timestamps and our EffectCraft build are on the node page. The reel's content (LTX Trainer: train a style model instead of prompting) is a separate untested method note.",
+   "use": "Short-form hooks: a KaalAurKatha facts reel or channel trailer where the headline words slam on-beat over a duotone of the deity plate; or a a client process reel with the maker's portrait in duotone. Too loud for the itihas long form.",
+   "link": "https://www.instagram.com/reel/Dcb4oFBBSFH/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Agent Reach: one CLI that lets an agent search Reddit, Twitter, YouTube, GitHub with no API fees",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@codernormie",
+   "teaches": "GitHub iqjiy/agent_reach (~87k stars on screen, MIT, Chinese README): opencli commands that read and search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu through your browser logins, returning only matches so Claude burns fewer tokens. Demo: Claude runs opencli reddit search on his niche. Not installed, code not read. Overlaps Apify and our local yt-dlp path; new bit is free Reddit/Twitter search for trends.",
+   "use": "Trends and discovery research in youtube_story (what Reddit/Twitter say about a topic before an episode brief) at zero cost. If you Keep it: I read the whole repo first, install outside Drive in its own venv, and never point it at Instagram.",
+   "link": "https://www.instagram.com/reel/Dd9LgpwsVvP/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Moving Image Archive: free public-domain footage, searched by describing the shot",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@sneha_sidequest",
+   "teaches": "movingimagearchive.com (by Cole @covacut, free): 100,000+ public-domain clips from 1894 to 2021, cut into single shots and matched with CLIP, so you type \"san francisco, 1906\" instead of tags. Every clip has a provenance/rights panel. Not opened yet; download format and rights-for-India unchecked.",
+   "use": "Footage source in the asset-manifest step of any KaalAurKatha episode or facts reel that touches the last ~130 years (freedom movement, old city streets, trains, temples on film), and period B-roll for the Cutaway channel. Not for mythological episodes.",
+   "link": "https://www.instagram.com/reel/De6j24huFex/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "The 20-item \"make my vibe-coded site fast\" prompt (ends with a Lighthouse audit)",
+   "category": "web",
+   "kind": "Method / prompt",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@joshtheaiguy",
+   "teaches": "One prompt to Claude listing every standard web performance fix: compress images, lazy loading, code splitting, cache API responses, CDN, minify JS/CSS, index the database, cut unnecessary re-renders, debounce input handlers, paginate large lists, remove unused dependencies, defer non-critical scripts, loading skeletons, load balancer, compress API payloads, DB connection pooling, cache expensive computed results, fix N+1 queries, server-side caching, then a Lighthouse audit. Caption: Claude does not optimise for scale by default, especially with Supabase. The full table is in the brain.",
+   "use": "A pre-ship performance pass for kaalaurkatha.com (front-end + delivery items only, it is static Astro) and the Pocket Ledger app, run as one prompt and verified by Lighthouse.",
+   "link": "https://www.instagram.com/reel/DdP1ySxAsxT/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Google ARTEMIS: open-source agent that drives a real Android phone from plain English (MCP for Claude Code)",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@jagu.builds",
+   "teaches": "ARTEMIS (google/artemis on GitHub, Apache 2.0, ~14k stars per the reel) lets an AI agent operate a real Android phone or emulator from plain English, e.g. uv run artemis run \"Open Settings, find Battery and tell me the current level\". It ships an MCP server (mobile_run_task, mobile_get_device_state, mobile_inspect_trace, mobile_diagnose) and uv run artemis mcp --install all wires it into Claude Code, Codex, Cursor and more. Flash mode is a fast reactive loop (3–5 s a step); Pro mode is planner + operator + checker (15–40 s a step). The 99.1% AndroidWorld score is Google's own, self-reported. Nothing installed.",
+   "use": "Automated QA of the Pocket Ledger app on your own Pixel: build, install, log in with a test account, tap every screen, catch popups, screenshot everything. The Android counterpart of the iOS Simulator tool we already have.",
+   "link": "https://www.instagram.com/reel/De4GZyShemf/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "MiroFish: a synthetic focus group of AI people that argues about your idea before you build",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@nick_saraev",
+   "teaches": "MiroFish is an open-source simulation engine (the reel claims 80k GitHub stars; demo at 666ghj.github.io/mirofish-demo). You upload a pitch, idea doc or rough MVP as PDF/MD/TXT; it builds a graph of simulated people with personalities and opinions, drops them on a simulated social platform, lets them argue, then writes a report on why they loved or hated it and what to change, and you can chat with any single agent. It is a synthetic focus group, not real users: good for finding objections and fixing messaging before launch, never proof of demand. Gatekept CTA (comment STARTUP) not followed.",
+   "use": "At the end of each build stage of kaalaurkatha.com or the Pocket Ledger app: feed the pitch and screenshots, read the objections, fix the copy before going public. Also a cheap pre-test for a client ad concept with the brief and script as seeds.",
+   "link": "https://www.instagram.com/reel/De7Fx7sPof8/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "/brag: one Claude Code command turns a project into a 20-second launch video (HyperFrames)",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "HyperFrames"
+   ],
+   "creator": "@codernormie",
+   "teaches": "/brag (github.com/latent-spaces/brag, MIT) is a Claude Code plugin: one command turns the site or app you just built into a 20-second launch video with music, motion and share copy, rendered with HyperFrames. Install is two plugin commands (marketplace add latent-spaces/brag, then install brag@brag); it adds /brag and /brag-slim, and letsbrag.app renders the same from a pasted URL with no install. He demoed it on his founder-ideas site. We already have HyperFrames and the hidden product-launch-video skill, so this is a candidate to compare, not a gap. Not installed.",
+   "use": "A 20-second launch reel for kaalaurkatha.com, the Pocket Ledger app or a client's site/app, for IG and the portfolio. On Keep: read its code, run it on the site repo, judge it against our own product-launch-video skill; install hidden only if it wins.",
+   "link": "https://www.instagram.com/reel/DepIdSqBeIH/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Shannon: open-source AI pentester for web apps and APIs",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@codernormie",
+   "teaches": "Shannon (github.com/KeygraphHQ/shannon) is an open-source AI pentester for web apps and APIs, authorised testing only. He points Claude Code at the repo (\"setup this repo in this directory\"), picks the AI provider (he used his ChatGPT subscription), runs it without Docker, then gives it the live URL plus the source folder. It runs a pentest pipeline (Temporal workflow) over injection, auth, authz and SSRF classes and writes a report; his 5-second demo shows the dashboard, not a real finding. Nothing installed; its code must be read first.",
+   "use": "Pre-launch security pass on our own deployed sites only: kaalaurkatha.com and the Pocket Ledger app (its Apps Script ingest endpoint), run against our URL + our repo, after the free built-in /security-review. Same family as the 25 Oct security-skills list; pick one, not all.",
+   "link": "https://www.instagram.com/reel/Dej8FMXBlT9/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Meta ads budget scaling: +20% every 3 days, never double",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@dukaandari.tv",
+   "teaches": "A Hinglish two-character sketch (Ads ka Hisaab #02). Doubling a Meta ad budget in one jump (₹2,000→₹4,000) gave 6→7 orders, cost per order ₹333→₹571, because the ad re-enters learning and the extra money buys pricier people. Rule: raise 20%, wait 3 days, check orders, repeat; stop at the first step that adds budget but no orders; if ROAS falls, drop back one step. Bonus: those two weeks reveal the winning creative, so next time launch it straight at the plateau budget. Gatekept: comment SCALE for a planner (not fetched). Example numbers are illustrative, not data.",
+   "use": "The first paid-media note in the brain. Use it the day we put money behind anything: boosting a KaalAurKatha reel, or a brandaurkatha client asking to scale a working ad. Step +20% per 3 days, log cost per result per step, stop at the plateau, roll back one step on a ROAS drop, relaunch the winning creative at the plateau budget. Craft note: the dialogue-plus-data-board format is a good model for a numbers-driven Hinglish explainer series.",
+   "link": "https://www.instagram.com/reel/DehFRsUzla-/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-25"
+  },
+  {
+   "title": "Top 10 Claude/Codex security skills (list, not installed)",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@brochbuilds",
+   "teaches": "A music-only listicle of 10 GitHub security skills for Claude Code/Codex (Cloudflare Security Audit, Trail of Bits, Anthropic's Defending Code, CC Safety Net, AgentGuard and more). Full table in the brain. None verified or installed: a third-party skill gets full access to the Mac and costs context in every chat. We already have built-in /security-review for free.",
+   "use": "Before the kaalaurkatha.com site or the Pocket Ledger app goes public: run the built-in /security-review first. Only if that misses things, read the code of #4 CC Safety Net (blocks destructive commands and .env leaks, useful now that the hourly worker runs unattended) and #3 Anthropic Defending Code, then decide.",
+   "link": "https://www.instagram.com/reel/Dew5OaVgfmG/",
    "post": false,
    "decision": "Pending",
    "shared": "2026-10-25"
@@ -2151,6 +2167,15 @@
     "link": "https://www.instagram.com/reel/DdF8T54z_4c/"
    },
    {
+    "id": "shelf:ai_generation/shot_composition#2",
+    "label": "Compose each generated shot so it opens where the last one's focus ended",
+    "kind": "entry",
+    "group": "ai_generation",
+    "date": "2026-10-28",
+    "creator": "@liveairprod",
+    "link": "https://www.instagram.com/reel/DfAZMAjseOQ/"
+   },
+   {
     "id": "shelf:cutaway/quality_bar",
     "label": "Cutaway / explainer quality bar (reference explainers whose animation, render and script we must match)",
     "kind": "shelf",
@@ -2212,6 +2237,15 @@
     "date": "2026-10-27",
     "creator": "@autoaeonline",
     "link": "https://www.instagram.com/reel/De9SYDwhTG0/"
+   },
+   {
+    "id": "shelf:editing_vfx/cut_grammar#2",
+    "label": "Eye-trace cut: start the next shot where the viewer's eyes already are",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-10-28",
+    "creator": "@liveairprod",
+    "link": "https://www.instagram.com/reel/DfAZMAjseOQ/"
    },
    {
     "id": "app:editing_vfx:EffectCraft",
@@ -3635,6 +3669,12 @@
     "group": "creators"
    },
    {
+    "id": "creator:@liveairprod",
+    "label": "@liveairprod",
+    "kind": "creator",
+    "group": "creators"
+   },
+   {
     "id": "creator:@deepaksisodiadesigns",
     "label": "@deepaksisodiadesigns",
     "kind": "creator",
@@ -3856,6 +3896,11 @@
     "type": "structure"
    },
    {
+    "source": "shelf:ai_generation/shot_composition",
+    "target": "shelf:ai_generation/shot_composition#2",
+    "type": "structure"
+   },
+   {
     "source": "pack:cutaway",
     "target": "shelf:cutaway/quality_bar",
     "type": "structure"
@@ -3898,6 +3943,11 @@
    {
     "source": "shelf:editing_vfx/cut_grammar",
     "target": "shelf:editing_vfx/cut_grammar#1",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar",
+    "target": "shelf:editing_vfx/cut_grammar#2",
     "type": "structure"
    },
    {
@@ -4906,7 +4956,17 @@
     "type": "story"
    },
    {
+    "source": "shelf:editing_vfx/cut_grammar#1",
+    "target": "char:Raktabeej",
+    "type": "character"
+   },
+   {
     "source": "shelf:web_app_design/seo_and_search#0",
+    "target": "char:Raktabeej",
+    "type": "character"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
     "target": "char:Raktabeej",
     "type": "character"
    },
@@ -4921,22 +4981,7 @@
     "type": "character"
    },
    {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "char:Raktabeej",
-    "type": "character"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#1",
-    "target": "char:Raktabeej",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/viral_formats#6",
-    "target": "char:Karna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:web_app_design/seo_and_search#0",
     "target": "char:Karna",
     "type": "character"
    },
@@ -4946,7 +4991,17 @@
     "type": "character"
    },
    {
-    "source": "story:karna_krishna_offer",
+    "source": "shelf:youtube_story/hook_library#0",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:web_app_design/seo_and_search#0",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "story:abhimanyu_chakravyuha",
     "target": "char:Karna",
     "type": "character"
    },
@@ -4956,18 +5011,23 @@
     "type": "character"
    },
    {
+    "source": "story:karna_krishna_offer",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
     "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Karna",
     "type": "character"
    },
    {
-    "source": "story:abhimanyu_chakravyuha",
-    "target": "char:Karna",
+    "source": "shelf:youtube_story/hook_library#0",
+    "target": "char:Dronacharya",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#0",
-    "target": "char:Karna",
+    "source": "story:abhimanyu_chakravyuha",
+    "target": "char:Dronacharya",
     "type": "character"
    },
    {
@@ -4986,21 +5046,6 @@
     "type": "character"
    },
    {
-    "source": "story:abhimanyu_chakravyuha",
-    "target": "char:Dronacharya",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#0",
-    "target": "char:Dronacharya",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Eklavya",
-    "type": "character"
-   },
-   {
     "source": "shelf:post_production/cta_library#0",
     "target": "char:Eklavya",
     "type": "character"
@@ -5011,33 +5056,8 @@
     "type": "character"
    },
    {
-    "source": "story:hanuman_mountain_numbers",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:lanka_first_duel",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#2",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:krishna_childhood_blue_boy",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:hanuman_hidden_origin",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#3",
-    "target": "char:Hanuman",
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Eklavya",
     "type": "character"
    },
    {
@@ -5051,17 +5071,22 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
+    "source": "story:lanka_first_duel",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#1",
+    "source": "shelf:youtube_story/viral_formats#3",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/hook_library#0",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "story:hanuman_mountain_numbers",
     "target": "char:Hanuman",
     "type": "character"
    },
@@ -5071,8 +5096,28 @@
     "type": "character"
    },
    {
-    "source": "story:hanuman_mountain_numbers",
-    "target": "char:Ravana",
+    "source": "story:krishna_childhood_blue_boy",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#1",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "story:hanuman_hidden_origin",
+    "target": "char:Hanuman",
     "type": "character"
    },
    {
@@ -5082,11 +5127,6 @@
    },
    {
     "source": "shelf:youtube_story/viral_formats#3",
-    "target": "char:Ravana",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Ravana",
     "type": "character"
    },
@@ -5096,12 +5136,22 @@
     "type": "character"
    },
    {
-    "source": "story:lanka_first_duel",
+    "source": "story:hanuman_mountain_numbers",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "story:jambavan_wise_bear_king",
     "target": "char:Rama",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#2",
+    "source": "story:lanka_first_duel",
     "target": "char:Rama",
     "type": "character"
    },
@@ -5111,28 +5161,33 @@
     "type": "character"
    },
    {
+    "source": "story:shiva_dhanush_parashurama",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "story:shiva_dhanush_parashurama",
+    "target": "char:Sita",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Sita",
+    "type": "character"
+   },
+   {
     "source": "story:jambavan_wise_bear_king",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "story:shiva_dhanush_parashurama",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Sita",
-    "type": "character"
-   },
-   {
-    "source": "story:shiva_dhanush_parashurama",
-    "target": "char:Sita",
+    "target": "char:Krishna",
     "type": "character"
    },
    {
@@ -5141,7 +5196,17 @@
     "type": "character"
    },
    {
-    "source": "story:dronacharya_eklavya",
+    "source": "shelf:youtube_story/viral_formats#3",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_defeat_reasons",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_krishna_offer",
     "target": "char:Krishna",
     "type": "character"
    },
@@ -5151,27 +5216,12 @@
     "type": "character"
    },
    {
-    "source": "story:karna_krishna_offer",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#3",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/viral_formats#5",
     "target": "char:Krishna",
     "type": "character"
    },
    {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_defeat_reasons",
+    "source": "story:dronacharya_eklavya",
     "target": "char:Krishna",
     "type": "character"
    },
@@ -5191,7 +5241,12 @@
     "type": "character"
    },
    {
-    "source": "story:dronacharya_eklavya",
+    "source": "story:abhimanyu_chakravyuha",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_defeat_reasons",
     "target": "char:Arjuna",
     "type": "character"
    },
@@ -5206,7 +5261,7 @@
     "type": "character"
    },
    {
-    "source": "story:karna_defeat_reasons",
+    "source": "story:dronacharya_eklavya",
     "target": "char:Arjuna",
     "type": "character"
    },
@@ -5217,21 +5272,21 @@
    },
    {
     "source": "story:abhimanyu_chakravyuha",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Abhimanyu",
     "type": "character"
    },
    {
-    "source": "story:abhimanyu_chakravyuha",
+    "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Abhimanyu",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/viral_formats#6",
+    "target": "char:Duryodhana",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_defeat_reasons",
     "target": "char:Duryodhana",
     "type": "character"
    },
@@ -5246,17 +5301,12 @@
     "type": "character"
    },
    {
-    "source": "story:karna_defeat_reasons",
-    "target": "char:Duryodhana",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Duryodhana",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
+    "source": "shelf:youtube_story/viral_formats#4",
     "target": "char:Shakuni",
     "type": "character"
    },
@@ -5266,17 +5316,17 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#4",
+    "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Shakuni",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#1",
+    "source": "story:shiva_dhanush_parashurama",
     "target": "char:Shiva",
     "type": "character"
    },
    {
-    "source": "story:shiva_dhanush_parashurama",
+    "source": "shelf:youtube_story/viral_formats#1",
     "target": "char:Shiva",
     "type": "character"
    },
@@ -5296,16 +5346,16 @@
     "type": "character"
    },
    {
+    "source": "shelf:youtube_story/viral_formats#1",
+    "target": "char:Indra",
+    "type": "character"
+   },
+   {
     "source": "story:karna_defeat_reasons",
     "target": "char:Indra",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#1",
-    "target": "char:Indra",
-    "type": "character"
-   },
-   {
     "source": "story:hanuman_hidden_origin",
     "target": "char:Indra",
     "type": "character"
@@ -5321,7 +5371,7 @@
     "type": "character"
    },
    {
-    "source": "story:hanuman_mountain_numbers",
+    "source": "story:shiva_dhanush_parashurama",
     "target": "char:Lakshmana",
     "type": "character"
    },
@@ -5331,17 +5381,27 @@
     "type": "character"
    },
    {
-    "source": "story:shiva_dhanush_parashurama",
-    "target": "char:Lakshmana",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/viral_formats#2",
     "target": "char:Lakshmana",
     "type": "character"
    },
    {
+    "source": "story:hanuman_mountain_numbers",
+    "target": "char:Lakshmana",
+    "type": "character"
+   },
+   {
     "source": "shelf:youtube_story/viral_formats#6",
+    "target": "char:Yudhishthira",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#4",
+    "target": "char:Yudhishthira",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_defeat_reasons",
     "target": "char:Yudhishthira",
     "type": "character"
    },
@@ -5356,17 +5416,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#4",
-    "target": "char:Yudhishthira",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/viral_formats#5",
-    "target": "char:Yudhishthira",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_defeat_reasons",
     "target": "char:Yudhishthira",
     "type": "character"
    },
@@ -5391,12 +5441,12 @@
     "type": "character"
    },
    {
-    "source": "story:hanuman_hidden_origin",
+    "source": "story:karna_krishna_offer",
     "target": "char:Surya",
     "type": "character"
    },
    {
-    "source": "story:karna_krishna_offer",
+    "source": "story:hanuman_hidden_origin",
     "target": "char:Surya",
     "type": "character"
    },
@@ -5406,12 +5456,12 @@
     "type": "character"
    },
    {
-    "source": "story:karna_defeat_reasons",
+    "source": "story:shiva_dhanush_parashurama",
     "target": "char:Parashurama",
     "type": "character"
    },
    {
-    "source": "story:shiva_dhanush_parashurama",
+    "source": "story:karna_defeat_reasons",
     "target": "char:Parashurama",
     "type": "character"
    },
@@ -5441,32 +5491,12 @@
     "type": "character"
    },
    {
-    "source": "shelf:_shared/design_principles#2",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:paper_cutout_brand_promo",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
     "source": "shelf:_shared/design_styles#0",
     "target": "tool:PhotoCraft",
     "type": "tool"
    },
    {
     "source": "shelf:_shared/design_principles#0",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#1",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#3",
     "target": "tool:PhotoCraft",
     "type": "tool"
    },
@@ -5476,17 +5506,27 @@
     "type": "tool"
    },
    {
+    "source": "shelf:_shared/font_library#1",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#2",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#3",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:paper_cutout_brand_promo",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
     "source": "shelf:youtube_story/viral_formats#6",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "tech:xray_wireframe_transition",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#2",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
@@ -5501,7 +5541,17 @@
     "type": "tool"
    },
    {
+    "source": "shelf:editing_vfx/tools_and_repos#2",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
     "source": "shelf:_shared/font_library#1",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "tech:xray_wireframe_transition",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
@@ -5511,12 +5561,37 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#2",
+    "source": "shelf:youtube_story/viral_formats#2",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#6",
+    "source": "shelf:_shared/design_principles#4",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:paper_cutout_brand_promo",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:color_splash_subject_only",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#0",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -5526,17 +5601,37 @@
     "type": "tool"
    },
    {
-    "source": "tech:invert_chromatic_flash",
+    "source": "tech:rapid_zoom_out_photo_stack",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:hit_bounce_fall_stacked_transforms",
+    "source": "tech:ink_overlay_track_matte",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:music_end_reverb_tail",
+    "source": "tech:gangsta_extract_flash",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#9",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:slow_shutter_echo_posterize",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#7",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -5546,12 +5641,37 @@
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#5",
+    "source": "tech:prism_lens_smear_14f",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#9",
+    "source": "tech:invert_chromatic_flash",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/music_library#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#6",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:shutter_slide_photo_stack",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:hit_bounce_fall_stacked_transforms",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -5566,97 +5686,17 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_principles#4",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:gangsta_extract_flash",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:ink_overlay_track_matte",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#7",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
     "source": "tech:catch_transition_four_layer_sfx",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:paper_cutout_brand_promo",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/inspiration_sources#1",
+    "source": "tech:music_end_reverb_tail",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
     "source": "tech:beat_sync_background_flicker_reveal",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:shutter_slide_photo_stack",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/sound_libraries#2",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:rapid_zoom_out_photo_stack",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:freeze_frame_character_intro",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/music_library#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:color_splash_subject_only",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#2",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:xray_wireframe_transition",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:cutaway/quality_bar#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:prism_lens_smear_14f",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -5666,17 +5706,52 @@
     "type": "tool"
    },
    {
-    "source": "tech:slow_shutter_echo_posterize",
+    "source": "tech:xray_wireframe_transition",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:color_splash_subject_only",
+    "source": "tech:freeze_frame_character_intro",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#5",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#1",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:lantern_ring_glow_ascii_dust",
     "target": "tool:Resolve",
     "type": "tool"
    },
    {
     "source": "tech:cinematic_look_library_nine_grades",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:beat_sync_background_flicker_reveal",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/color_and_light#0",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:music_start_three_ways",
     "target": "tool:Resolve",
     "type": "tool"
    },
@@ -5691,37 +5766,17 @@
     "type": "tool"
    },
    {
-    "source": "tech:lantern_ring_glow_ascii_dust",
+    "source": "tech:color_splash_subject_only",
     "target": "tool:Resolve",
     "type": "tool"
    },
    {
-    "source": "tech:beat_sync_background_flicker_reveal",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "tech:music_start_three_ways",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/color_and_light#0",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "tech:cinematic_look_library_nine_grades",
+    "source": "shelf:ai_generation/methods#0",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "tech:invert_chromatic_flash",
+    "source": "shelf:editing_vfx/cut_grammar#1",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -5736,77 +5791,17 @@
     "type": "tool"
    },
    {
-    "source": "tech:speed_effect_cutout_zip",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#5",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:mixed_media_collage_type",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:profile_bounce_split_mask",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:pendulum_light_logo_reveal",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
     "source": "tech:paper_cutout_brand_promo",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_styles#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:floating_clones_levitation",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:beat_sync_background_flicker_reveal",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:blobbylize_gradient_shimmer_text",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:pixel_icon_kinetic_monologue",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#1",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#4",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
     "source": "tech:color_splash_subject_only",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#3",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -5821,7 +5816,37 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#3",
+    "source": "tech:cinematic_look_library_nine_grades",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#4",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:pendulum_light_logo_reveal",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:floating_clones_levitation",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:speed_effect_cutout_zip",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:blobbylize_gradient_shimmer_text",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:invert_chromatic_flash",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -5836,12 +5861,37 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#0",
+    "source": "tech:mixed_media_collage_type",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_styles#0",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
     "source": "tech:cosmic_chrome_gradient_text",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:pixel_icon_kinetic_monologue",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:split_mask_shard_character_intro",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:profile_bounce_split_mask",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:beat_sync_background_flicker_reveal",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -5856,42 +5906,17 @@
     "type": "tool"
    },
    {
-    "source": "tech:split_mask_shard_character_intro",
+    "source": "shelf:youtube_story/viral_formats#5",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:cutaway/quality_bar#0",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#10",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#1",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
     "source": "shelf:editing_vfx/tools_and_repos#0",
-    "target": "tool:HyperFrames",
+    "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#4",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "tech:mixed_media_collage_type",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#3",
+    "source": "shelf:editing_vfx/tools_and_repos#5",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
@@ -5901,12 +5926,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#5",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#4",
+    "source": "shelf:cutaway/quality_bar#0",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
@@ -5916,17 +5936,57 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#5",
+    "source": "shelf:web_app_design/dev_tools#5",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/animated_websites#0",
+    "source": "shelf:_shared/font_library#1",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#4",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#3",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#10",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#4",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#0",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "tech:mixed_media_collage_type",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#0",
     "target": "tool:Google Flow",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/inspiration_sources#0",
+    "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/animated_websites#0",
     "target": "tool:Google Flow",
     "type": "tool"
    },
@@ -5936,7 +5996,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#0",
+    "source": "shelf:_shared/inspiration_sources#0",
     "target": "tool:Google Flow",
     "type": "tool"
    },
@@ -5951,8 +6011,8 @@
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#2",
-    "target": "tool:Seedance",
+    "source": "shelf:ai_generation/shot_composition#2",
+    "target": "tool:Google Flow",
     "type": "tool"
    },
    {
@@ -5961,12 +6021,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/shot_composition#0",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "source": "shelf:editing_vfx/cut_grammar#2",
     "target": "tool:Seedance",
     "type": "tool"
    },
@@ -5976,8 +6031,38 @@
     "type": "tool"
    },
    {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition#0",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
     "source": "shelf:editing_vfx/cut_grammar#0",
     "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition#2",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#0",
+    "target": "tool:Higgsfield",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "tool:Higgsfield",
     "type": "tool"
    },
    {
@@ -5991,12 +6076,17 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#0",
+    "source": "shelf:ai_generation/shot_composition#2",
     "target": "tool:Higgsfield",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#7",
+    "source": "shelf:misc_tools/computer_utilities#0",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#5",
     "target": "tool:Blender",
     "type": "tool"
    },
@@ -6021,23 +6111,8 @@
     "type": "tool"
    },
    {
-    "source": "shelf:misc_tools/computer_utilities#0",
+    "source": "shelf:editing_vfx/tools_and_repos#7",
     "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#5",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/launch_protocols#1",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#1",
-    "target": "tool:Claude Code",
     "type": "tool"
    },
    {
@@ -6046,42 +6121,7 @@
     "type": "tool"
    },
    {
-    "source": "tech:paper_cutout_brand_promo",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/launch_protocols#0",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#10",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:misc_tools/business_thinking#0",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#9",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#4",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#2",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#1",
+    "source": "shelf:web_app_design/dev_tools#3",
     "target": "tool:Claude Code",
     "type": "tool"
    },
@@ -6091,7 +6131,52 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#3",
+    "source": "shelf:editing_vfx/tools_and_repos#2",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#1",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/launch_protocols#0",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#1",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#9",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "tech:paper_cutout_brand_promo",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#10",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/launch_protocols#1",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#4",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:misc_tools/business_thinking#0",
     "target": "tool:Claude Code",
     "type": "tool"
    },
@@ -6106,11 +6191,6 @@
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#5",
-    "target": "tool:SoundCraft",
-    "type": "tool"
-   },
-   {
     "source": "tech:music_start_three_ways",
     "target": "tool:SoundCraft",
     "type": "tool"
@@ -6121,8 +6201,8 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#3",
-    "target": "tool:Three.js",
+    "source": "shelf:youtube_story/viral_formats#5",
+    "target": "tool:SoundCraft",
     "type": "tool"
    },
    {
@@ -6136,17 +6216,22 @@
     "type": "tool"
    },
    {
+    "source": "shelf:web_app_design/dev_tools#3",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
     "source": "shelf:editing_vfx/tools_and_repos#10",
     "target": "tool:GSAP",
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/animated_websites#0",
+    "source": "shelf:editing_vfx/tools_and_repos#5",
     "target": "tool:GSAP",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#5",
+    "source": "shelf:web_app_design/animated_websites#0",
     "target": "tool:GSAP",
     "type": "tool"
    },
@@ -6188,6 +6273,16 @@
    {
     "source": "shelf:_shared/font_library#1",
     "target": "creator:@raktimcreates",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition#2",
+    "target": "creator:@liveairprod",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "creator:@liveairprod",
     "type": "creator"
    },
    {
