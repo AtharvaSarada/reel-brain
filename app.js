@@ -292,6 +292,6 @@
     renderMeters(); render();
     dispatchEvent(new CustomEvent("rb-data", { detail: d }));
   }).catch(() => {
-    $("#view").innerHTML = `<div class="empty-state"><strong>Couldn't load the data</strong>data.json is missing or broken. The next hourly run rebuilds it.</div>`;
+    $("#view").innerHTML = `<div class="empty-state"><strong>Couldn't load the data</strong>data.json is missing or broken. The next capture rebuilds it.</div>`;
   });
 })();

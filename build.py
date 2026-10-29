@@ -35,7 +35,7 @@ CATS = [
     ("business", "Business", "briefcase", "Thinking tools for business ideas"),
     ("research", "Research & tools", "magnifying-glass", "Sources, scrapers, productivity"),
     ("fitness", "Fitness reels", "barbell", "For the gym Instagram page"),
-    ("waiting", "Not learned yet", "hourglass-medium", "Shared, waiting for the next hourly run"),
+    ("waiting", "Not learned yet", "hourglass-medium", "Shared, waiting for the next capture"),
     ("failed", "Couldn't extract", "warning-circle", "Private, deleted or blocked reels and posts"),
 ]
 DESIGN_WORDS = re.compile(r"\b(colou?r rule|typograph|type (scale|hierarchy)|fonts?|60-30-10|palette|design system|DESIGN\.md)", re.I)
