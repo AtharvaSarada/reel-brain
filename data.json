@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T20:50Z",
+ "updated": "2026-10-31T19:38Z",
  "categories": [
   {
    "id": "stories",
@@ -75,6 +75,295 @@
   }
  ],
  "items": [
+  {
+   "title": "Two-effect duck: music under narration (−20…−30 dB, wide dip at 2.2 kHz, Lowpass 2.5 kHz)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@artzenmedia",
+   "teaches": "Two effects on the music, not the voice, so narration sits in front. First the music level comes down 20 to 30 dB depending on the song. Then Mastering with the Make Room For Vocals preset (a wide -11.5 dB dip at 2168.5 Hz, Q 0.3, with a stereo widen) and a Lowpass at 2500 Hz (stay between 2 and 3 kHz; 400 to 550 Hz sounds underwater). In FilmCraft one Parametric Equalizer does the dip and the lowpass with exact values, keyframed to the voice regions so the music opens up again between lines.",
+   "use": "Example: every narration-bed score in a KaalAurKatha video (e.g. the ritual cue under the narrator), keyed to the narration and dub tracks; never on a sung or beat-built cue.",
+   "link": "https://www.instagram.com/reel/DfI0e_3NbQx/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-31"
+  },
+  {
+   "title": "Ten design skills for coding agents: 4 installed, 6 candidates",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude"
+   ],
+   "creator": "@craftwork.design",
+   "teaches": "Of the ten design skills in this carousel, four are already installed (Frontend Design, Impeccable, Taste Skill, UI UX Pro Max). Six are new and NOT installed: jakubkrehel/skills (Better Typography plus colour, layout and review skills), Hallmark (themes plus a browser linter), hue (brand to design system), interface-design (design memory plugin), the shadcn/ui skill and Google Stitch's Extract DESIGN.md. The shelf ranks them with source, licence and caveats; each is installed only after your Keep and a full code read.",
+   "use": "These are all the design skills you will need to design any website or application or UI. Example: for the next website or app screen, run the installed four, and if you keep this, add Better Typography and Better Colors first, then Hallmark's linter as a pre-launch check.",
+   "link": "https://www.instagram.com/p/DfF8VO_IUGR/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-10-31"
+  },
+  {
+   "title": "Tangerine: convert or compress any file on the Mac with Shift-drag",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@metav3rse",
+   "teaches": "Tangerine is a Mac App Store app. Shift-drag any file and a wheel of formats opens (images, audio, video, PDF, subtitles, archives); Shift+Option-drag opens tools: compress, crop, strip metadata, add a background, redact, split a PDF, trim a video. Everything runs offline on the Mac, and the result lands next to the original. It needs Apple silicon and macOS 13+, so our MacBook fits. It is free for 20 actions, then a one-time unlock (reports say €17 to €35, so check the price in ₹). It is not open source and has no Windows version. We can already do all of this with ffmpeg and ImageMagick through Claude; Tangerine just makes the one-off jobs instant.",
+   "use": "Example: Shift-drag a WebP reference image to PNG before uploading it to ChatGPT, or strip a photo's metadata before sending it. Batch exports stay with Claude + ffmpeg.",
+   "link": "https://www.instagram.com/reel/DeoFIQkBaHz/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-31"
+  },
+  {
+   "title": "YouTube Shows: turn saga playlists into seasons and episodes",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@Romayroh",
+   "teaches": "The 'setting' is real. In YouTube Studio go to Content, then Playlists, then Options, then Add show features, and a playlist becomes a TV-style Show with seasons, episodes and artwork. YouTube's Help page confirms the steps, the serial vs non-serial order, Shorts series, and that shows may appear under Recommended shows and Continue watching. The video's bigger claims are NOT confirmed by YouTube: views doubling, higher RPM from TV, the show 'teaching the algorithm', the recommendation feed being hidden. For us: make each saga (Janasthana, Raktabeej) a serial show with a 16:9 banner and backdrop, pin it on the Home tab, and measure the result for 28 days before trusting it.",
+   "use": "Example: convert the Raktabeej playlist into a serial show, add the show artwork at the post-production stage, and add each new episode to its season at upload.",
+   "link": "https://youtube.com/watch",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-31"
+  },
+  {
+   "title": "Same assets, four layouts: a design practice drill",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@designs_by_max",
+   "teaches": "Gather 4-5 asset types for one subject (hero image, title, body text, a small icon or map), make one version in your own style, then make at least four different layouts with exactly the same assets. Changing only the layout trains you to always have several options and is a fair way to compare them.",
+   "use": "Shared without a note. Example: when showing design options for a cover, poster or hero section, keep one asset set and vary only the layout four times, each with a name.",
+   "link": "https://www.instagram.com/p/DeV2WbtmvDj/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-10-31"
+  },
+  {
+   "title": "Pull-to-reveal packaging: sleeve, tray and revolving wrap, with a dieline to build one",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@akanksha.sureka",
+   "teaches": "The box is a tray sliding in an open sleeve, plus a paper loop glued to the tray's rear edge that wraps round the sleeve's top panel (about twice the sleeve length). Pulling the tray scrolls the loop, so the printed top changes from artwork A to artwork B; the tall and triangular bottle versions are the same loop turned vertical, with die-cut windows. The entry explains board weights, how a printer die-cuts, creases, window-patches and glues it, and we made a parametric dieline script plus a ready template to build one from card. The mechanism matches a US patent family, so build it to learn, but check before producing it commercially.",
+   "use": "Can you learn the mechanism of how this physical packaging can be made? Example: a launch or influencer kit for a client product where pulling the tray reveals the campaign line, or a saree gift box whose top changes to a festival greeting.",
+   "link": "https://www.instagram.com/reel/DezE8K0OMJr/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Couldn't fetch: login-gated reel (animation presets)",
+   "category": "failed",
+   "kind": "Failed",
+   "status": "Failed",
+   "apps": [],
+   "creator": "",
+   "teaches": "Couldn't download it. Two tries got Instagram's \"empty media response\" (the post needs a login), and the public embed page says \"The link to this photo or video may be broken, or the post may have been removed\", with no caption or creator. Nothing was learned and no login was tried. If you want it, screen-record the reel on your Pixel and share the recording, or tell me which animation presets it shows.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DfHo_IvtlL0/",
+   "post": false,
+   "decision": "",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "The Red Hat of AI inference: a business around free open models",
+   "category": "business",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@anshmehra.in",
+   "teaches": "Red Hat got rich selling trust (support, security, certification) around free Linux, and the same gap exists now around free open AI models like Llama, DeepSeek and Gemma. For a solo engineer the realistic businesses are: (A) audit and move companies from expensive AI APIs to open models, (B) a private AI box for small firms that cannot send their data abroad, (C) later, an open-model creative pipeline for creators. Build first: a small 'AI bill cutter' web app that runs a company's real prompts on open models and shows the quality and the monthly rupee saving. Push only if 10 audit requests (or 3 paid audits) come in within 30 days.",
+   "use": "Example: build the AI bill cutter MVP with his web skills, use the studio's own move to local open models (Whisper) as the first case study, and run the choice through Roast Room.",
+   "link": "https://www.instagram.com/reel/De3oYO7sxb4/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Personality in a website: a rugged-and-bold racing brand, brief to final site",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@ayzz.thedesigner",
+   "teaches": "A music-only reel, read from the frames. The client's email says \"Rugged & Bold\". He sketches two hero layouts on paper (heading, subject, social proof, CTA), maps Rugged to stone textures and Bold to black + red, makes a moodboard, a sitemap and a fonts sheet, then builds a red hero split around the bike, a gear grid where hovering reveals a rider, and athlete cards. As you asked, this designer now has his own brain section: his process, rules, critique checklist, references and colour themes. A lens menu now scores him against the other design creators per use case, for you to pick from at the start of every design phase.",
+   "use": "Example: the next client brand site opens with the lens table, where this designer scores 10.",
+   "link": "https://www.instagram.com/reel/Dd1ym5LKbOJ/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Landing page redesign: every mistake in the before, and the fix",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@ayzz.thedesigner",
+   "teaches": "15 before-and-after fixes on an ads-agency landing page. A cluttered hero with no focal point (he calls it the biggest mistake in AI-made designs) and a vague slogan become one focal visual that tells the business, plus a headline that states the offer. Social proof moves into or right after the hero and reads as an average, not a one-off. The brand-name explainer and the written promise are cut. A problem section with a visual, case studies, a 4-step process, testimonials and a footer CTA are added, all in one brand style. Honest answer to your question: an AI-default build would come out close to the before, so these fixes are now a 10-question checklist run on every draft.",
+   "use": "Example: run the critique checklist on the Pocket Ledger marketing page or any kaalaurkatha.com landing page before showing it.",
+   "link": "https://www.instagram.com/reel/DePYd7niE6c/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "His 7 design inspiration resources (full YouTube video analysed)",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@ayzz.thedesigner",
+   "teaches": "The reel teases a YouTube video, \"Design award winning websites using these resources\" (8:52), which was found and read in full from its captions. Seven sources, each matched to a job: MaxiBestOf (by industry, by font, by section), Muzli (a daily feed), Pinterest (non-web ideas), Awwwards (the ceiling), Supahero (heroes), Recent Design (motion and 3D) and Dark Mode Design (dark sites). MaxiBestOf, Muzli and the GoFullPage screenshot extension are new to the brain. His method: combine pieces of ~10 references rather than copying one, make 6-7 hero variations, and keep the references beside the frame you're designing.",
+   "use": "Example: on the next kaalaurkatha.com page, recommend Dark Mode Design (a dark site) + Supahero (hero) + MaxiBestOf font search before designing.",
+   "link": "https://www.instagram.com/reel/DenLu0ICg2Y/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Hallmark: anti-AI-slop design skill for websites and apps",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Claude",
+    "Code"
+   ],
+   "creator": "@thevarunmayya",
+   "teaches": "Hallmark (github.com/Nutlope/hallmark, MIT, by Together AI) is a Claude Code skill and plugin that builds pages from 3 of 50 named themes, then opens them in a real browser at 8 widths and fixes the 'AI-made' tells before you ship. It can also redesign or audit an existing site, and it checks that no link, form field or handler went missing in a redesign. We already have similar taste skills (Impeccable, Taste), but not the browser lint or the redesign safety check. Nothing is installed yet: Keep means read all its code, install it hidden, and make it our design skill for websites and apps only.",
+   "use": "Example: redesign a kaalaurkatha.com page or a Pocket Ledger screen with /hallmark redesign, showing 3 named theme previews first, and never use it for covers, thumbnails or ad creatives.",
+   "link": "https://www.instagram.com/reel/DfH6Z5NzECg/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "60-30-10 colour rule on a product ad (repost, second source)",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@designs_by_max",
+   "teaches": "Give every colour one job: 60% background, 30% the text and content on top, 10% the brand colour only on the button and one phrase of the headline. This is a repost of a 60-30-10 reel already in the library, so it was filed as a second source with its new demo (a skincare ad going from a flat grey version to slate, white and a pink accent).",
+   "use": "Design rule for using colors in design. Example: on a product image ad, put the brand colour only on the Order Now button and one headline phrase; on a website, only on the main button and one highlighted word.",
+   "link": "https://www.instagram.com/reel/DfHu-Eox1pC/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Opium stretch effect: horizontal smear + grainy B&W flash on beat cuts",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@jackwhoedits",
+   "teaches": "\"OPM\" reads as OPIUM: every card says \"Opium Stretch Effect\" (the reel never says OPM; please confirm). On a beat cut, a 13-frame Stretch transition centred on the cut smears the shot sideways (Bell curve, Ease In 0, Ease Out 33, Dissolve 25%, Angle 90, Stretch 100%), under a ~10-frame adjustment layer with Noise + keyframed Extract that turns the flash into grainy, near-binary black and white. The Noise/Extract values are inside a comment-gated preset, so our FilmCraft rebuild proposes them; FilmCraft's own Stretch is the classic one, so the smear is rebuilt with Directional Blur + Scale Width. 3 s preview saved.",
+   "use": "Example: in a short or teaser of the current mythological series, put one Opium stretch on each beat cut where a drop of the demon's blood becomes a new clone, so the multiplication hits as a hard black-and-white rhythm.",
+   "link": "https://www.instagram.com/reel/DfFqk0HyjSP/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Brand first, then the website: questionnaire to live CRM tracking",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@ayzz.thedesigner",
+   "teaches": "Branding a client before building the site: a short questionnaire (what you do, who you sell to, 3-5 admired brands, the feeling a visitor should have (pick 3), the brand as a person walking into a meeting in 3-5 words). Then logo sketches on paper, the client's existing colours enhanced, brand guidelines, a sitemap, and straight to design because the branding already set the personality. The homepage has a 3D hero showing everything the business does, plus social proof and one CTA. Then pages per division, a catalogue, shipment tracking fed from their CRM, and a responsive Webflow build.",
+   "use": "Example: for the next client who needs a brand and a site, send his questionnaire as a doc before the first call, then follow steps 1-3 of the designer page.",
+   "link": "https://www.instagram.com/reel/Deo0qp8iNUU/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Agency website redesign, the whole process from audit to Webflow",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@ayzz.thedesigner",
+   "teaches": "A redesign done in order: audit the old site's problems, find where customers come from (referrals, so the site is the conversion point), sitemap, a two-part moodboard (styles to pick + the client's own references), then a hero and one signature brand element (hand-drawn strokes) that runs through every section and interaction. Sections go hero → problem → projects → services → testimonials → a chat-style FAQ, then a Webflow build with performance and responsive passes. It is now the step-by-step process on this designer's own brain page. Scraping his whole profile is logged as a follow-up waiting for your go.",
+   "use": "Example: the next kaalaurkatha.com pass or a client site follows the 12 steps on his designer page, built in Astro + GSAP instead of Webflow.",
+   "link": "https://www.instagram.com/reel/DehfpDhCipV/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Five fruit colour palettes for landing pages, by use case",
+   "category": "design",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@ayzz.thedesigner",
+   "teaches": "Five palettes taken from fruit (strawberry, grape, lemon, passion fruit, peach), each with 4 named swatches and a landing page built in it: motorsport, a premium product, a fashion drop, personal care, food delivery. Each one is used as ground + display type + light neutral, with the fourth colour as the accent (60-30-10). The hex codes were sampled from the frames.",
+   "use": "Example: when a landing page needs a colour theme, pick the fruit row whose use case matches (lemon's olive + butter for a calm finance page) and map it 60-30-10.",
+   "link": "https://www.instagram.com/reel/DfGx1ouiXWa/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Motion tracking: text label pinned to a fingertip via a tracked null",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft"
+   ],
+   "creator": "@_joshhoffman",
+   "teaches": "Point tracking in After Effects (EffectCraft for us): Track Motion, put the box on a high-contrast spot (he drew a dot on his finger), set Options to Stop Tracking so it halts when it loses the point, analyse forward, then re-seat the box and continue. Apply the track to a Null object, parent a text layer to the null, and turn on motion blur so the text sits in the shot. It's the same tracking as an earlier reel, so it was added as a second source on that page, which now has a preview.",
+   "use": "No note from him (untitled row). Example: a title or label that rides an object in frame, like the name of a divine weapon pinned to the weapon in a mythology short, or a callout that follows a product or a lift in a fitness reel.",
+   "link": "https://www.instagram.com/reel/DfHR5ZJTZ5g/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
+  {
+   "title": "Eight design inspiration sites: motion, rebrands, sci-fi HUDs, game UI, micro-details",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@rajanthedube",
+   "teaches": "A carousel of eight inspiration sites beyond the usual two. Four were already in the library (60fps, Rebrand Gallery, Layers, Awwwards); four are new: HUDs and GUIs (sci-fi interface overlays from film and TV), Interface In Game (game UI by genre), Design Spells (delightful micro-interactions) and Craftwork (hand-picked web design). Filed with a which-site-for-which-task table.",
+   "use": "Shared without a note. Example: open HUDs and GUIs for an astra targeting overlay in an itihas edit, Interface In Game for a character stat-card video, Design Spells for an app micro-interaction.",
+   "link": "https://www.instagram.com/p/DfC0UjdCN4h/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-10-30"
+  },
   {
    "title": "5 Chinese wholesale sites by category (handbags, cosmetics, shoes, car parts)",
    "category": "research",
@@ -2683,6 +2972,33 @@
     "link": "https://www.instagram.com/p/DeMdc33DoX8/"
    },
    {
+    "id": "shelf:_shared/design_principles#7",
+    "label": "60-30-10 again, on a product ad: background 60, type 30, brand colour 10 (second source)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@designs_by_max",
+    "link": "https://www.instagram.com/reel/DfHu-Eox1pC/"
+   },
+   {
+    "id": "shelf:_shared/design_principles#8",
+    "label": "Same assets, four layouts: a practice drill that cures creative block",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@designs_by_max",
+    "link": "https://www.instagram.com/p/DeV2WbtmvDj/"
+   },
+   {
+    "id": "shelf:_shared/design_principles#9",
+    "label": "Five fruit palettes for landing pages (colour themes by use case)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@ayzz.thedesigner",
+    "link": "https://www.instagram.com/reel/DfGx1ouiXWa/"
+   },
+   {
     "id": "shelf:_shared/design_styles",
     "label": "Named design styles (a visual catalogue to offer as options, each with a preview)",
     "kind": "shelf",
@@ -2798,6 +3114,46 @@
     "date": "2026-10-29",
     "creator": "@samey.unfolds",
     "link": "https://www.instagram.com/p/DeOlRTnk7kg/"
+   },
+   {
+    "id": "shelf:_shared/inspiration_sources#4",
+    "label": "Eight inspiration sites beyond the usual two (motion, rebrands, sci-fi HUDs, game UI, micro-details)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@rajanthedube",
+    "link": "https://www.instagram.com/p/DfC0UjdCN4h/"
+   },
+   {
+    "id": "shelf:_shared/inspiration_sources#5",
+    "label": "A working agency designer's seven inspiration sources, with the job each one is for",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@ayzz.thedesigner",
+    "link": "https://www.instagram.com/reel/DenLu0ICg2Y/"
+   },
+   {
+    "id": "shelf:_shared/packaging_design",
+    "label": "Packaging design and physical box construction (dielines, folds, reveal mechanisms)",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "designing or prototyping a physical box, gift pack, launch kit, influencer kit, label or unboxing experience for a client, a product we promote, or a shop's gift packaging; or he asks how a piece of packaging is made"
+   },
+   {
+    "id": "pack:misc_tools",
+    "label": "Tools & business",
+    "kind": "pack",
+    "group": "misc_tools"
+   },
+   {
+    "id": "shelf:_shared/packaging_design#0",
+    "label": "Pull-to-reveal packaging (ReWrap Pack): how the sleeve, tray and \"revolving wrap\" are built, and how to prototype one",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@akanksha.sureka",
+    "link": "https://www.instagram.com/reel/DezE8K0OMJr/"
    },
    {
     "id": "shelf:ai_generation/ai_influencer_formats",
@@ -3187,6 +3543,24 @@
     "link": "https://www.instagram.com/reel/DbVlswLzuYv/"
    },
    {
+    "id": "tech:voice_over_music_two_effect_duck",
+    "label": "\"Voice over music: duck the song with two effects (level −20…−30 dB, a wide −11.5 dB dip at 2168.5 Hz, Lowpass 2.5 kHz), so narration or dialogue sits in front\"",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "audio / mix",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DfI0e_3NbQx/"
+   },
+   {
+    "id": "tech:voice_pocket_on_music",
+    "label": "Voice pocket on the music (compress only the speech band of the background score, so narration cuts through while the music stays loud)",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "audio / mix",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/Dd_-tgISjNu/"
+   },
+   {
     "id": "tech:beat_sync_background_flicker_reveal",
     "label": "Beat-sync background flicker: subject cut-out over a 0.1 s landscape montage, revealed by a rotating mirror mask",
     "kind": "technique",
@@ -3293,6 +3667,15 @@
     "category": "transitions",
     "status": "untested",
     "link": "https://www.instagram.com/reel/DfBRkeJgyEl/"
+   },
+   {
+    "id": "tech:opium_stretch_extract_flash",
+    "label": "\"Opium stretch effect (his \\\"OPM effect\\\"): a 13-frame horizontal Stretch transition on the cut under a ~10-frame Noise + Extract adjustment layer\"",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "transitions",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DfFqk0HyjSP/"
    },
    {
     "id": "tech:prism_lens_smear_14f",
@@ -3659,12 +4042,6 @@
     "trigger": "finding new clients for the agency or for his freelance editing, building a lead list, researching a prospect before a call or pitch, cold email or outreach, choosing a CRM or newsletter tool"
    },
    {
-    "id": "pack:misc_tools",
-    "label": "Tools & business",
-    "kind": "pack",
-    "group": "misc_tools"
-   },
-   {
     "id": "shelf:marketing/lead_generation#0",
     "label": "Seven free GitHub repos for finding and keeping clients: leads, research, verification, campaigns, CRM",
     "kind": "entry",
@@ -3758,11 +4135,20 @@
     "link": "https://www.instagram.com/reel/De_W81mpSsn/"
    },
    {
+    "id": "shelf:misc_tools/business_thinking#2",
+    "label": "The \"Red Hat of AI inference\": selling reliability, lower cost and risk cover around free open models",
+    "kind": "entry",
+    "group": "misc_tools",
+    "date": "2026-11-01",
+    "creator": "@anshmehra.in",
+    "link": "https://www.instagram.com/reel/De3oYO7sxb4/"
+   },
+   {
     "id": "shelf:misc_tools/computer_utilities",
     "label": "Desktop utilities for machine problems (slow downloads, transfers, connectivity)",
     "kind": "shelf",
     "group": "misc_tools",
-    "trigger": "a download, upload or transfer is slow (a big SFX pack, a model checkpoint, a render handoff), the internet is the bottleneck, or a small desktop utility could fix a machine problem on the Mac or Windows PC"
+    "trigger": "a download, upload or transfer is slow (a big SFX pack, a model checkpoint, a render handoff), the internet is the bottleneck, or a small desktop utility could fix a machine problem on the Mac or Windows PC, or a file needs converting, compressing or cropping by hand"
    },
    {
     "id": "pack:files_storage",
@@ -3778,6 +4164,15 @@
     "date": "2026-10-27",
     "creator": "@techwiser",
     "link": "https://www.instagram.com/reel/De_UI6HRvno/"
+   },
+   {
+    "id": "shelf:misc_tools/computer_utilities#1",
+    "label": "Tangerine: convert, compress or crop any file on the Mac by Shift-dragging it (offline radial menu)",
+    "kind": "entry",
+    "group": "misc_tools",
+    "date": "2026-11-01",
+    "creator": "@metav3rse",
+    "link": "https://www.instagram.com/reel/DeoFIQkBaHz/"
    },
    {
     "id": "shelf:misc_tools/product_sourcing",
@@ -3850,6 +4245,90 @@
     "link": "https://www.instagram.com/reel/De_Wzk4NmsM/"
    },
    {
+    "id": "shelf:web_app_design/design_lenses",
+    "label": "Design lenses (whose eye to design with), scored per use case",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "the start of any website, app or UI design phase, or he says \"think like <designer>\" / \"design like him\"; offer the lenses with scores before any design work"
+   },
+   {
+    "id": "shelf:web_app_design/design_skills",
+    "label": "Design skills for coding agents (what is installed, what is a candidate)",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "starting any website, web app, mobile app or UI design task and choosing which design skill to run; or he asks \"do we have a skill for X\" (typography, colour, themes, brand systems, design memory, shadcn components)"
+   },
+   {
+    "id": "shelf:web_app_design/design_skills#0",
+    "label": "Ten design skills that teach a coding agent taste: four installed, six candidates",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@craftwork.design",
+    "link": "https://www.instagram.com/p/DfF8VO_IUGR/"
+   },
+   {
+    "id": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "label": "Designer lens: @ayzz.thedesigner (ZZ Studio), conversion-led websites with a brand personality",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "he says \"think like him\", \"think like ayzz\" or \"design like the ZZ Studio guy\", or picks this lens at the start of a website design phase (lens menu in web_app_design/design_lenses.md); a client brand + website project; redesigning or critiquing a landing page"
+   },
+   {
+    "id": "shelf:web_app_design/designers/ayzz_thedesigner#0",
+    "label": "Colours from nature part 2: five fruit palettes for landing pages",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@ayzz.thedesigner",
+    "link": "https://www.instagram.com/reel/DfGx1ouiXWa/"
+   },
+   {
+    "id": "shelf:web_app_design/designers/ayzz_thedesigner#1",
+    "label": "Agency site redesign, the whole process: audit, sitemap, two-part moodboard, signature stroke, Webflow",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@ayzz.thedesigner",
+    "link": "https://www.instagram.com/reel/DehfpDhCipV/"
+   },
+   {
+    "id": "shelf:web_app_design/designers/ayzz_thedesigner#2",
+    "label": "Brand first, then the website: questionnaire, logo sketches, brand guidelines, sitemap, design, CRM tracking",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@ayzz.thedesigner",
+    "link": "https://www.instagram.com/reel/Deo0qp8iNUU/"
+   },
+   {
+    "id": "shelf:web_app_design/designers/ayzz_thedesigner#3",
+    "label": "His seven inspiration resources and how he uses references (the full YouTube video behind the reel)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@ayzz.thedesigner",
+    "link": "https://www.instagram.com/reel/DenLu0ICg2Y/"
+   },
+   {
+    "id": "shelf:web_app_design/designers/ayzz_thedesigner#4",
+    "label": "Review and redesign ep. 07: every mistake on an ads-agency landing page, and his fix for each",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@ayzz.thedesigner",
+    "link": "https://www.instagram.com/reel/DePYd7niE6c/"
+   },
+   {
+    "id": "shelf:web_app_design/designers/ayzz_thedesigner#5",
+    "label": "\"You cannot add personality in a website\": a rugged-and-bold racing brand from the client's email to the final site",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@ayzz.thedesigner",
+    "link": "https://www.instagram.com/reel/Dd1ym5LKbOJ/"
+   },
+   {
     "id": "shelf:web_app_design/dev_tools",
     "label": "Developer tools and agents worth knowing",
     "kind": "shelf",
@@ -3918,6 +4397,15 @@
     "date": "2026-10-27",
     "creator": "@omkar.docs",
     "link": "https://www.instagram.com/reel/DemNqCvIcoN/"
+   },
+   {
+    "id": "shelf:web_app_design/dev_tools#7",
+    "label": "Hallmark: an anti-AI-slop design skill for Claude Code (50 themes, browser lint, redesign and audit)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-01",
+    "creator": "@thevarunmayya",
+    "link": "https://www.instagram.com/reel/DfH6Z5NzECg/"
    },
    {
     "id": "shelf:web_app_design/launch_protocols",
@@ -4049,6 +4537,22 @@
     "link": "https://www.instagram.com/reel/DfFHj8FuC9R/"
    },
    {
+    "id": "shelf:web_app_design/ui_motion_ideas",
+    "label": "App and website micro-interaction ideas (pull-to-refresh, loaders, gestures, playful UI motion)",
+    "kind": "shelf",
+    "group": "web_app_design",
+    "trigger": "designing or building a mobile app or website screen that needs a refresh, loading, empty-state, gesture or delight animation (Pocket Ledger, kaalaurkatha.com, a client app)"
+   },
+   {
+    "id": "shelf:web_app_design/ui_motion_ideas#0",
+    "label": "Pull-to-refresh where a soft 3D paw reaches down and pinches the page like fabric · Cipherslab (Pinterest)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-10-31",
+    "creator": "",
+    "link": ""
+   },
+   {
     "id": "shelf:youtube_story/channel_growth",
     "label": "Channel growth, content strategy and personal brand",
     "kind": "shelf",
@@ -4063,6 +4567,15 @@
     "date": "2026-10-26",
     "creator": "@seanwerbowskii",
     "link": "https://www.instagram.com/p/DeK39yMD0j0/"
+   },
+   {
+    "id": "shelf:youtube_story/channel_growth#1",
+    "label": "YouTube Shows: turn a playlist into a TV-style Show with seasons and episodes (the \"setting to change\")",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-11-01",
+    "creator": "@Romayroh",
+    "link": ""
    },
    {
     "id": "shelf:youtube_story/hook_library",
@@ -4409,7 +4922,7 @@
     "label": "Rama's ring falls into the earth, Hanuman follows it to Patala and finds a mountain of identical rings, one for every Rama who has come",
     "kind": "story",
     "group": "youtube_story",
-    "status": "new",
+    "status": "researching",
     "typ": "long-form",
     "posted": "",
     "link": "https://www.instagram.com/reel/DfEGFHlCuKu/"
@@ -4721,6 +5234,18 @@
     "group": "creators"
    },
    {
+    "id": "creator:@designs_by_max",
+    "label": "@designs_by_max",
+    "kind": "creator",
+    "group": "creators"
+   },
+   {
+    "id": "creator:@ayzz.thedesigner",
+    "label": "@ayzz.thedesigner",
+    "kind": "creator",
+    "group": "creators"
+   },
+   {
     "id": "creator:@raktimcreates",
     "label": "@raktimcreates",
     "kind": "creator",
@@ -4852,6 +5377,21 @@
     "type": "structure"
    },
    {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#7",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#8",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#9",
+    "type": "structure"
+   },
+   {
     "source": "pack:web_app_design",
     "target": "shelf:_shared/design_styles",
     "type": "structure"
@@ -4979,6 +5519,41 @@
    {
     "source": "shelf:_shared/inspiration_sources",
     "target": "shelf:_shared/inspiration_sources#3",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources",
+    "target": "shelf:_shared/inspiration_sources#4",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources",
+    "target": "shelf:_shared/inspiration_sources#5",
+    "type": "structure"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:_shared/packaging_design",
+    "type": "structure"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:_shared/packaging_design",
+    "type": "structure"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:_shared/packaging_design",
+    "type": "structure"
+   },
+   {
+    "source": "pack:misc_tools",
+    "target": "shelf:_shared/packaging_design",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:_shared/packaging_design",
+    "target": "shelf:_shared/packaging_design#0",
     "type": "structure"
    },
    {
@@ -5308,6 +5883,26 @@
    },
    {
     "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:voice_over_music_two_effect_duck",
+    "type": "structure"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft",
+    "type": "structure"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:voice_pocket_on_music",
+    "type": "structure"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft",
+    "type": "structure"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
     "target": "tech:beat_sync_background_flicker_reveal",
     "type": "structure"
    },
@@ -5419,6 +6014,16 @@
    {
     "source": "app:editing_vfx:FilmCraft",
     "target": "tech:invert_chromatic_flash",
+    "type": "structure"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:FilmCraft",
+    "type": "structure"
+   },
+   {
+    "source": "app:editing_vfx:FilmCraft",
+    "target": "tech:opium_stretch_extract_flash",
     "type": "structure"
    },
    {
@@ -5817,6 +6422,11 @@
     "type": "structure"
    },
    {
+    "source": "shelf:misc_tools/business_thinking",
+    "target": "shelf:misc_tools/business_thinking#2",
+    "type": "structure"
+   },
+   {
     "source": "pack:misc_tools",
     "target": "shelf:misc_tools/computer_utilities",
     "type": "structure"
@@ -5829,6 +6439,11 @@
    {
     "source": "shelf:misc_tools/computer_utilities",
     "target": "shelf:misc_tools/computer_utilities#0",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:misc_tools/computer_utilities",
+    "target": "shelf:misc_tools/computer_utilities#1",
     "type": "structure"
    },
    {
@@ -5893,6 +6508,66 @@
    },
    {
     "source": "pack:web_app_design",
+    "target": "shelf:web_app_design/design_lenses",
+    "type": "structure"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:web_app_design/design_lenses",
+    "type": "structure"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:web_app_design/design_skills",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/design_skills",
+    "target": "shelf:web_app_design/design_skills#0",
+    "type": "structure"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "type": "structure"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "target": "shelf:web_app_design/designers/ayzz_thedesigner#0",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "target": "shelf:web_app_design/designers/ayzz_thedesigner#1",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "target": "shelf:web_app_design/designers/ayzz_thedesigner#2",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "target": "shelf:web_app_design/designers/ayzz_thedesigner#3",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "target": "shelf:web_app_design/designers/ayzz_thedesigner#4",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner",
+    "target": "shelf:web_app_design/designers/ayzz_thedesigner#5",
+    "type": "structure"
+   },
+   {
+    "source": "pack:web_app_design",
     "target": "shelf:web_app_design/dev_tools",
     "type": "structure"
    },
@@ -5929,6 +6604,11 @@
    {
     "source": "shelf:web_app_design/dev_tools",
     "target": "shelf:web_app_design/dev_tools#6",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools",
+    "target": "shelf:web_app_design/dev_tools#7",
     "type": "structure"
    },
    {
@@ -6017,6 +6697,16 @@
     "type": "structure"
    },
    {
+    "source": "pack:web_app_design",
+    "target": "shelf:web_app_design/ui_motion_ideas",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/ui_motion_ideas",
+    "target": "shelf:web_app_design/ui_motion_ideas#0",
+    "type": "structure"
+   },
+   {
     "source": "pack:youtube_story",
     "target": "shelf:youtube_story/channel_growth",
     "type": "structure"
@@ -6034,6 +6724,11 @@
    {
     "source": "shelf:youtube_story/channel_growth",
     "target": "shelf:youtube_story/channel_growth#0",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:youtube_story/channel_growth",
+    "target": "shelf:youtube_story/channel_growth#1",
     "type": "structure"
    },
    {
@@ -6372,7 +7067,7 @@
     "type": "structure"
    },
    {
-    "source": "status:new",
+    "source": "status:researching",
     "target": "story:rama_ring_vasuki_patala",
     "type": "structure"
    },
@@ -6402,7 +7097,17 @@
     "type": "story"
    },
    {
-    "source": "shelf:ai_generation/shot_composition#0",
+    "source": "shelf:editing_vfx/cut_grammar#1",
+    "target": "char:Raktabeej",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#2",
+    "target": "char:Raktabeej",
+    "type": "character"
+   },
+   {
+    "source": "tech:voice_pocket_on_music",
     "target": "char:Raktabeej",
     "type": "character"
    },
@@ -6412,7 +7117,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:web_app_design/seo_and_search#0",
+    "source": "shelf:ai_generation/shot_composition#0",
     "target": "char:Raktabeej",
     "type": "character"
    },
@@ -6427,12 +7132,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#2",
-    "target": "char:Raktabeej",
-    "type": "character"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#1",
+    "source": "shelf:web_app_design/seo_and_search#0",
     "target": "char:Raktabeej",
     "type": "character"
    },
@@ -6442,7 +7142,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:_shared/design_principles#6",
+    "source": "story:hanuman_hidden_origin",
     "target": "char:Surya",
     "type": "character"
    },
@@ -6452,17 +7152,12 @@
     "type": "character"
    },
    {
-    "source": "story:hanuman_hidden_origin",
+    "source": "shelf:_shared/design_principles#6",
     "target": "char:Surya",
     "type": "character"
    },
    {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:bharata_shoots_hanuman",
+    "source": "story:krishna_childhood_blue_boy",
     "target": "char:Hanuman",
     "type": "character"
    },
@@ -6472,17 +7167,12 @@
     "type": "character"
    },
    {
-    "source": "shelf:ai_generation/methods#2",
+    "source": "story:hanuman_vs_superheroes",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#0",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:lanka_first_duel",
+    "source": "shelf:youtube_story/hook_library#2",
     "target": "char:Hanuman",
     "type": "character"
    },
@@ -6497,32 +7187,22 @@
     "type": "character"
    },
    {
-    "source": "story:hanuman_vs_superheroes",
+    "source": "story:jambavan_wise_bear_king",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "story:krishna_childhood_blue_boy",
+    "source": "story:bharata_shoots_hanuman",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
+    "source": "shelf:ai_generation/methods#2",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#2",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:rama_ring_vasuki_patala",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#2",
+    "source": "shelf:youtube_story/hook_library#0",
     "target": "char:Hanuman",
     "type": "character"
    },
@@ -6537,22 +7217,37 @@
     "type": "character"
    },
    {
+    "source": "story:rama_ring_vasuki_patala",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "story:lanka_first_duel",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#4",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
     "source": "shelf:youtube_story/viral_formats#3",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
     "source": "shelf:editing_vfx/app_workflows#0",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "story:bharata_shoots_hanuman",
     "target": "char:Rama",
     "type": "character"
    },
@@ -6562,12 +7257,17 @@
     "type": "character"
    },
    {
-    "source": "story:lanka_first_duel",
+    "source": "story:jambavan_wise_bear_king",
     "target": "char:Rama",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
+    "source": "story:bharata_shoots_hanuman",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "story:angad_foot_ravana_court",
     "target": "char:Rama",
     "type": "character"
    },
@@ -6582,7 +7282,12 @@
     "type": "character"
    },
    {
-    "source": "story:angad_foot_ravana_court",
+    "source": "story:lanka_first_duel",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Rama",
     "type": "character"
    },
@@ -6598,6 +7303,16 @@
    },
    {
     "source": "story:karna_krishna_offer",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "tech:music_end_reverb_tail",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "story:abhimanyu_chakravyuha",
     "target": "char:Karna",
     "type": "character"
    },
@@ -6612,7 +7327,7 @@
     "type": "character"
    },
    {
-    "source": "story:abhimanyu_chakravyuha",
+    "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Karna",
     "type": "character"
    },
@@ -6622,13 +7337,13 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Karna",
+    "source": "story:abhimanyu_chakravyuha",
+    "target": "char:Dronacharya",
     "type": "character"
    },
    {
-    "source": "tech:music_end_reverb_tail",
-    "target": "char:Karna",
+    "source": "story:dronacharya_eklavya",
+    "target": "char:Dronacharya",
     "type": "character"
    },
    {
@@ -6637,17 +7352,7 @@
     "type": "character"
    },
    {
-    "source": "story:abhimanyu_chakravyuha",
-    "target": "char:Dronacharya",
-    "type": "character"
-   },
-   {
     "source": "shelf:post_production/cta_library#0",
-    "target": "char:Dronacharya",
-    "type": "character"
-   },
-   {
-    "source": "story:dronacharya_eklavya",
     "target": "char:Dronacharya",
     "type": "character"
    },
@@ -6657,22 +7362,37 @@
     "type": "character"
    },
    {
-    "source": "shelf:post_production/cta_library#0",
-    "target": "char:Eklavya",
-    "type": "character"
-   },
-   {
     "source": "story:dronacharya_eklavya",
     "target": "char:Eklavya",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Eklavya",
+    "type": "character"
+   },
+   {
+    "source": "shelf:post_production/cta_library#0",
     "target": "char:Eklavya",
     "type": "character"
    },
    {
     "source": "story:hanuman_mountain_numbers",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "story:ganesha_ravana_atmalinga_gokarna",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#7",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "story:angad_foot_ravana_court",
     "target": "char:Ravana",
     "type": "character"
    },
@@ -6687,28 +7407,18 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#7",
-    "target": "char:Ravana",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Ravana",
-    "type": "character"
-   },
-   {
-    "source": "story:ganesha_ravana_atmalinga_gokarna",
-    "target": "char:Ravana",
-    "type": "character"
-   },
-   {
-    "source": "story:angad_foot_ravana_court",
     "target": "char:Ravana",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/viral_formats#3",
     "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Sita",
     "type": "character"
    },
    {
@@ -6722,42 +7432,12 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Sita",
-    "type": "character"
-   },
-   {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#3",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_krishna_offer",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_defeat_reasons",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
     "source": "story:krishna_childhood_blue_boy",
     "target": "char:Krishna",
     "type": "character"
    },
    {
-    "source": "story:dronacharya_eklavya",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
+    "source": "story:karna_krishna_offer",
     "target": "char:Krishna",
     "type": "character"
    },
@@ -6768,6 +7448,31 @@
    },
    {
     "source": "shelf:youtube_story/viral_formats#5",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:jambavan_wise_bear_king",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:dronacharya_eklavya",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_defeat_reasons",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#3",
     "target": "char:Krishna",
     "type": "character"
    },
@@ -6782,12 +7487,17 @@
     "type": "character"
    },
    {
-    "source": "story:abhimanyu_chakravyuha",
+    "source": "story:vishvarupa_arjuna_wants_his_friend",
     "target": "char:Arjuna",
     "type": "character"
    },
    {
-    "source": "story:karna_defeat_reasons",
+    "source": "shelf:youtube_story/viral_formats#5",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "story:abhimanyu_chakravyuha",
     "target": "char:Arjuna",
     "type": "character"
    },
@@ -6797,22 +7507,17 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
     "source": "story:angad_foot_ravana_court",
     "target": "char:Arjuna",
     "type": "character"
    },
    {
-    "source": "story:vishvarupa_arjuna_wants_his_friend",
+    "source": "story:karna_defeat_reasons",
     "target": "char:Arjuna",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#5",
+    "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Arjuna",
     "type": "character"
    },
@@ -6832,12 +7537,12 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#6",
+    "source": "story:karna_krishna_offer",
     "target": "char:Duryodhana",
     "type": "character"
    },
    {
-    "source": "story:karna_krishna_offer",
+    "source": "shelf:youtube_story/viral_formats#6",
     "target": "char:Duryodhana",
     "type": "character"
    },
@@ -6867,11 +7572,6 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#7",
-    "target": "char:Ganesha",
-    "type": "character"
-   },
-   {
     "source": "story:ganesha_ravana_atmalinga_gokarna",
     "target": "char:Ganesha",
     "type": "character"
@@ -6882,17 +7582,12 @@
     "type": "character"
    },
    {
-    "source": "story:shiva_dhanush_parashurama",
-    "target": "char:Shiva",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#1",
-    "target": "char:Shiva",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/viral_formats#7",
+    "target": "char:Ganesha",
+    "type": "character"
+   },
+   {
+    "source": "story:shiva_dhanush_parashurama",
     "target": "char:Shiva",
     "type": "character"
    },
@@ -6902,13 +7597,18 @@
     "type": "character"
    },
    {
-    "source": "story:markandeya_kalantaka",
+    "source": "shelf:youtube_story/viral_formats#7",
     "target": "char:Shiva",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/viral_formats#1",
-    "target": "char:Brahma",
+    "target": "char:Shiva",
+    "type": "character"
+   },
+   {
+    "source": "story:markandeya_kalantaka",
+    "target": "char:Shiva",
     "type": "character"
    },
    {
@@ -6923,7 +7623,7 @@
    },
    {
     "source": "shelf:youtube_story/viral_formats#1",
-    "target": "char:Indra",
+    "target": "char:Brahma",
     "type": "character"
    },
    {
@@ -6938,7 +7638,7 @@
    },
    {
     "source": "shelf:youtube_story/viral_formats#1",
-    "target": "char:Vayu",
+    "target": "char:Indra",
     "type": "character"
    },
    {
@@ -6947,8 +7647,8 @@
     "type": "character"
    },
    {
-    "source": "story:bharata_shoots_hanuman",
-    "target": "char:Lakshmana",
+    "source": "shelf:youtube_story/viral_formats#1",
+    "target": "char:Vayu",
     "type": "character"
    },
    {
@@ -6962,7 +7662,7 @@
     "type": "character"
    },
    {
-    "source": "story:lanka_first_duel",
+    "source": "story:bharata_shoots_hanuman",
     "target": "char:Lakshmana",
     "type": "character"
    },
@@ -6977,8 +7677,8 @@
     "type": "character"
    },
    {
-    "source": "story:yudhishthira_dice",
-    "target": "char:Yudhishthira",
+    "source": "story:lanka_first_duel",
+    "target": "char:Lakshmana",
     "type": "character"
    },
    {
@@ -6987,7 +7687,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#6",
+    "source": "story:yudhishthira_dice",
     "target": "char:Yudhishthira",
     "type": "character"
    },
@@ -6997,12 +7697,17 @@
     "type": "character"
    },
    {
-    "source": "story:karna_defeat_reasons",
+    "source": "shelf:youtube_story/viral_formats#6",
     "target": "char:Yudhishthira",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/viral_formats#5",
+    "target": "char:Yudhishthira",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_defeat_reasons",
     "target": "char:Yudhishthira",
     "type": "character"
    },
@@ -7027,12 +7732,12 @@
     "type": "character"
    },
    {
-    "source": "story:shiva_dhanush_parashurama",
+    "source": "story:ganesha_ravana_atmalinga_gokarna",
     "target": "char:Vishnu",
     "type": "character"
    },
    {
-    "source": "story:ganesha_ravana_atmalinga_gokarna",
+    "source": "story:shiva_dhanush_parashurama",
     "target": "char:Vishnu",
     "type": "character"
    },
@@ -7042,22 +7747,22 @@
     "type": "character"
    },
    {
+    "source": "story:karna_defeat_reasons",
+    "target": "char:Parashurama",
+    "type": "character"
+   },
+   {
     "source": "story:shiva_dhanush_parashurama",
     "target": "char:Parashurama",
     "type": "character"
    },
    {
     "source": "story:karna_defeat_reasons",
-    "target": "char:Parashurama",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_krishna_offer",
     "target": "char:Kunti",
     "type": "character"
    },
    {
-    "source": "story:karna_defeat_reasons",
+    "source": "story:karna_krishna_offer",
     "target": "char:Kunti",
     "type": "character"
    },
@@ -7072,32 +7777,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:misc_tools/computer_utilities#0",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/3d_asset_sources#0",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#6",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#7",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#9",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#5",
+    "source": "shelf:cutaway/quality_bar#1",
     "target": "tool:Blender",
     "type": "tool"
    },
@@ -7107,7 +7787,22 @@
     "type": "tool"
    },
    {
-    "source": "shelf:cutaway/quality_bar#1",
+    "source": "shelf:editing_vfx/tools_and_repos#7",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:misc_tools/computer_utilities#0",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#5",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#6",
     "target": "tool:Blender",
     "type": "tool"
    },
@@ -7122,63 +7817,18 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_styles#0",
-    "target": "tool:PhotoCraft",
+    "source": "shelf:web_app_design/ui_motion_ideas#0",
+    "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/font_library#3",
-    "target": "tool:PhotoCraft",
+    "source": "shelf:editing_vfx/tools_and_repos#9",
+    "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/font_library#2",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:paper_cutout_brand_promo",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#2",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#6",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#0",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#1",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:thermal_grunge_stinger",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/storefront_prototypes#0",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:pixel_icon_kinetic_monologue",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#0",
-    "target": "tool:PhotoCraft",
+    "source": "shelf:_shared/3d_asset_sources#0",
+    "target": "tool:Blender",
     "type": "tool"
    },
    {
@@ -7192,12 +7842,72 @@
     "type": "tool"
    },
    {
+    "source": "tech:thermal_grunge_stinger",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#2",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#7",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:paper_cutout_brand_promo",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
     "source": "shelf:_shared/design_principles#3",
     "target": "tool:PhotoCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/font_library#1",
+    "source": "tech:pixel_icon_kinetic_monologue",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#8",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_styles#0",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/storefront_prototypes#0",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#0",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#3",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#1",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#2",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#0",
     "target": "tool:PhotoCraft",
     "type": "tool"
    },
@@ -7207,17 +7917,17 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_styles#0",
-    "target": "tool:ChatGPT image",
+    "source": "shelf:_shared/font_library#1",
+    "target": "tool:PhotoCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#6",
-    "target": "tool:ChatGPT image",
+    "source": "shelf:_shared/design_principles#6",
+    "target": "tool:PhotoCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#2",
+    "source": "shelf:youtube_story/viral_formats#2",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
@@ -7227,32 +7937,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_principles#6",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#1",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#2",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/storefront_prototypes#0",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#7",
+    "source": "shelf:_shared/design_styles#0",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
@@ -7262,7 +7947,37 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/ai_influencer_formats#0",
+    "source": "shelf:youtube_story/viral_formats#6",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/storefront_prototypes#0",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#7",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#1",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#1",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#7",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#8",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
@@ -7272,7 +7987,17 @@
     "type": "tool"
    },
    {
+    "source": "shelf:ai_generation/ai_influencer_formats#0",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
     "source": "shelf:ai_generation/color_and_light#1",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#2",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
@@ -7282,7 +8007,22 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/free_asset_sources#1",
+    "source": "shelf:_shared/design_principles#6",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "tech:color_splash_subject_only",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:music_start_three_ways",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:music_end_reverb_tail",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -7292,17 +8032,162 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_principles#6",
+    "source": "tech:catch_transition_four_layer_sfx",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:shutter_slide_photo_stack",
+    "source": "tech:speed_effect_cutout_zip",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:prism_lens_smear_14f",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#3",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#4",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
     "source": "tech:gangsta_extract_flash",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:thermal_grunge_stinger",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/music_library#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#6",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:voice_over_music_two_effect_duck",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#7",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:opium_stretch_extract_flash",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:flash_whip_silhouette",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/free_asset_sources#1",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:xray_wireframe_transition",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:paper_cutout_brand_promo",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#9",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:neon_edge_glow",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:beat_sync_background_flicker_reveal",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:voice_pocket_on_music",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#1",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#1",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:cinematic_look_library_nine_grades",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#7",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/color_grading#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/ai_influencer_formats#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:invert_chromatic_flash",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#1",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -7317,42 +8202,57 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/ai_influencer_formats#0",
+    "source": "tech:ink_overlay_track_matte",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:cutaway/quality_bar#0",
+    "source": "shelf:editing_vfx/app_workflows#0",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:color_splash_subject_only",
+    "source": "shelf:youtube_story/viral_formats#5",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:neon_edge_glow",
+    "source": "shelf:editing_vfx/cut_grammar#2",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:music_end_reverb_tail",
+    "source": "shelf:_shared/design_principles#6",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#9",
+    "source": "shelf:editing_vfx/texture_and_finish#0",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:prism_lens_smear_14f",
+    "source": "tech:radial_shutter_flash",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#6",
+    "source": "shelf:_shared/font_library#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:shutter_slide_photo_stack",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/free_asset_sources#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:freeze_frame_character_intro",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -7367,187 +8267,12 @@
     "type": "tool"
    },
    {
-    "source": "tech:flash_whip_silhouette",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:beat_sync_background_flicker_reveal",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:xray_wireframe_transition",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:catch_transition_four_layer_sfx",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/sound_libraries#3",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:invert_chromatic_flash",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#5",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:paper_cutout_brand_promo",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#2",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:freeze_frame_character_intro",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/sound_libraries#2",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:music_start_three_ways",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#7",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#7",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:ink_overlay_track_matte",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:cutaway/quality_bar#1",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#2",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/app_workflows#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#2",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/color_grading#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:thermal_grunge_stinger",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/inspiration_sources#1",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:cinematic_look_library_nine_grades",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#4",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:radial_shutter_flash",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:speed_effect_cutout_zip",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
     "source": "shelf:editing_vfx/cut_grammar#3",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/music_library#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/free_asset_sources#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:lantern_ring_glow_ascii_dust",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
     "source": "shelf:_shared/design_principles#2",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#0",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "tech:music_start_three_ways",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#7",
     "target": "tool:Resolve",
     "type": "tool"
    },
@@ -7557,7 +8282,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/color_grading#0",
+    "source": "tech:lantern_ring_glow_ascii_dust",
     "target": "tool:Resolve",
     "type": "tool"
    },
@@ -7567,7 +8292,32 @@
     "type": "tool"
    },
    {
+    "source": "tech:music_start_three_ways",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#7",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
     "source": "tech:cinematic_look_library_nine_grades",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#0",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/color_grading#0",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
     "target": "tool:Resolve",
     "type": "tool"
    },
@@ -7582,8 +8332,18 @@
     "type": "tool"
    },
    {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "tool:Resolve",
+    "source": "tech:split_mask_shard_character_intro",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:blobbylize_gradient_shimmer_text",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#2",
+    "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
@@ -7592,7 +8352,57 @@
     "type": "tool"
    },
    {
-    "source": "tech:color_splash_subject_only",
+    "source": "shelf:editing_vfx/tools_and_repos#4",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:mixed_media_collage_type",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:prism_lens_smear_14f",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#4",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#3",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:surreal_building_slide_repetile",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:lantern_ring_glow_ascii_dust",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:screen_replace_mocha_keylight_hand_matte",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:opium_stretch_extract_flash",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:flash_whip_silhouette",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -7607,72 +8417,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_styles#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:prism_lens_smear_14f",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:recolor_dark_garment_roto_lighten_multiply",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:documentary_war_map_theme",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:pendulum_light_logo_reveal",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:flash_whip_silhouette",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:beat_sync_background_flicker_reveal",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:mixed_media_collage_type",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:profile_bounce_split_mask",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:blobbylize_gradient_shimmer_text",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/sound_libraries#3",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:invert_chromatic_flash",
+    "source": "tech:paper_cutout_brand_promo",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -7682,92 +8427,12 @@
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#5",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:paper_cutout_brand_promo",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
     "source": "tech:floating_clones_levitation",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "tech:screen_replace_mocha_keylight_hand_matte",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:cosmic_chrome_gradient_text",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:split_mask_shard_character_intro",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:surreal_building_slide_repetile",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#4",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#2",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:cutaway/quality_bar#1",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#2",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:lantern_ring_glow_ascii_dust",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/app_workflows#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:cinematic_look_library_nine_grades",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#3",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#4",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:path_carousel_3d_two_expressions",
+    "source": "tech:profile_bounce_split_mask",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -7777,17 +8442,102 @@
     "type": "tool"
    },
    {
+    "source": "tech:beat_sync_background_flicker_reveal",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#3",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:cinematic_look_library_nine_grades",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:cosmic_chrome_gradient_text",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:invert_chromatic_flash",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#1",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:pendulum_light_logo_reveal",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:recolor_dark_garment_roto_lighten_multiply",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_styles#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/app_workflows#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:path_carousel_3d_two_expressions",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#5",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#2",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
     "source": "shelf:editing_vfx/free_asset_sources#0",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#0",
+    "source": "tech:documentary_war_map_theme",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:color_splash_subject_only",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#5",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/font_library#2",
+    "source": "shelf:editing_vfx/tools_and_repos#11",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
@@ -7797,7 +8547,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#10",
+    "source": "shelf:editing_vfx/tools_and_repos#3",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
@@ -7812,12 +8562,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#5",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "tech:mixed_media_collage_type",
+    "source": "shelf:editing_vfx/tools_and_repos#10",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
@@ -7827,7 +8572,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#3",
+    "source": "tech:mixed_media_collage_type",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
@@ -7837,7 +8582,22 @@
     "type": "tool"
    },
    {
+    "source": "shelf:_shared/font_library#2",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
     "source": "shelf:web_app_design/dev_tools#4",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#1",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#0",
     "target": "tool:HyperFrames",
     "type": "tool"
    },
@@ -7852,52 +8612,17 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#11",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:cutaway/quality_bar#1",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:marketing/image_ad_formats#1",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/inspiration_sources#0",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
     "source": "shelf:editing_vfx/app_workflows#0",
     "target": "tool:Google Flow",
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#2",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/color_grading#0",
+    "source": "shelf:ai_generation/shot_composition#2",
     "target": "tool:Google Flow",
     "type": "tool"
    },
    {
     "source": "shelf:editing_vfx/cut_grammar#2",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#0",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/inspiration_sources#2",
     "target": "tool:Google Flow",
     "type": "tool"
    },
@@ -7912,13 +8637,58 @@
     "type": "tool"
    },
    {
+    "source": "shelf:editing_vfx/cut_grammar#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#2",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/color_grading#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#2",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:marketing/image_ad_formats#1",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
     "source": "tech:reaction_cutaway_over_dialogue_join",
     "target": "tool:Google Flow",
     "type": "tool"
    },
    {
     "source": "shelf:ai_generation/shot_composition#2",
-    "target": "tool:Google Flow",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#0",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#1",
+    "target": "tool:Seedance",
     "type": "tool"
    },
    {
@@ -7927,7 +8697,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#2",
+    "source": "shelf:editing_vfx/cut_grammar#0",
     "target": "tool:Seedance",
     "type": "tool"
    },
@@ -7942,26 +8712,6 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#0",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#2",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#0",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
     "source": "shelf:ai_generation/ai_influencer_formats#0",
     "target": "tool:Seedance",
     "type": "tool"
@@ -7972,22 +8722,27 @@
     "type": "tool"
    },
    {
+    "source": "shelf:editing_vfx/tools_and_repos#2",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
     "source": "tech:reaction_cutaway_over_dialogue_join",
     "target": "tool:Seedance",
     "type": "tool"
    },
    {
     "source": "shelf:ai_generation/shot_composition#2",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:misc_tools/computer_utilities#0",
     "target": "tool:Higgsfield",
     "type": "tool"
    },
    {
     "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "tool:Higgsfield",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:misc_tools/computer_utilities#0",
     "target": "tool:Higgsfield",
     "type": "tool"
    },
@@ -8002,42 +8757,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/shot_composition#2",
-    "target": "tool:Higgsfield",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/sound_libraries#2",
-    "target": "tool:SoundCraft",
-    "type": "tool"
-   },
-   {
     "source": "tech:music_start_three_ways",
-    "target": "tool:SoundCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:flash_whip_silhouette",
-    "target": "tool:SoundCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:SoundCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:thermal_grunge_stinger",
-    "target": "tool:SoundCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:catch_transition_four_layer_sfx",
-    "target": "tool:SoundCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/sound_libraries#3",
     "target": "tool:SoundCraft",
     "type": "tool"
    },
@@ -8052,8 +8772,33 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/launch_protocols#0",
-    "target": "tool:Claude Code",
+    "source": "tech:catch_transition_four_layer_sfx",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#1",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:flash_whip_silhouette",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#3",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#2",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:thermal_grunge_stinger",
+    "target": "tool:SoundCraft",
     "type": "tool"
    },
    {
@@ -8062,17 +8807,22 @@
     "type": "tool"
    },
    {
-    "source": "tech:paper_cutout_brand_promo",
+    "source": "shelf:editing_vfx/tools_and_repos#11",
     "target": "tool:Claude Code",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#1",
+    "source": "shelf:web_app_design/launch_protocols#0",
     "target": "tool:Claude Code",
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#0",
+    "source": "shelf:web_app_design/dev_tools#7",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#10",
     "target": "tool:Claude Code",
     "type": "tool"
    },
@@ -8082,12 +8832,12 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#1",
+    "source": "shelf:editing_vfx/tools_and_repos#1",
     "target": "tool:Claude Code",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#10",
+    "source": "shelf:web_app_design/animated_websites#0",
     "target": "tool:Claude Code",
     "type": "tool"
    },
@@ -8107,12 +8857,17 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/animated_websites#0",
+    "source": "shelf:web_app_design/dev_tools#0",
     "target": "tool:Claude Code",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#11",
+    "source": "tech:paper_cutout_brand_promo",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#1",
     "target": "tool:Claude Code",
     "type": "tool"
    },
@@ -8122,12 +8877,22 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#1",
+    "source": "shelf:editing_vfx/tools_and_repos#11",
     "target": "tool:Three.js",
     "type": "tool"
    },
    {
     "source": "shelf:web_app_design/storefront_prototypes#0",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#5",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#1",
     "target": "tool:Three.js",
     "type": "tool"
    },
@@ -8137,21 +8902,6 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#5",
-    "target": "tool:Three.js",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#11",
-    "target": "tool:Three.js",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#10",
-    "target": "tool:GSAP",
-    "type": "tool"
-   },
-   {
     "source": "shelf:web_app_design/storefront_prototypes#0",
     "target": "tool:GSAP",
     "type": "tool"
@@ -8162,12 +8912,17 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/storefront_prototypes#2",
+    "source": "shelf:editing_vfx/tools_and_repos#10",
     "target": "tool:GSAP",
     "type": "tool"
    },
    {
     "source": "shelf:web_app_design/animated_websites#0",
+    "target": "tool:GSAP",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/storefront_prototypes#2",
     "target": "tool:GSAP",
     "type": "tool"
    },
@@ -8209,6 +8964,61 @@
    {
     "source": "shelf:editing_vfx/tools_and_repos#5",
     "target": "creator:@aevyvideoschool",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:_shared/design_principles#1",
+    "target": "creator:@designs_by_max",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:_shared/design_principles#7",
+    "target": "creator:@designs_by_max",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:_shared/design_principles#8",
+    "target": "creator:@designs_by_max",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:_shared/design_principles#9",
+    "target": "creator:@ayzz.thedesigner",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#5",
+    "target": "creator:@ayzz.thedesigner",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner#0",
+    "target": "creator:@ayzz.thedesigner",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner#1",
+    "target": "creator:@ayzz.thedesigner",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner#2",
+    "target": "creator:@ayzz.thedesigner",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner#3",
+    "target": "creator:@ayzz.thedesigner",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner#4",
+    "target": "creator:@ayzz.thedesigner",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:web_app_design/designers/ayzz_thedesigner#5",
+    "target": "creator:@ayzz.thedesigner",
     "type": "creator"
    },
    {
