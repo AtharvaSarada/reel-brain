@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T19:35Z",
+ "updated": "2026-11-06T17:55Z",
  "categories": [
   {
    "id": "stories",
@@ -75,6 +75,333 @@
   }
  ],
  "items": [
+  {
+   "title": "Profile pass: a brand co-owner who promotes his clothing brand without ever making an ad",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@robertmckeaveney",
+   "teaches": "A clothing-brand co-owner grew his personal account to 367K followers in about 11 weeks without ever making an ad: useful marketing advice and fun challenges from his own name, the brand worn in every frame, and every reel ending on his bio card (co-owner of the brand + shop link) with a 'follow' CTA, never 'buy'. His hooks are borrowed: a stitch of someone's provocation answered with a montage of receipts, proven viral formats with the niche swapped, a score counter on a challenge. Three of his six newest reels beat the average (measured by likes, because view counts are hidden when logged out). Open question on your dashboard: how to get ALL his reels.",
+   "use": "",
+   "link": "https://www.instagram.com/robertmckeaveney",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Don't make a commercial look like a commercial: dress it as a trailer, vlog or music video",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@ginyboi",
+   "teaches": "Ads that look like ads get skipped, because people now spend money on the culture they relate to, not on ads. So make a commercial look like something else (a movie trailer, a vlog, a music video): first understand the buyer's culture, then tell the product's story in that culture's visual language. His proof pair: a stock template coffee ad with a price and feature call-outs (the template text was never even replaced) versus an editorial photo of an exhausted office worker passed out on his desk, with only the coffee brand's wordmark on it.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DZ8V_ZBNjiZ/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Make the song an entrance: a tonal sound-effects build-up in the song's key",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "SoundCraft",
+    "FilmCraft"
+   ],
+   "creator": "@multiply.sound",
+   "teaches": "Instead of dropping a song in at full volume, introduce it: a tonal ping, a soft pad and an instrument phrase all in the song's key, a hint of the song's own synth line, then its vocals, building until the full song lands on a tonal hit and a whoosh. The audience recognises the melody before it starts, so the song makes an entrance. The reel is also a sound company's ad dressed as a tutorial (every clip on the timeline is from their key-sorted library). Its 'three simple steps' are cut off, so the build was read off the timeline.",
+   "use": "No note. Use: the music entry of a teaser or a cold open, landing the bed on the title card, and the first reveal of an ad; we already hold key-matched ping-boom files in the sound pack. The reel slows the vocal stem, which our no-speed-change rule forbids, so we build it at normal speed unless you allow it.",
+   "link": "https://www.instagram.com/reel/DbDycA8BskH/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Why textures make videos look premium, and where we would add them",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "EffectCraft",
+    "HyperFrames",
+    "PhotoCraft"
+   ],
+   "creator": "@manisterrrrr",
+   "teaches": "Texture (grain, noise, paper, halftone, pixel) is what makes show intros and big explainer channels look premium; the same graphic without it looks flat. It lists 14 search words for finding textures (halftone, grain, paper, grunge, ink, film, stone, metal and more). Why we don't use it: no rule blocks it. We only add a light film grain on the grade (amount 5 to 9, which YouTube mostly smooths away), we never added a texture step for maps, title cards, reel bands or covers, and we keep no texture files. The placement plan (app, blend mode, opacity per element) is on the shelf and waits for your yes on the decision page.",
+   "use": "Example: on the next KaalAurKatha long-form, film grain 8 on the grade layer, a paper texture on Multiply 10% over its maps and chapter cards, a stone texture inside the title letters, and grain 6 on its reels.",
+   "link": "https://www.instagram.com/reel/DZ1V9rlzI3s/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Rule of thirds: the four power points and what goes where",
+   "category": "ai",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "PhotoCraft",
+    "ChatGPT image"
+   ],
+   "creator": "@aevyvideoschool",
+   "teaches": "Split any frame into a 3×3 grid: the four crossing points are where the eye lands, because we read in a Z or F path, not from the centre. The points are not equal: top-left gets the most attention, then top-right, bottom-left and bottom-right. Put the title, face or main subject on the top-left hero spot, supporting text next down the left, and logos or credits in a weak corner. Sliding a centred subject about a quarter of the frame off centre onto a point makes the same picture feel better.",
+   "use": "Example: KaalAurKatha covers put the hero face on an upper point and the Hindi title on the upper third line; YouTube thumbnails keep the bottom-right (under the duration badge) empty; AI shot prompts place the subject on the strongest free point.",
+   "link": "https://www.instagram.com/reel/DbC-KP5zgku/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Content funnel: half the posts for attention, half for sales",
+   "category": "marketing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@robertmckeaveney",
+   "teaches": "A clothing brand's 11.7M-view entertainment reel sold less than its 46K-view product reel: the first is where people discover you, the second is where they buy. His chart: a content mix turned 100,000 views into 1,000 sales (1%), a feed of only product posts turned 5,000 views into 250 (5%), so the mix sold 4× more. Rule: half the content wins attention so the other half can convert it. For us: pair every promo reel that sends viewers to a long-form video with at least one discovery reel that only hooks.",
+   "use": "Shared untitled, so routed by content: plan KaalAurKatha reels as discovery + promo pairs per long-form video (story hook reels for reach, promo cuts with the link band for clicks). Same creator as the profile you asked to analyse (row N1).",
+   "link": "https://www.instagram.com/reel/De_AqYOTedK/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Voice-note idea capture: voice note, transcript, linked notes",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [],
+   "creator": "@aevyvideoschool",
+   "teaches": "The creator never tries to remember an idea: each one goes as a WhatsApp voice note to an AI contact, a model on his PC turns it into text, and Obsidian links it into a web of ideas. Our studio already does this for reels (share, transcribe, linked brain, dashboard graph). The one missing piece is your own spoken ideas. A free route: record in the Pixel Recorder app and share its transcript to the Notion Idea Box.",
+   "use": "Shared untitled, so routed by content: a voice-note path into the Idea Box for story ideas you have on the go, cleaned into a row on the next capture.",
+   "link": "https://www.instagram.com/reel/DfY3yuLxcRt/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Avocado vs 1,000 cuts: dicing into counted cubes in Blender (Geometry Nodes)",
+   "category": "research",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "Blender"
+   ],
+   "creator": "@infiniteslice01",
+   "teaches": "Yes, this can be made in Blender for free, with no add-ons: Geometry Nodes fills the avocado with a 3D grid of tiny cubes, every knife pass leaves a slice line, and once the third direction is cut the cubes fall into a pile while two counters (cuts and cubes) count up. The cube number is real maths, about (cuts / 3) cubed times 0.5, which is why 1,000 cuts gives about 17 million. The reel is 73 s, six rounds (10, 50, 100, 250, 500, 1,000 cuts), one locked camera, knife sounds only and no music; it got about 1.5 million likes on a 62k-follower account. The node page has the build steps, the round timings and four knife sounds cut into our library.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DfKtydOo3hP/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Propeller-gun interrupter gear: the render quality bar for our Blender explainers",
+   "category": "research",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Blender"
+   ],
+   "creator": "@touchmediapoint0",
+   "teaches": "A 22 s mechanism explainer: a fighter plane turns to glass, and the gears, cam and rods that time the gun to fire between the propeller blades light up one by one as the voice names them. It looks premium because of worn, bevelled metal with real reflections, a glass body, a blurred sky over a glossy floor, very shallow focus on close-ups, and colour as state (orange = working, green = safe gap, blue = trigger). Our Blender pipeline already has the textures, motion blur and camera rules; it lacks real reflections (Cycles or light probes), bevels on every part, wear and grime, glowing state colours and any compositing (bloom, grain). The entry lists the steps to close that gap, starting with a 20-frame look test rendered three ways.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DcJ_qYVgelU/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Remove the AI look from coded motion graphics: a curve per move, uneven offsets, living holds",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "HyperFrames",
+    "Claude"
+   ],
+   "creator": "@hugh_candoit",
+   "teaches": "Yes, useful: the post shows why Claude-made motion graphics all move the same, and the cause is real in our own installed HyperFrames skill (one 0.6 s ease-out default on every move, every item entering from 24 px below, 0.08 s apart). The fix is how an After Effects animator keys: a curve chosen per move (land, heavy, whip), duration from distance and weight, exits faster than entrances, one lead element with the rest reacting at uneven offsets, most text simply cutting on, and holds that keep drifting. We wrote our own version with values. The creator's skill is comment-gated and was not obtained.",
+   "use": "Example: every HyperFrames title, map, lineage tree or stat card for KaalAurKatha reels follows these six rules instead of the skill's defaults; also website and app UI motion.",
+   "link": "https://www.instagram.com/p/DfWHoQrDbSZ/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Verbicon: one letter becomes what the word means",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "PhotoCraft",
+    "HyperFrames",
+    "EffectCraft",
+    "Blender"
+   ],
+   "creator": "@logomaker.vn",
+   "teaches": "Five wordmarks where one letter turns into what the word means: the G of GUN is a pistol, both A's of SANDALS are flip-flops, the i of Rain is a cloud with rain falling, the o of slow is a snail shell. The word stays in a plain font and only one letter changes, at the same weight, so it still reads at a glance. For us: a cover or title-card word where one Hindi letter or matra becomes the story's object (the ring in मुद्रिका, the mace in गदा), animated as a letter morph for title stings.",
+   "use": "Example: the cover title of the next KaalAurKatha video with the ring drawn into मुद्रिका, or a chapter-card sting where the ा of गदा morphs into a mace on the beat.",
+   "link": "https://www.instagram.com/reel/DfRQBfLBidY/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-06"
+  },
+  {
+   "title": "Monster-mouth boot render breakdown: how realistic 3D renders are built, layer by layer (Blender recipe)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Blender",
+    "Resolve"
+   ],
+   "creator": "@anklovee",
+   "teaches": "A 20 s render breakdown that adds one layer at a time: clay model, then a key and a rim light, a fake fog, materials, a spotlight for each detail (15+ lights), sculpted teeth, a hangar environment with glowing screens, depth of field, smoke, then grade, bloom and grain. The creator used Cinema 4D, Octane, Substance Painter and ZBrush (3 to 10 minutes a frame on a top GPU); every step has a free Blender match (Cycles, sculpt mode, shape keys, light linking, a free hangar HDRI, Blender smoke). Realism comes mostly from lighting each detail on its own and from giving glass and chrome something to reflect, not from the model. The shelf entry turns it into a 9-step recipe for any hero shot.",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DcLy5RtNZkM/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
+  {
+   "title": "Seven UI-motion sound effects (ripple, warp, bass crack, cyber shift, glitch, cine strike), all extracted",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "SoundCraft"
+   ],
+   "creator": "@adrianrazen",
+   "teaches": "A sound-pack demo for UI and SaaS animations: seven named sounds, each played alone on silence, plus two unnamed ones on the end card. All nine were cut into our sound library as clean WAV files, named by what they sound like (ripple flutters, an alien warp, a bass crack, a cyber shift, a heavy distortion glitch, a cinematic strike, a double-stutter text reveal, a glow hum). They are loud, so start them 10 to 12 dB down. The full pack is comment-gated and was not obtained.",
+   "use": "Example: the sound pass of UI and app demos, map and stat motion graphics in KaalAurKatha reels, glitch or scan transitions, a hit on a title slam.",
+   "link": "https://www.instagram.com/reel/DfG3B45x5nR/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
+  {
+   "title": "Texturize: emboss a paper texture into tape, text and background (EffectCraft, tested)",
+   "category": "editing",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "EffectCraft",
+    "HyperFrames"
+   ],
+   "creator": "@con.tendo",
+   "teaches": "After Effects' Texturize effect reads a hidden paper scan and lights it like a relief on any layer, so a flat tape strip, a word or a background picks up real paper creases. Steps: get a free paper texture (Texturelabs), put it in the comp with its eye off, add Stylize > Texturize to each element, pick the paper as Texture Layer, set Light Direction about 33 degrees and Contrast about 2. The tip is to texture every layer separately (background, text, strokes). EffectCraft has the same effect and our test render works; an SVG version for HyperFrames works too.",
+   "use": "Example: KaalAurKatha chapter and verse cards, maps and lineage trees on aged paper or palm-leaf texture, torn-tape name tags in a character intro, collage hooks for ads.",
+   "link": "https://www.instagram.com/reel/DfRchZWyrT0/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
+  {
+   "title": "Finishing checklist: one clip built in seven passes (raw, grade, hook text, overlays, graphics, zoom, SFX and music)",
+   "category": "editing",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft",
+    "EffectCraft",
+    "SoundCraft",
+    "HyperFrames"
+   ],
+   "creator": "@motionart.vfx",
+   "teaches": "An editor replays the same 3-second talking-head clip seven times, adding one layer per pass with a white flash between: raw, colour grade, text hook, styled text overlays, graphics and effects, punch-in zooms, then sound effects and music. Only the last pass looks finished. We turned it into a finishing checklist that maps every pass onto our apps and the techniques already in the library, plus a final 'which layer is missing' check. Open question for you on the dashboard: should every edit carry every layer, or only some formats?",
+   "use": "Example: run the checklist on every KaalAurKatha video, client ad and fitness reel before export; or copy the seven-pass format as a 'how this edit was built' reel.",
+   "link": "https://www.instagram.com/reel/DfXWqOQsArK/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
+  {
+   "title": "The Sun In His Hands: Hanuman ji's whole life in 80 s, music only (format to recreate)",
+   "category": "recreate",
+   "kind": "Recreate better",
+   "status": "Learned",
+   "apps": [
+    "FilmCraft"
+   ],
+   "creator": "@visionmachina",
+   "teaches": "",
+   "use": "",
+   "link": "https://www.instagram.com/reel/DfQ3bvhy7DL/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
+  {
+   "title": "One unexpected accent colour, only on the button you want pressed (three web palettes)",
+   "category": "design",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@diego.a.does",
+   "teaches": "Two colours do 90% of a website's work and one unexpected accent gets the last 10%, used only on the button you want pressed. Three palettes with hex, each shown on a real hero: black + white + lime (a startup), navy + cream + coral (classy, and people click), forest green + sand beige + electric purple (calm, now a brand). The final shot proves it: lime on the 'Try it free' button only, everything else grey. Filed as a second source next to the earlier 'two safe colours + one accent' reel.",
+   "use": "Example: on the next app or website screen, put the accent colour on the main call-to-action button only, and in every design audit check that the accent appears nowhere else.",
+   "link": "https://www.instagram.com/reel/DfScZgPSqc1/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
+  {
+   "title": "OTP code screen motion: digits rise in, a checking wave, collapse into a checkmark, SMS autofill",
+   "category": "web",
+   "kind": "Skill",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@charles.unemployed",
+   "teaches": "An AI-made purple verification-code screen is cleaned in five passes: no gradients, auto-submit on the 6th digit, fewer words, borderless white tiles on an iridescent off-white card. Then every state gets motion: each digit rises in over about 100 ms, a left-to-right dim wave means 'checking', the six tiles collapse to a dot that draws a checkmark with 'Verified', and a code from an SMS fills all six digits in about 300 ms. The node page records the layout, sampled hex colours, fonts and a 30 fps timing table, enough to rebuild it on the web or in a React Native app. It is queued in the UI animation library to build.",
+   "use": "Example: the phone-number sign-in step of our next app (Pocket Ledger first), re-skinned to its palette; the same enter, checking, success pattern also fits a payment confirm or a sync.",
+   "link": "https://www.instagram.com/reel/DfUe1XXx6Jw/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
+  {
+   "title": "10 free animation and VFX repos: OpenToonz, Friction, FreeMoCap, Synfig, Effekseer, Theatre.js, Pencil2D, OpenVDB, SVG.js, Natron",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code",
+    "Blender"
+   ],
+   "creator": "@syntaix.ai",
+   "teaches": "Ten open-source repos for animation and VFX, each recorded with its GitHub path, what it does, licence and stars: OpenToonz (2D animation), Friction (motion graphics), FreeMoCap (motion capture from ordinary cameras), Synfig Studio (2D with automatic in-betweens), Effekseer (particle effects), Theatre.js (web motion editor), Pencil2D (hand-drawn 2D), OpenVDB (smoke and fire volumes), SVG.js (SVG animation in the browser) and Natron (node compositing). Two corrections: the Pencil2D link on the slide is wrong (the real repo is pencil2d/pencil), and Theatre.js has had no update in two years. Nothing was installed.",
+   "use": "Example: when he asks 'what were those animation repos?', or a job needs a fire or magic-spell sprite (Effekseer), a smoke volume for a Blender explainer (OpenVDB) or an animated website section (Theatre.js, SVG.js).",
+   "link": "https://www.instagram.com/p/DfUpCCLiSfS/",
+   "post": true,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
+  {
+   "title": "Seven animated websites to study (3D toy pile, glass type, painted launch page, 3D studio room)",
+   "category": "web",
+   "kind": "Knowledge",
+   "status": "Learned",
+   "apps": [
+    "Code"
+   ],
+   "creator": "@bachynskyi_ui",
+   "teaches": "Seven live websites with standout animation, each with what to study it for: howtotalktowhitekidsaboutracism.com (a guide told in bold colour chapters), twomuch.studio (a physics pile of 3D objects), labs.noomoagency.com (one 3D jellyfish with broken type), shopify.com/editions/winter2026 (a launch page told in Renaissance paintings), imdday.ch (an event line-up with 3D shards behind the names), daikifujita.com (a portfolio with glass shapes) and bunqlabs.com (a Bengaluru studio's site as a 3D room). None was in the library before.",
+   "use": "Example: at the start of a kaalaurkatha.com redesign, open the chapter-card guide and the painted launch page as references for a story told in chapters.",
+   "link": "https://www.instagram.com/reel/DfUDiYtOeSI/",
+   "post": false,
+   "decision": "Pending",
+   "shared": "2026-11-05"
+  },
   {
    "title": "Claude Office: dashboards, design systems, slides and docs inside Claude (+ Power Design skill, Refero Styles)",
    "category": "design",
@@ -3263,6 +3590,24 @@
     "link": "https://www.instagram.com/reel/DfGx1ouiXWa/"
    },
    {
+    "id": "shelf:_shared/design_principles#10",
+    "label": "One unexpected accent, only on the button you want pressed: three web palettes with hex (second source)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-06",
+    "creator": "@diego.a.does",
+    "link": "https://www.instagram.com/reel/DfScZgPSqc1/"
+   },
+   {
+    "id": "shelf:_shared/design_principles#11",
+    "label": "Rule of thirds for layouts: the four power points, which one gets most attention, and what goes where",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-06",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/DbC-KP5zgku/"
+   },
+   {
     "id": "shelf:_shared/design_styles",
     "label": "Named design styles (a visual catalogue to offer as options, each with a preview)",
     "kind": "shelf",
@@ -3283,6 +3628,15 @@
     "date": "2026-10-27",
     "creator": "@nidzzify",
     "link": "https://www.instagram.com/p/DerKyrcgVkK/"
+   },
+   {
+    "id": "shelf:_shared/design_styles#1",
+    "label": "Verbicon: the word draws its own meaning (one letter becomes the thing)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-06",
+    "creator": "@logomaker.vn",
+    "link": "https://www.instagram.com/reel/DfRQBfLBidY/"
    },
    {
     "id": "shelf:_shared/font_library",
@@ -3396,6 +3750,15 @@
     "date": "2026-11-01",
     "creator": "@ayzz.thedesigner",
     "link": "https://www.instagram.com/reel/DenLu0ICg2Y/"
+   },
+   {
+    "id": "shelf:_shared/inspiration_sources#6",
+    "label": "Seven \"crazy\" animated websites to study (3D toy piles, glass type, painted product launches, a 3D studio room)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-06",
+    "creator": "@bachynskyi_ui",
+    "link": "https://www.instagram.com/reel/DfUDiYtOeSI/"
    },
    {
     "id": "shelf:_shared/packaging_design",
@@ -3560,6 +3923,46 @@
     "link": "https://www.instagram.com/reel/DfAZMAjseOQ/"
    },
    {
+    "id": "shelf:ai_generation/shot_composition#3",
+    "label": "Which thirds point gets the most attention (pointer to the layout entry)",
+    "kind": "entry",
+    "group": "ai_generation",
+    "date": "2026-11-06",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/DbC-KP5zgku/"
+   },
+   {
+    "id": "app:cutaway:Blender",
+    "label": "Blender techniques",
+    "kind": "app",
+    "group": "cutaway"
+   },
+   {
+    "id": "tech:slice_into_cubes_counter",
+    "label": "\"N cuts\" dicing into counted cubes (a knife slices an object along three axes, it collapses into a pile of cubes, live CUTS and CUBES counters)",
+    "kind": "technique",
+    "group": "cutaway",
+    "category": "geometry_nodes",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DfKtydOo3hP/"
+   },
+   {
+    "id": "shelf:cutaway/blender_lookdev",
+    "label": "Blender look-dev and render realism (lighting rigs, materials, fog and smoke, compositing, render settings)",
+    "kind": "shelf",
+    "group": "cutaway",
+    "trigger": "lighting, shading, rendering or compositing a Blender shot (a cutaway episode, a hero insert, a 3D product shot or a 3D motion graphic), choosing EEVEE or Cycles, or a render looks flat, grey or \"CG\""
+   },
+   {
+    "id": "shelf:cutaway/blender_lookdev#0",
+    "label": "\"0% AI, 100% 3D render breakdown\": a football boot with glass fangs, built one layer at a time",
+    "kind": "entry",
+    "group": "cutaway",
+    "date": "2026-11-06",
+    "creator": "@anklovee",
+    "link": "https://www.instagram.com/reel/DcLy5RtNZkM/"
+   },
+   {
     "id": "shelf:cutaway/quality_bar",
     "label": "Cutaway / explainer quality bar (reference explainers whose animation, render and script we must match)",
     "kind": "shelf",
@@ -3583,6 +3986,15 @@
     "date": "2026-10-29",
     "creator": "@speedy_devv",
     "link": "https://www.instagram.com/reel/DfClkawMnzR/"
+   },
+   {
+    "id": "shelf:cutaway/quality_bar#2",
+    "label": "Firing a machine gun through the propeller (interrupter gear): a mechanism X-ray where the working part lights up",
+    "kind": "entry",
+    "group": "cutaway",
+    "date": "2026-11-06",
+    "creator": "@touchmediapoint0",
+    "link": "https://www.instagram.com/reel/DcJ_qYVgelU/"
    },
    {
     "id": "shelf:cutaway/topic_bank",
@@ -3779,6 +4191,15 @@
     "category": "motion_graphics",
     "status": "untested",
     "link": "https://www.instagram.com/reel/Dc80D8CKlOK/"
+   },
+   {
+    "id": "tech:texturize_paper_relief_collage",
+    "label": "Texturize paper relief, a hidden paper scan embossed into the tape, the text and the background so a collage motion graphic looks printed on real paper",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "motion_graphics",
+    "status": "partial",
+    "link": "https://www.instagram.com/reel/DfRchZWyrT0/"
    },
    {
     "id": "tech:blobbylize_gradient_shimmer_text",
@@ -4039,6 +4460,28 @@
     "link": "https://www.instagram.com/reel/DdcCMkyNwNq/"
    },
    {
+    "id": "shelf:editing_vfx/finishing_checklist",
+    "label": "Finishing checklist (every layer an edit needs, in order: cut, grade, hook text, overlays, graphics, zoom, SFX, music, texture, mix, export)",
+    "kind": "shelf",
+    "group": "editing_vfx",
+    "trigger": "taking any cut from rough to final, planning the passes of an edit, checking whether an edit is finished before export, or an edit \"looks okay but doesn't shine\""
+   },
+   {
+    "id": "pack:fitness",
+    "label": "Fitness",
+    "kind": "pack",
+    "group": "fitness"
+   },
+   {
+    "id": "shelf:editing_vfx/finishing_checklist#0",
+    "label": "One clip, seven passes: how a talking-head edit is built layer by layer (raw → grade → hook text → overlays → graphics → zoom → SFX and music)",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-11-06",
+    "creator": "@motionart.vfx",
+    "link": "https://www.instagram.com/reel/DfXWqOQsArK/"
+   },
+   {
     "id": "shelf:editing_vfx/free_asset_sources",
     "label": "Free asset sources for edits (SFX packs, film textures, animated emoji, 3D icons, public-domain art, generated backgrounds, archive footage, a dictionary of shot names)",
     "kind": "shelf",
@@ -4062,6 +4505,22 @@
     "date": "2026-10-29",
     "creator": "@myselfakshayy",
     "link": "https://www.instagram.com/reel/De_u4PHpbAH/"
+   },
+   {
+    "id": "shelf:editing_vfx/motion_language",
+    "label": "Motion language for coded motion graphics (easing per move, timing from distance and weight, lead and react, living holds)",
+    "kind": "shelf",
+    "group": "editing_vfx",
+    "trigger": "building or reviewing any HyperFrames / GSAP / coded motion graphic (titles, charts, UI cards, maps, lineage trees), keyframing a move in EffectCraft, or a motion graphic looks generic, \"AI-made\" or the same as every other one"
+   },
+   {
+    "id": "shelf:editing_vfx/motion_language#0",
+    "label": "Why Claude-made motion graphics all look alike, and the animator's rules that fix it",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-11-06",
+    "creator": "@hugh_candoit",
+    "link": "https://www.instagram.com/p/DfWHoQrDbSZ/"
    },
    {
     "id": "shelf:editing_vfx/music_library",
@@ -4111,12 +4570,6 @@
     "trigger": "adding sound design to ANY edit: whooshes on transitions, impacts and risers, UI clicks for motion graphics, ambience, stingers, a music bed"
    },
    {
-    "id": "pack:fitness",
-    "label": "Fitness",
-    "kind": "pack",
-    "group": "fitness"
-   },
-   {
     "id": "shelf:editing_vfx/sound_libraries#0",
     "label": "\"all sfx\" Drive pack: ~6,150 sound effects + music beds · shared by Atharva (pack by \"contentsingh\")",
     "kind": "entry",
@@ -4153,6 +4606,15 @@
     "link": "https://www.instagram.com/reel/DdOfTvEzW0S/"
    },
    {
+    "id": "shelf:editing_vfx/sound_libraries#4",
+    "label": "Seven sound effects for UI and SaaS motion (ripple, warp, bass crack, cyber shift, glitch, cine strike)",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-11-06",
+    "creator": "@adrianrazen",
+    "link": "https://www.instagram.com/reel/DfG3B45x5nR/"
+   },
+   {
     "id": "tech:music_end_reverb_tail",
     "label": "End any song smoothly: 10-frame nest, silent tail, constant-power fades, Studio Reverb with max decay",
     "kind": "technique",
@@ -4175,6 +4637,15 @@
     "category": "audio cuts / music entry",
     "status": "untested",
     "link": "https://www.instagram.com/reel/DdMMNnco3ka/"
+   },
+   {
+    "id": "tech:tonal_sfx_buildup_music_entrance",
+    "label": "Make the song an entrance, a tonal-SFX build-up in the song's key (stems hinted, then the full mix lands on a hit)",
+    "kind": "technique",
+    "group": "editing_vfx",
+    "category": "audio cuts / music entry",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DbDycA8BskH/"
    },
    {
     "id": "tech:catch_transition_four_layer_sfx",
@@ -4209,6 +4680,15 @@
     "date": "2026-10-28",
     "creator": "@itsdesignare",
     "link": "https://www.instagram.com/p/DeZVMXnjTnQ/"
+   },
+   {
+    "id": "shelf:editing_vfx/texture_and_finish#2",
+    "label": "Texture is why some explainers look premium and ours look flat (and why we don't use it yet)",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-11-06",
+    "creator": "@manisterrrrr",
+    "link": "https://www.instagram.com/reel/DZ1V9rlzI3s/"
    },
    {
     "id": "shelf:editing_vfx/tools_and_repos",
@@ -4342,6 +4822,49 @@
     "date": "2026-11-05",
     "creator": "@rupam.cinemotion",
     "link": "https://www.instagram.com/reel/DfJxo3LphNV/"
+   },
+   {
+    "id": "shelf:editing_vfx/tools_and_repos#14",
+    "label": "10 free animation and VFX repos: OpenToonz, Friction, FreeMoCap, Synfig Studio, Effekseer, Theatre.js, Pencil2D, OpenVDB, SVG.js, Natron",
+    "kind": "entry",
+    "group": "editing_vfx",
+    "date": "2026-11-06",
+    "creator": "@syntaix.ai",
+    "link": "https://www.instagram.com/p/DfUpCCLiSfS/"
+   },
+   {
+    "id": "shelf:marketing/brand_content",
+    "label": "Brand content and video ads that don't look like ads (founder-led reels, culture-first commercials, the brand moment inside content people watch)",
+    "kind": "shelf",
+    "group": "marketing",
+    "trigger": "planning a video ad or commercial for a client, a brand's or a founder's own social content, promoting a product or our own channel inside a reel people would watch anyway, choosing the FORMAT of an ad (trailer, vlog, music video, challenge, tutorial, stitch), or deciding where the brand shows up and how to keep it from feeling like an ad"
+   },
+   {
+    "id": "shelf:marketing/brand_content#0",
+    "label": "\"Don't make a commercial look like a commercial\": dress the ad as a trailer, vlog or music video, and build it from the buyer's culture",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-11-06",
+    "creator": "@ginyboi",
+    "link": "https://www.instagram.com/reel/DZ8V_ZBNjiZ/"
+   },
+   {
+    "id": "shelf:marketing/brand_content#1",
+    "label": "Profile pass: a clothing-brand co-owner who never makes an ad (advice and challenges from his own name, the brand worn in every frame, the bio as the only pitch)",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-11-06",
+    "creator": "@robertmckeaveney",
+    "link": "https://www.instagram.com/reel/DfY-8rETTPs/"
+   },
+   {
+    "id": "shelf:marketing/brand_content#2",
+    "label": "A sound-effects company's ad that is a tutorial: the product is the toolkit on screen",
+    "kind": "entry",
+    "group": "marketing",
+    "date": "2026-11-06",
+    "creator": "@multiply.sound",
+    "link": "https://www.instagram.com/reel/DbDycA8BskH/"
    },
    {
     "id": "shelf:marketing/image_ad_formats",
@@ -4563,6 +5086,15 @@
     "link": "https://www.instagram.com/reel/Devi-jZv9yb/"
    },
    {
+    "id": "shelf:skill_library/about_saving_reels#1",
+    "label": "Never run out of ideas: voice note → AI transcript → linked notes (\"your brain is for making ideas, not storing them\")",
+    "kind": "entry",
+    "group": "skill_library",
+    "date": "2026-11-06",
+    "creator": "@aevyvideoschool",
+    "link": "https://www.instagram.com/reel/DfY3yuLxcRt/"
+   },
+   {
     "id": "shelf:web_app_design/animated_websites",
     "label": "Animated and cinematic websites (scroll-driven video, 3D, motion)",
     "kind": "shelf",
@@ -4577,6 +5109,30 @@
     "date": "2026-10-27",
     "creator": "@heyyaliweb",
     "link": "https://www.instagram.com/reel/De_Wzk4NmsM/"
+   },
+   {
+    "id": "shelf:web_app_design/animated_websites#1",
+    "label": "Theatre.js and SVG.js: two open-source web animation libraries (from the 10-repo animation carousel)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-06",
+    "creator": "@syntaix.ai",
+    "link": "https://www.instagram.com/p/DfUpCCLiSfS/"
+   },
+   {
+    "id": "app:web_app_design:Code",
+    "label": "Code techniques",
+    "kind": "app",
+    "group": "web_app_design"
+   },
+   {
+    "id": "tech:otp_code_entry_motion",
+    "label": "OTP code screen, de-slopped: six-tile code entry with typed-digit motion, a checking shimmer, a collapse-to-checkmark success and SMS autofill",
+    "kind": "technique",
+    "group": "web_app_design",
+    "category": "ui_motion",
+    "status": "untested",
+    "link": "https://www.instagram.com/reel/DfUe1XXx6Jw/"
    },
    {
     "id": "shelf:web_app_design/design_lenses",
@@ -4905,6 +5461,15 @@
     "link": ""
    },
    {
+    "id": "shelf:web_app_design/ui_motion_ideas#1",
+    "label": "OTP code screen motion: digits rise in, a checking wave, tiles collapse into a checkmark, SMS autofill (pointer to the node page)",
+    "kind": "entry",
+    "group": "web_app_design",
+    "date": "2026-11-06",
+    "creator": "@charles.unemployed",
+    "link": "https://www.instagram.com/reel/DfUe1XXx6Jw/"
+   },
+   {
     "id": "shelf:youtube_story/audience_choice_series",
     "label": "Audience-choice series (viewers vote, comment or answer, and that writes the next part)",
     "kind": "shelf",
@@ -4953,6 +5518,15 @@
     "date": "2026-11-01",
     "creator": "@Romayroh",
     "link": ""
+   },
+   {
+    "id": "shelf:youtube_story/channel_growth#2",
+    "label": "Content funnel: half the posts win attention, half turn it into sales (11.7M-view reel vs 46K-view reel)",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-11-06",
+    "creator": "@robertmckeaveney",
+    "link": "https://www.instagram.com/reel/De_AqYOTedK/"
    },
    {
     "id": "shelf:youtube_story/hook_library",
@@ -5206,6 +5780,15 @@
     "link": ""
    },
    {
+    "id": "shelf:youtube_story/viral_formats#9",
+    "label": "\"The Sun In His Hands\": a hero's whole life in 80 s, no narration, every chapter cut to the song's energy",
+    "kind": "entry",
+    "group": "youtube_story",
+    "date": "2026-11-06",
+    "creator": "@visionmachina",
+    "link": "https://www.instagram.com/reel/DfQ3bvhy7DL/"
+   },
+   {
     "id": "hub:stories",
     "label": "Story bank",
     "kind": "hub",
@@ -5320,6 +5903,16 @@
     "typ": "recreate",
     "posted": "",
     "link": "https://www.instagram.com/reel/Dex0CLxvDvp/"
+   },
+   {
+    "id": "story:hanuman_sun_in_his_hands",
+    "label": "\"The Sun In His Hands\": Hanuman ji's whole life in one music-only film, bookended by the sun (recreate the format with one character's life, maybe Hanuman ji \"even more better\")",
+    "kind": "story",
+    "group": "youtube_story",
+    "status": "new",
+    "typ": "recreate",
+    "posted": "",
+    "link": "https://www.instagram.com/reel/DfQ3bvhy7DL/"
    },
    {
     "id": "story:hanuman_vs_superheroes",
@@ -5634,14 +6227,14 @@
     "group": "characters"
    },
    {
-    "id": "char:Ashvatthama",
-    "label": "Ashvatthama",
+    "id": "char:Jambavan",
+    "label": "Jambavan",
     "kind": "character",
     "group": "characters"
    },
    {
-    "id": "char:Jambavan",
-    "label": "Jambavan",
+    "id": "char:Ashvatthama",
+    "label": "Ashvatthama",
     "kind": "character",
     "group": "characters"
    },
@@ -5700,12 +6293,6 @@
     "group": "tools"
    },
    {
-    "id": "tool:EffectCraft",
-    "label": "EffectCraft",
-    "kind": "tool",
-    "group": "tools"
-   },
-   {
     "id": "tool:HyperFrames",
     "label": "HyperFrames",
     "kind": "tool",
@@ -5714,6 +6301,24 @@
    {
     "id": "tool:Google Flow",
     "label": "Google Flow",
+    "kind": "tool",
+    "group": "tools"
+   },
+   {
+    "id": "tool:EffectCraft",
+    "label": "EffectCraft",
+    "kind": "tool",
+    "group": "tools"
+   },
+   {
+    "id": "tool:GSAP",
+    "label": "GSAP",
+    "kind": "tool",
+    "group": "tools"
+   },
+   {
+    "id": "tool:Three.js",
+    "label": "Three.js",
     "kind": "tool",
     "group": "tools"
    },
@@ -5744,18 +6349,6 @@
    {
     "id": "tool:Claude Code",
     "label": "Claude Code",
-    "kind": "tool",
-    "group": "tools"
-   },
-   {
-    "id": "tool:Three.js",
-    "label": "Three.js",
-    "kind": "tool",
-    "group": "tools"
-   },
-   {
-    "id": "tool:GSAP",
-    "label": "GSAP",
     "kind": "tool",
     "group": "tools"
    },
@@ -5808,6 +6401,18 @@
     "group": "creators"
    },
    {
+    "id": "creator:@syntaix.ai",
+    "label": "@syntaix.ai",
+    "kind": "creator",
+    "group": "creators"
+   },
+   {
+    "id": "creator:@robertmckeaveney",
+    "label": "@robertmckeaveney",
+    "kind": "creator",
+    "group": "creators"
+   },
+   {
     "id": "creator:@deepaksisodiadesigns",
     "label": "@deepaksisodiadesigns",
     "kind": "creator",
@@ -5852,6 +6457,12 @@
    {
     "id": "creator:@mind_hex_real",
     "label": "@mind_hex_real",
+    "kind": "creator",
+    "group": "creators"
+   },
+   {
+    "id": "creator:@visionmachina",
+    "label": "@visionmachina",
     "kind": "creator",
     "group": "creators"
    },
@@ -5954,6 +6565,16 @@
     "type": "structure"
    },
    {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#10",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:_shared/design_principles",
+    "target": "shelf:_shared/design_principles#11",
+    "type": "structure"
+   },
+   {
     "source": "pack:web_app_design",
     "target": "shelf:_shared/design_styles",
     "type": "structure"
@@ -5981,6 +6602,11 @@
    {
     "source": "shelf:_shared/design_styles",
     "target": "shelf:_shared/design_styles#0",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:_shared/design_styles",
+    "target": "shelf:_shared/design_styles#1",
     "type": "structure"
    },
    {
@@ -6091,6 +6717,11 @@
    {
     "source": "shelf:_shared/inspiration_sources",
     "target": "shelf:_shared/inspiration_sources#5",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources",
+    "target": "shelf:_shared/inspiration_sources#6",
     "type": "structure"
    },
    {
@@ -6209,6 +6840,36 @@
     "type": "structure"
    },
    {
+    "source": "shelf:ai_generation/shot_composition",
+    "target": "shelf:ai_generation/shot_composition#3",
+    "type": "structure"
+   },
+   {
+    "source": "pack:cutaway",
+    "target": "app:cutaway:Blender",
+    "type": "structure"
+   },
+   {
+    "source": "app:cutaway:Blender",
+    "target": "tech:slice_into_cubes_counter",
+    "type": "structure"
+   },
+   {
+    "source": "pack:cutaway",
+    "target": "shelf:cutaway/blender_lookdev",
+    "type": "structure"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:cutaway/blender_lookdev",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:cutaway/blender_lookdev",
+    "target": "shelf:cutaway/blender_lookdev#0",
+    "type": "structure"
+   },
+   {
     "source": "pack:cutaway",
     "target": "shelf:cutaway/quality_bar",
     "type": "structure"
@@ -6226,6 +6887,11 @@
    {
     "source": "shelf:cutaway/quality_bar",
     "target": "shelf:cutaway/quality_bar#1",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar",
+    "target": "shelf:cutaway/quality_bar#2",
     "type": "structure"
    },
    {
@@ -6401,6 +7067,16 @@
    {
     "source": "app:editing_vfx:EffectCraft",
     "target": "tech:split_mask_shard_character_intro",
+    "type": "structure"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:EffectCraft",
+    "type": "structure"
+   },
+   {
+    "source": "app:editing_vfx:EffectCraft",
+    "target": "tech:texturize_paper_relief_collage",
     "type": "structure"
    },
    {
@@ -6685,6 +7361,31 @@
    },
    {
     "source": "pack:editing_vfx",
+    "target": "shelf:editing_vfx/finishing_checklist",
+    "type": "structure"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:editing_vfx/finishing_checklist",
+    "type": "structure"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:editing_vfx/finishing_checklist",
+    "type": "structure"
+   },
+   {
+    "source": "pack:fitness",
+    "target": "shelf:editing_vfx/finishing_checklist",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:editing_vfx/finishing_checklist",
+    "target": "shelf:editing_vfx/finishing_checklist#0",
+    "type": "structure"
+   },
+   {
+    "source": "pack:editing_vfx",
     "target": "shelf:editing_vfx/free_asset_sources",
     "type": "structure"
    },
@@ -6716,6 +7417,21 @@
    {
     "source": "shelf:editing_vfx/free_asset_sources",
     "target": "shelf:editing_vfx/free_asset_sources#1",
+    "type": "structure"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "shelf:editing_vfx/motion_language",
+    "type": "structure"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "shelf:editing_vfx/motion_language",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:editing_vfx/motion_language",
+    "target": "shelf:editing_vfx/motion_language#0",
     "type": "structure"
    },
    {
@@ -6794,6 +7510,11 @@
     "type": "structure"
    },
    {
+    "source": "shelf:editing_vfx/sound_libraries",
+    "target": "shelf:editing_vfx/sound_libraries#4",
+    "type": "structure"
+   },
+   {
     "source": "pack:editing_vfx",
     "target": "app:editing_vfx:FilmCraft",
     "type": "structure"
@@ -6811,6 +7532,16 @@
    {
     "source": "app:editing_vfx:SoundCraft",
     "target": "tech:music_start_three_ways",
+    "type": "structure"
+   },
+   {
+    "source": "pack:editing_vfx",
+    "target": "app:editing_vfx:SoundCraft",
+    "type": "structure"
+   },
+   {
+    "source": "app:editing_vfx:SoundCraft",
+    "target": "tech:tonal_sfx_buildup_music_entrance",
     "type": "structure"
    },
    {
@@ -6851,6 +7582,11 @@
    {
     "source": "shelf:editing_vfx/texture_and_finish",
     "target": "shelf:editing_vfx/texture_and_finish#1",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish",
+    "target": "shelf:editing_vfx/texture_and_finish#2",
     "type": "structure"
    },
    {
@@ -6926,6 +7662,46 @@
    {
     "source": "shelf:editing_vfx/tools_and_repos",
     "target": "shelf:editing_vfx/tools_and_repos#13",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos",
+    "target": "shelf:editing_vfx/tools_and_repos#14",
+    "type": "structure"
+   },
+   {
+    "source": "pack:marketing",
+    "target": "shelf:marketing/brand_content",
+    "type": "structure"
+   },
+   {
+    "source": "pack:clients",
+    "target": "shelf:marketing/brand_content",
+    "type": "structure"
+   },
+   {
+    "source": "pack:post_production",
+    "target": "shelf:marketing/brand_content",
+    "type": "structure"
+   },
+   {
+    "source": "pack:youtube_story",
+    "target": "shelf:marketing/brand_content",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:marketing/brand_content",
+    "target": "shelf:marketing/brand_content#0",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:marketing/brand_content",
+    "target": "shelf:marketing/brand_content#1",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:marketing/brand_content",
+    "target": "shelf:marketing/brand_content#2",
     "type": "structure"
    },
    {
@@ -7114,6 +7890,11 @@
     "type": "structure"
    },
    {
+    "source": "shelf:skill_library/about_saving_reels",
+    "target": "shelf:skill_library/about_saving_reels#1",
+    "type": "structure"
+   },
+   {
     "source": "pack:web_app_design",
     "target": "shelf:web_app_design/animated_websites",
     "type": "structure"
@@ -7121,6 +7902,21 @@
    {
     "source": "shelf:web_app_design/animated_websites",
     "target": "shelf:web_app_design/animated_websites#0",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:web_app_design/animated_websites",
+    "target": "shelf:web_app_design/animated_websites#1",
+    "type": "structure"
+   },
+   {
+    "source": "pack:web_app_design",
+    "target": "app:web_app_design:Code",
+    "type": "structure"
+   },
+   {
+    "source": "app:web_app_design:Code",
+    "target": "tech:otp_code_entry_motion",
     "type": "structure"
    },
    {
@@ -7334,6 +8130,11 @@
     "type": "structure"
    },
    {
+    "source": "shelf:web_app_design/ui_motion_ideas",
+    "target": "shelf:web_app_design/ui_motion_ideas#1",
+    "type": "structure"
+   },
+   {
     "source": "pack:youtube_story",
     "target": "shelf:youtube_story/audience_choice_series",
     "type": "structure"
@@ -7381,6 +8182,11 @@
    {
     "source": "shelf:youtube_story/channel_growth",
     "target": "shelf:youtube_story/channel_growth#1",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:youtube_story/channel_growth",
+    "target": "shelf:youtube_story/channel_growth#2",
     "type": "structure"
    },
    {
@@ -7574,6 +8380,11 @@
     "type": "structure"
    },
    {
+    "source": "shelf:youtube_story/viral_formats",
+    "target": "shelf:youtube_story/viral_formats#9",
+    "type": "structure"
+   },
+   {
     "source": "router",
     "target": "pack:ai_generation",
     "type": "structure"
@@ -7719,6 +8530,11 @@
     "type": "story"
    },
    {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "story:hanuman_hidden_origin",
+    "type": "story"
+   },
+   {
     "source": "status:new",
     "target": "story:hanuman_mountain_numbers",
     "type": "structure"
@@ -7726,6 +8542,16 @@
    {
     "source": "shelf:youtube_story/viral_formats#3",
     "target": "story:hanuman_mountain_numbers",
+    "type": "story"
+   },
+   {
+    "source": "status:new",
+    "target": "story:hanuman_sun_in_his_hands",
+    "type": "structure"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "story:hanuman_sun_in_his_hands",
     "type": "story"
    },
    {
@@ -7839,12 +8665,12 @@
     "type": "story"
    },
    {
-    "source": "shelf:ai_generation/shot_composition#0",
+    "source": "shelf:youtube_story/hook_library#2",
     "target": "char:Raktabeej",
     "type": "character"
    },
    {
-    "source": "shelf:editing_vfx/texture_and_finish#0",
+    "source": "shelf:editing_vfx/cut_grammar#1",
     "target": "char:Raktabeej",
     "type": "character"
    },
@@ -7854,12 +8680,7 @@
     "type": "character"
    },
    {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "char:Raktabeej",
-    "type": "character"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#1",
+    "source": "tech:voice_pocket_on_music",
     "target": "char:Raktabeej",
     "type": "character"
    },
@@ -7874,12 +8695,17 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#2",
+    "source": "shelf:ai_generation/shot_composition#0",
     "target": "char:Raktabeej",
     "type": "character"
    },
    {
-    "source": "tech:voice_pocket_on_music",
+    "source": "shelf:editing_vfx/texture_and_finish#0",
+    "target": "char:Raktabeej",
+    "type": "character"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
     "target": "char:Raktabeej",
     "type": "character"
    },
@@ -7894,22 +8720,22 @@
     "type": "character"
    },
    {
+    "source": "story:vali_karna_cosmic_balance",
+    "target": "char:Surya",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "char:Surya",
+    "type": "character"
+   },
+   {
     "source": "shelf:youtube_story/hook_library#3",
     "target": "char:Surya",
     "type": "character"
    },
    {
-    "source": "story:karna_krishna_offer",
-    "target": "char:Surya",
-    "type": "character"
-   },
-   {
     "source": "shelf:_shared/design_principles#6",
-    "target": "char:Surya",
-    "type": "character"
-   },
-   {
-    "source": "story:vali_karna_cosmic_balance",
     "target": "char:Surya",
     "type": "character"
    },
@@ -7924,6 +8750,51 @@
     "type": "character"
    },
    {
+    "source": "story:karna_krishna_offer",
+    "target": "char:Surya",
+    "type": "character"
+   },
+   {
+    "source": "story:angad_foot_ravana_court",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:ai_generation/methods#2",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "story:jambavan_wise_bear_king",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#2",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#8",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "story:parvati_golden_lanka",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#0",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
     "source": "story:rama_ring_vasuki_patala",
     "target": "char:Hanuman",
     "type": "character"
@@ -7934,52 +8805,32 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#1",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "shelf:ai_generation/methods#2",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#3",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
     "source": "story:bharata_shoots_hanuman",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "story:hanuman_vs_superheroes",
+    "source": "story:hanuman_sun_in_his_hands",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "story:angad_foot_ravana_court",
+    "source": "shelf:youtube_story/hook_library#3",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#8",
+    "source": "shelf:youtube_story/viral_formats#9",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#2",
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Hanuman",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#0",
     "target": "char:Hanuman",
     "type": "character"
    },
@@ -7994,32 +8845,17 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#2",
+    "source": "shelf:youtube_story/viral_formats#3",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#0",
+    "source": "shelf:youtube_story/viral_formats#1",
     "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#0",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#3",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:krishna_childhood_blue_boy",
-    "target": "char:Hanuman",
-    "type": "character"
-   },
-   {
-    "source": "story:parvati_golden_lanka",
+    "source": "story:hanuman_vs_superheroes",
     "target": "char:Hanuman",
     "type": "character"
    },
@@ -8029,12 +8865,12 @@
     "type": "character"
    },
    {
-    "source": "story:rama_ring_vasuki_patala",
-    "target": "char:Rama",
+    "source": "story:krishna_childhood_blue_boy",
+    "target": "char:Hanuman",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
+    "source": "story:angad_foot_ravana_court",
     "target": "char:Rama",
     "type": "character"
    },
@@ -8044,47 +8880,12 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#3",
+    "source": "story:rama_ring_vasuki_patala",
     "target": "char:Rama",
     "type": "character"
    },
    {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "story:vali_karna_cosmic_balance",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "shelf:editing_vfx/app_workflows#0",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "story:lanka_first_duel",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "story:angad_foot_ravana_court",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#8",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#2",
-    "target": "char:Rama",
-    "type": "character"
-   },
-   {
-    "source": "story:jaya_vijaya_ravana_gatekeeper",
+    "source": "story:hanuman_sun_in_his_hands",
     "target": "char:Rama",
     "type": "character"
    },
@@ -8104,8 +8905,53 @@
     "type": "character"
    },
    {
+    "source": "story:jaya_vijaya_ravana_gatekeeper",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "story:vali_karna_cosmic_balance",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#3",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
     "source": "shelf:youtube_story/viral_formats#8",
-    "target": "char:Sugriva",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "shelf:editing_vfx/app_workflows#0",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "story:lanka_first_duel",
+    "target": "char:Rama",
+    "type": "character"
+   },
+   {
+    "source": "story:jambavan_wise_bear_king",
+    "target": "char:Rama",
     "type": "character"
    },
    {
@@ -8124,22 +8970,12 @@
     "type": "character"
    },
    {
+    "source": "shelf:youtube_story/viral_formats#8",
+    "target": "char:Sugriva",
+    "type": "character"
+   },
+   {
     "source": "story:arjuna_jayadratha_sunset_vow",
-    "target": "char:Karna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Karna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#3",
-    "target": "char:Karna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#0",
     "target": "char:Karna",
     "type": "character"
    },
@@ -8149,27 +8985,12 @@
     "type": "character"
    },
    {
-    "source": "story:karna_krishna_offer",
+    "source": "shelf:youtube_story/hook_library#4",
     "target": "char:Karna",
     "type": "character"
    },
    {
-    "source": "story:abhimanyu_chakravyuha",
-    "target": "char:Karna",
-    "type": "character"
-   },
-   {
-    "source": "story:vali_karna_cosmic_balance",
-    "target": "char:Karna",
-    "type": "character"
-   },
-   {
-    "source": "tech:music_end_reverb_tail",
-    "target": "char:Karna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#8",
+    "source": "shelf:youtube_story/viral_formats#6",
     "target": "char:Karna",
     "type": "character"
    },
@@ -8179,13 +9000,58 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#6",
+    "source": "story:vali_karna_cosmic_balance",
     "target": "char:Karna",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#4",
+    "source": "shelf:youtube_story/hook_library#3",
     "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "story:abhimanyu_chakravyuha",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#8",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "tech:music_end_reverb_tail",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#0",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_krishna_offer",
+    "target": "char:Karna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/script_structure#2",
+    "target": "char:Dronacharya",
+    "type": "character"
+   },
+   {
+    "source": "shelf:post_production/cta_library#0",
+    "target": "char:Dronacharya",
     "type": "character"
    },
    {
@@ -8194,17 +9060,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Dronacharya",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#0",
-    "target": "char:Dronacharya",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/script_structure#2",
+    "source": "story:dronacharya_eklavya",
     "target": "char:Dronacharya",
     "type": "character"
    },
@@ -8214,63 +9070,28 @@
     "type": "character"
    },
    {
-    "source": "shelf:post_production/cta_library#0",
-    "target": "char:Dronacharya",
-    "type": "character"
-   },
-   {
-    "source": "story:dronacharya_eklavya",
-    "target": "char:Dronacharya",
-    "type": "character"
-   },
-   {
-    "source": "shelf:post_production/cta_library#0",
-    "target": "char:Eklavya",
-    "type": "character"
-   },
-   {
-    "source": "story:dronacharya_eklavya",
-    "target": "char:Eklavya",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Eklavya",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Ravana",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#3",
-    "target": "char:Ravana",
+    "target": "char:Dronacharya",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/hook_library#0",
-    "target": "char:Ravana",
+    "target": "char:Dronacharya",
     "type": "character"
    },
    {
-    "source": "story:vali_karna_cosmic_balance",
-    "target": "char:Ravana",
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Eklavya",
     "type": "character"
    },
    {
-    "source": "story:ganesha_ravana_atmalinga_gokarna",
-    "target": "char:Ravana",
+    "source": "story:dronacharya_eklavya",
+    "target": "char:Eklavya",
     "type": "character"
    },
    {
-    "source": "story:lanka_first_duel",
-    "target": "char:Ravana",
-    "type": "character"
-   },
-   {
-    "source": "story:parvati_golden_lanka",
-    "target": "char:Ravana",
+    "source": "shelf:post_production/cta_library#0",
+    "target": "char:Eklavya",
     "type": "character"
    },
    {
@@ -8279,7 +9100,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#8",
+    "source": "shelf:youtube_story/viral_formats#3",
     "target": "char:Ravana",
     "type": "character"
    },
@@ -8294,7 +9115,42 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#3",
+    "source": "story:vali_karna_cosmic_balance",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#3",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "story:ganesha_ravana_atmalinga_gokarna",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#8",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "story:parvati_golden_lanka",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "story:lanka_first_duel",
+    "target": "char:Ravana",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#0",
     "target": "char:Ravana",
     "type": "character"
    },
@@ -8304,17 +9160,12 @@
     "type": "character"
    },
    {
-    "source": "story:parvati_golden_lanka",
-    "target": "char:Sita",
-    "type": "character"
-   },
-   {
     "source": "story:rama_ring_vasuki_patala",
     "target": "char:Sita",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
+    "source": "story:hanuman_sun_in_his_hands",
     "target": "char:Sita",
     "type": "character"
    },
@@ -8324,27 +9175,22 @@
     "type": "character"
    },
    {
-    "source": "story:arjuna_jayadratha_sunset_vow",
-    "target": "char:Krishna",
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "char:Sita",
+    "type": "character"
+   },
+   {
+    "source": "story:parvati_golden_lanka",
+    "target": "char:Sita",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Krishna",
+    "target": "char:Sita",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#3",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_defeat_reasons",
+    "source": "story:vishvarupa_arjuna_wants_his_friend",
     "target": "char:Krishna",
     "type": "character"
    },
@@ -8354,7 +9200,52 @@
     "type": "character"
    },
    {
-    "source": "story:karna_krishna_offer",
+    "source": "story:arjuna_jayadratha_sunset_vow",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#3",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_defeat_reasons",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#4",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:jaya_vijaya_ravana_gatekeeper",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:vali_karna_cosmic_balance",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#3",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "story:dronacharya_eklavya",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#8",
+    "target": "char:Krishna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
     "target": "char:Krishna",
     "type": "character"
    },
@@ -8364,78 +9255,18 @@
     "type": "character"
    },
    {
-    "source": "story:vali_karna_cosmic_balance",
+    "source": "story:jambavan_wise_bear_king",
     "target": "char:Krishna",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#8",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:jaya_vijaya_ravana_gatekeeper",
+    "source": "story:karna_krishna_offer",
     "target": "char:Krishna",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/viral_formats#5",
     "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:dronacharya_eklavya",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#3",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:vishvarupa_arjuna_wants_his_friend",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#4",
-    "target": "char:Krishna",
-    "type": "character"
-   },
-   {
-    "source": "story:arjuna_jayadratha_sunset_vow",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "story:vali_karna_cosmic_balance",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_defeat_reasons",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_krishna_offer",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/script_structure#2",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "story:abhimanyu_chakravyuha",
-    "target": "char:Arjuna",
     "type": "character"
    },
    {
@@ -8444,22 +9275,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#8",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#5",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#6",
-    "target": "char:Arjuna",
-    "type": "character"
-   },
-   {
-    "source": "story:dronacharya_eklavya",
+    "source": "shelf:youtube_story/script_structure#2",
     "target": "char:Arjuna",
     "type": "character"
    },
@@ -8469,8 +9285,63 @@
     "type": "character"
    },
    {
+    "source": "story:arjuna_jayadratha_sunset_vow",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_defeat_reasons",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
     "source": "shelf:youtube_story/hook_library#4",
     "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#6",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "story:vali_karna_cosmic_balance",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "story:dronacharya_eklavya",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "story:abhimanyu_chakravyuha",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#8",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_krishna_offer",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#5",
+    "target": "char:Arjuna",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Bhishma",
     "type": "character"
    },
    {
@@ -8480,16 +9351,16 @@
    },
    {
     "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Bhishma",
-    "type": "character"
-   },
-   {
-    "source": "story:arjuna_jayadratha_sunset_vow",
     "target": "char:Abhimanyu",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/script_structure#2",
+    "target": "char:Abhimanyu",
+    "type": "character"
+   },
+   {
+    "source": "story:arjuna_jayadratha_sunset_vow",
     "target": "char:Abhimanyu",
     "type": "character"
    },
@@ -8499,8 +9370,8 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Abhimanyu",
+    "source": "shelf:youtube_story/script_structure#2",
+    "target": "char:Duryodhana",
     "type": "character"
    },
    {
@@ -8509,22 +9380,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#1",
-    "target": "char:Duryodhana",
-    "type": "character"
-   },
-   {
     "source": "story:karna_defeat_reasons",
-    "target": "char:Duryodhana",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_krishna_offer",
-    "target": "char:Duryodhana",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/script_structure#2",
     "target": "char:Duryodhana",
     "type": "character"
    },
@@ -8539,8 +9395,13 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#4",
-    "target": "char:Shakuni",
+    "source": "shelf:youtube_story/hook_library#1",
+    "target": "char:Duryodhana",
+    "type": "character"
+   },
+   {
+    "source": "story:karna_krishna_offer",
+    "target": "char:Duryodhana",
     "type": "character"
    },
    {
@@ -8554,6 +9415,16 @@
     "type": "character"
    },
    {
+    "source": "shelf:youtube_story/viral_formats#4",
+    "target": "char:Shakuni",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#2",
+    "target": "char:Ganesha",
+    "type": "character"
+   },
+   {
     "source": "shelf:youtube_story/viral_formats#7",
     "target": "char:Ganesha",
     "type": "character"
@@ -8564,17 +9435,22 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#2",
-    "target": "char:Ganesha",
+    "source": "story:shiva_dhanush_parashurama",
+    "target": "char:Vishnu",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#3",
+    "source": "story:jaya_vijaya_ravana_gatekeeper",
     "target": "char:Vishnu",
     "type": "character"
    },
    {
     "source": "story:vali_karna_cosmic_balance",
+    "target": "char:Vishnu",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#3",
     "target": "char:Vishnu",
     "type": "character"
    },
@@ -8589,32 +9465,12 @@
     "type": "character"
    },
    {
-    "source": "story:jaya_vijaya_ravana_gatekeeper",
-    "target": "char:Vishnu",
-    "type": "character"
-   },
-   {
-    "source": "story:shiva_dhanush_parashurama",
-    "target": "char:Vishnu",
-    "type": "character"
-   },
-   {
     "source": "story:karna_defeat_reasons",
     "target": "char:Yudhishthira",
     "type": "character"
    },
    {
-    "source": "story:karna_krishna_offer",
-    "target": "char:Yudhishthira",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#4",
-    "target": "char:Yudhishthira",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#5",
+    "source": "shelf:youtube_story/hook_library#4",
     "target": "char:Yudhishthira",
     "type": "character"
    },
@@ -8629,13 +9485,18 @@
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/hook_library#4",
+    "source": "shelf:youtube_story/viral_formats#4",
     "target": "char:Yudhishthira",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#4",
-    "target": "char:Draupadi",
+    "source": "story:karna_krishna_offer",
+    "target": "char:Yudhishthira",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#5",
+    "target": "char:Yudhishthira",
     "type": "character"
    },
    {
@@ -8649,12 +9510,17 @@
     "type": "character"
    },
    {
-    "source": "story:arjuna_jayadratha_sunset_vow",
-    "target": "char:Jayadratha",
+    "source": "shelf:youtube_story/viral_formats#4",
+    "target": "char:Draupadi",
     "type": "character"
    },
    {
     "source": "shelf:youtube_story/script_structure#2",
+    "target": "char:Jayadratha",
+    "type": "character"
+   },
+   {
+    "source": "story:arjuna_jayadratha_sunset_vow",
     "target": "char:Jayadratha",
     "type": "character"
    },
@@ -8669,12 +9535,7 @@
     "type": "character"
    },
    {
-    "source": "story:ganesha_ravana_atmalinga_gokarna",
-    "target": "char:Shiva",
-    "type": "character"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#7",
+    "source": "story:shiva_dhanush_parashurama",
     "target": "char:Shiva",
     "type": "character"
    },
@@ -8684,7 +9545,12 @@
     "type": "character"
    },
    {
-    "source": "story:shiva_dhanush_parashurama",
+    "source": "shelf:youtube_story/viral_formats#7",
+    "target": "char:Shiva",
+    "type": "character"
+   },
+   {
+    "source": "story:ganesha_ravana_atmalinga_gokarna",
     "target": "char:Shiva",
     "type": "character"
    },
@@ -8694,11 +9560,6 @@
     "type": "character"
    },
    {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Brahma",
-    "type": "character"
-   },
-   {
     "source": "shelf:youtube_story/viral_formats#1",
     "target": "char:Brahma",
     "type": "character"
@@ -8709,12 +9570,32 @@
     "type": "character"
    },
    {
-    "source": "story:vali_karna_cosmic_balance",
+    "source": "story:jambavan_wise_bear_king",
+    "target": "char:Brahma",
+    "type": "character"
+   },
+   {
+    "source": "story:hanuman_sun_in_his_hands",
     "target": "char:Indra",
     "type": "character"
    },
    {
     "source": "story:karna_defeat_reasons",
+    "target": "char:Indra",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#1",
+    "target": "char:Indra",
+    "type": "character"
+   },
+   {
+    "source": "story:vali_karna_cosmic_balance",
+    "target": "char:Indra",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
     "target": "char:Indra",
     "type": "character"
    },
@@ -8730,11 +9611,11 @@
    },
    {
     "source": "shelf:youtube_story/viral_formats#1",
-    "target": "char:Indra",
+    "target": "char:Vayu",
     "type": "character"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#1",
+    "source": "story:hanuman_sun_in_his_hands",
     "target": "char:Vayu",
     "type": "character"
    },
@@ -8744,17 +9625,27 @@
     "type": "character"
    },
    {
-    "source": "story:rama_ring_vasuki_patala",
-    "target": "char:Lakshmana",
-    "type": "character"
-   },
-   {
     "source": "story:bharata_shoots_hanuman",
     "target": "char:Lakshmana",
     "type": "character"
    },
    {
-    "source": "story:lanka_first_duel",
+    "source": "story:hanuman_sun_in_his_hands",
+    "target": "char:Lakshmana",
+    "type": "character"
+   },
+   {
+    "source": "story:shiva_dhanush_parashurama",
+    "target": "char:Lakshmana",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "char:Lakshmana",
+    "type": "character"
+   },
+   {
+    "source": "story:rama_ring_vasuki_patala",
     "target": "char:Lakshmana",
     "type": "character"
    },
@@ -8764,7 +9655,7 @@
     "type": "character"
    },
    {
-    "source": "story:shiva_dhanush_parashurama",
+    "source": "story:lanka_first_duel",
     "target": "char:Lakshmana",
     "type": "character"
    },
@@ -8784,6 +9675,21 @@
     "type": "character"
    },
    {
+    "source": "story:hanuman_sun_in_his_hands",
+    "target": "char:Jambavan",
+    "type": "character"
+   },
+   {
+    "source": "story:jambavan_wise_bear_king",
+    "target": "char:Jambavan",
+    "type": "character"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "char:Jambavan",
+    "type": "character"
+   },
+   {
     "source": "story:arjuna_jayadratha_sunset_vow",
     "target": "char:Ashvatthama",
     "type": "character"
@@ -8794,17 +9700,12 @@
     "type": "character"
    },
    {
-    "source": "story:jambavan_wise_bear_king",
-    "target": "char:Jambavan",
-    "type": "character"
-   },
-   {
-    "source": "story:karna_defeat_reasons",
+    "source": "story:shiva_dhanush_parashurama",
     "target": "char:Parashurama",
     "type": "character"
    },
    {
-    "source": "story:shiva_dhanush_parashurama",
+    "source": "story:karna_defeat_reasons",
     "target": "char:Parashurama",
     "type": "character"
    },
@@ -8829,32 +9730,7 @@
     "type": "character"
    },
    {
-    "source": "shelf:cutaway/quality_bar#1",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:cutaway/topic_bank#0",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/riddle_shorts#0",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/riddle_shorts#1",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#9",
-    "target": "tool:Blender",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:misc_tools/computer_utilities#0",
+    "source": "shelf:editing_vfx/tools_and_repos#12",
     "target": "tool:Blender",
     "type": "tool"
    },
@@ -8864,12 +9740,17 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/3d_asset_sources#0",
+    "source": "shelf:cutaway/topic_bank#0",
     "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#6",
+    "source": "tech:slice_into_cubes_counter",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#14",
     "target": "tool:Blender",
     "type": "tool"
    },
@@ -8879,27 +9760,32 @@
     "type": "tool"
    },
    {
+    "source": "shelf:youtube_story/riddle_shorts#1",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
     "source": "shelf:editing_vfx/tools_and_repos#5",
     "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/free_asset_sources#0",
+    "source": "shelf:editing_vfx/tools_and_repos#9",
     "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:cutaway/quality_bar#0",
+    "source": "shelf:youtube_story/riddle_shorts#0",
     "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#7",
+    "source": "shelf:cutaway/quality_bar#1",
     "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#12",
+    "source": "shelf:cutaway/quality_bar#2",
     "target": "tool:Blender",
     "type": "tool"
    },
@@ -8909,72 +9795,47 @@
     "type": "tool"
    },
    {
-    "source": "tech:paper_cutout_brand_promo",
-    "target": "tool:PhotoCraft",
+    "source": "shelf:cutaway/quality_bar#0",
+    "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/font_library#2",
-    "target": "tool:PhotoCraft",
+    "source": "shelf:_shared/design_styles#1",
+    "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/font_library#1",
-    "target": "tool:PhotoCraft",
+    "source": "shelf:misc_tools/computer_utilities#0",
+    "target": "tool:Blender",
     "type": "tool"
    },
    {
     "source": "shelf:editing_vfx/free_asset_sources#0",
-    "target": "tool:PhotoCraft",
+    "target": "tool:Blender",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_principles#8",
-    "target": "tool:PhotoCraft",
+    "source": "shelf:cutaway/blender_lookdev#0",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#6",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/3d_asset_sources#0",
+    "target": "tool:Blender",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#7",
+    "target": "tool:Blender",
     "type": "tool"
    },
    {
     "source": "tech:pixel_icon_kinetic_monologue",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#1",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#3",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/storefront_prototypes#0",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#4",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#2",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/color_and_light#1",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#0",
-    "target": "tool:PhotoCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#6",
     "target": "tool:PhotoCraft",
     "type": "tool"
    },
@@ -8984,7 +9845,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_principles#7",
+    "source": "shelf:editing_vfx/texture_and_finish#1",
     "target": "tool:PhotoCraft",
     "type": "tool"
    },
@@ -8999,72 +9860,92 @@
     "type": "tool"
    },
    {
+    "source": "shelf:_shared/design_principles#8",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#1",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#3",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#7",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#2",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/color_and_light#1",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#4",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_styles#1",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#6",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#0",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/storefront_prototypes#0",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#2",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#2",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:paper_cutout_brand_promo",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/free_asset_sources#0",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#11",
+    "target": "tool:PhotoCraft",
+    "type": "tool"
+   },
+   {
     "source": "tech:thermal_grunge_stinger",
     "target": "tool:PhotoCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#1",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#6",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#8",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#2",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/riddle_shorts#3",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#1",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/storefront_prototypes#0",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/cinematic_realism#0",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "tech:documentary_war_map_theme",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/color_and_light#1",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
     "source": "tech:xray_wireframe_transition",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#6",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
@@ -9074,27 +9955,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_principles#7",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#8",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#2",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#7",
-    "target": "tool:ChatGPT image",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_styles#0",
+    "source": "shelf:youtube_story/riddle_shorts#3",
     "target": "tool:ChatGPT image",
     "type": "tool"
    },
@@ -9104,82 +9965,97 @@
     "type": "tool"
    },
    {
-    "source": "tech:log_to_scene_nine_scenarios",
-    "target": "tool:FilmCraft",
+    "source": "shelf:editing_vfx/texture_and_finish#1",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "tech:shutter_slide_photo_stack",
-    "target": "tool:FilmCraft",
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "tech:paper_cutout_brand_promo",
-    "target": "tool:FilmCraft",
+    "source": "shelf:_shared/design_styles#0",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/font_library#2",
-    "target": "tool:FilmCraft",
+    "source": "shelf:_shared/design_principles#8",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "tech:opium_stretch_extract_flash",
-    "target": "tool:FilmCraft",
+    "source": "tech:documentary_war_map_theme",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "tech:slow_shutter_echo_posterize",
-    "target": "tool:FilmCraft",
+    "source": "shelf:_shared/font_library#1",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:FilmCraft",
+    "source": "shelf:youtube_story/viral_formats#8",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/inspiration_sources#1",
-    "target": "tool:FilmCraft",
+    "source": "shelf:_shared/design_principles#7",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#5",
-    "target": "tool:FilmCraft",
+    "source": "shelf:ai_generation/color_and_light#1",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "tech:radial_shutter_flash",
-    "target": "tool:FilmCraft",
+    "source": "shelf:ai_generation/cinematic_realism#0",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/free_asset_sources#1",
-    "target": "tool:FilmCraft",
+    "source": "shelf:editing_vfx/tools_and_repos#2",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#6",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/storefront_prototypes#0",
+    "target": "tool:ChatGPT image",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#11",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
     "source": "shelf:youtube_story/viral_formats#6",
-    "target": "tool:FilmCraft",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/free_asset_sources#0",
-    "target": "tool:FilmCraft",
+    "source": "shelf:youtube_story/viral_formats#7",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/cut_grammar#2",
-    "target": "tool:FilmCraft",
+    "source": "shelf:ai_generation/methods#1",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "tech:catch_transition_four_layer_sfx",
-    "target": "tool:FilmCraft",
+    "source": "shelf:ai_generation/shot_composition#3",
+    "target": "tool:ChatGPT image",
     "type": "tool"
    },
    {
-    "source": "shelf:cutaway/quality_bar#1",
+    "source": "tech:xray_wireframe_transition",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -9189,42 +10065,17 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/sound_libraries#3",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:neon_edge_glow",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/color_grading#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#3",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#4",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:documentary_war_map_theme",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
     "source": "tech:invert_chromatic_flash",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:cutaway/quality_bar#0",
+    "source": "tech:texturize_paper_relief_collage",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:slow_shutter_echo_posterize",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -9234,42 +10085,67 @@
     "type": "tool"
    },
    {
+    "source": "shelf:ai_generation/ai_influencer_formats#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:slice_into_cubes_counter",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/finishing_checklist#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#14",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:tonal_sfx_buildup_music_entrance",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/app_workflows#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:music_end_reverb_tail",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:neon_edge_glow",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
     "source": "shelf:ai_generation/color_and_light#2",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_principles#2",
+    "source": "shelf:_shared/design_principles#4",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:beat_sync_background_flicker_reveal",
+    "source": "tech:flash_whip_silhouette",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/sound_libraries#2",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:xray_wireframe_transition",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/riddle_shorts#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#6",
+    "source": "tech:opium_stretch_extract_flash",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -9284,112 +10160,12 @@
     "type": "tool"
    },
    {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "source": "shelf:editing_vfx/cut_grammar#3",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:music_start_three_ways",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/music_library#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#8",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#7",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:speed_effect_cutout_zip",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:gangsta_extract_flash",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:rapid_zoom_out_photo_stack",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:log_to_cinematic_one_node_greenery",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:ink_overlay_track_matte",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:log_input_transform_any_camera",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_principles#4",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:cinematic_look_library_nine_grades",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:voice_over_music_two_effect_duck",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/app_workflows#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:prism_lens_smear_14f",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/ai_influencer_formats#0",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:music_end_reverb_tail",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:thermal_grunge_stinger",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:flash_whip_silhouette",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:freeze_frame_character_intro",
-    "target": "tool:FilmCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:voice_pocket_on_music",
+    "source": "shelf:editing_vfx/sound_libraries#4",
     "target": "tool:FilmCraft",
     "type": "tool"
    },
@@ -9399,27 +10175,262 @@
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/design_principles#2",
-    "target": "tool:Resolve",
+    "source": "tech:radial_shutter_flash",
+    "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:log_to_scene_nine_scenarios",
-    "target": "tool:Resolve",
+    "source": "shelf:youtube_story/viral_formats#8",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:documentary_war_map_theme",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/riddle_shorts#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#1",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:rapid_zoom_out_photo_stack",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:cinematic_look_library_nine_grades",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/free_asset_sources#1",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:voice_pocket_on_music",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#4",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:shutter_slide_photo_stack",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#6",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/music_library#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:freeze_frame_character_intro",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:gangsta_extract_flash",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:speed_effect_cutout_zip",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#2",
+    "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
     "source": "tech:beat_sync_background_flicker_reveal",
-    "target": "tool:Resolve",
+    "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
-    "source": "tech:log_to_cinematic_one_node_greenery",
-    "target": "tool:Resolve",
+    "source": "tech:music_start_three_ways",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#5",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#2",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:paper_cutout_brand_promo",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/free_asset_sources#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/color_grading#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:voice_over_music_two_effect_duck",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#11",
+    "target": "tool:FilmCraft",
     "type": "tool"
    },
    {
     "source": "tech:log_input_transform_any_camera",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:prism_lens_smear_14f",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#6",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#7",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#3",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:ink_overlay_track_matte",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#1",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/blender_lookdev#0",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:log_to_cinematic_one_node_greenery",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#1",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:catch_transition_four_layer_sfx",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:log_to_scene_nine_scenarios",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:thermal_grunge_stinger",
+    "target": "tool:FilmCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/finishing_checklist#0",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:tonal_sfx_buildup_music_entrance",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:color_splash_subject_only",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#3",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#2",
     "target": "tool:Resolve",
     "type": "tool"
    },
@@ -9434,32 +10445,7 @@
     "type": "tool"
    },
    {
-    "source": "tech:color_splash_subject_only",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
     "source": "tech:lantern_ring_glow_ascii_dust",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "tech:music_start_three_ways",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/color_grading#0",
-    "target": "tool:Resolve",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#3",
     "target": "tool:Resolve",
     "type": "tool"
    },
@@ -9469,7 +10455,37 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#7",
+    "source": "tech:beat_sync_background_flicker_reveal",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:music_start_three_ways",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#2",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/color_grading#0",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:log_input_transform_any_camera",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/blender_lookdev#0",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:log_to_cinematic_one_node_greenery",
     "target": "tool:Resolve",
     "type": "tool"
    },
@@ -9479,22 +10495,287 @@
     "type": "tool"
    },
    {
+    "source": "tech:log_to_scene_nine_scenarios",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#7",
+    "target": "tool:Resolve",
+    "type": "tool"
+   },
+   {
+    "source": "tech:pixel_icon_kinetic_monologue",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#12",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#0",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "tech:texturize_paper_relief_collage",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/finishing_checklist#0",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#4",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#0",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/motion_language#0",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "tech:mixed_media_collage_type",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#5",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/hook_library#2",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#4",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#1",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#13",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#1",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#2",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#0",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_styles#1",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#10",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#4",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#11",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#2",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#11",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#5",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#3",
+    "target": "tool:HyperFrames",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#2",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition#2",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/color_grading#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_principles#11",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#2",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "tech:log_input_transform_any_camera",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/animated_websites#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:marketing/image_ad_formats#1",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/app_workflows#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/color_and_light#2",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition#3",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#0",
+    "target": "tool:Google Flow",
+    "type": "tool"
+   },
+   {
+    "source": "tech:pixel_icon_kinetic_monologue",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
     "source": "tech:pendulum_light_logo_reveal",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "tech:paper_cutout_brand_promo",
+    "source": "tech:recolor_dark_garment_roto_lighten_multiply",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/font_library#2",
+    "source": "tech:texturize_paper_relief_collage",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "tech:screen_replace_mocha_keylight_hand_matte",
+    "source": "tech:invert_chromatic_flash",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/finishing_checklist#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#14",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:profile_bounce_split_mask",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/motion_language#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/app_workflows#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:mixed_media_collage_type",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:flash_whip_silhouette",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -9504,12 +10785,137 @@
     "type": "tool"
    },
    {
+    "source": "shelf:youtube_story/hook_library#2",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:color_splash_subject_only",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#4",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_styles#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:finger_point_tracking_to_nulls",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:documentary_war_map_theme",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#13",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/riddle_shorts#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#1",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#1",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:cinematic_look_library_nine_grades",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#2",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#2",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:cutaway/quality_bar#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#4",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/design_styles#1",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/texture_and_finish#0",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:lantern_ring_glow_ascii_dust",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:path_carousel_3d_two_expressions",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:blobbylize_gradient_shimmer_text",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
     "source": "shelf:editing_vfx/tools_and_repos#4",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
+    "source": "tech:speed_effect_cutout_zip",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/font_library#2",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:beat_sync_background_flicker_reveal",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
     "source": "shelf:youtube_story/viral_formats#5",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:paper_cutout_brand_promo",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -9524,7 +10930,12 @@
     "type": "tool"
    },
    {
-    "source": "shelf:cutaway/quality_bar#1",
+    "source": "tech:prism_lens_smear_14f",
+    "target": "tool:EffectCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#3",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -9534,27 +10945,17 @@
     "type": "tool"
    },
    {
-    "source": "tech:pixel_icon_kinetic_monologue",
+    "source": "shelf:editing_vfx/tools_and_repos#3",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/sound_libraries#3",
+    "source": "shelf:cutaway/blender_lookdev#0",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:floating_clones_levitation",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#4",
+    "source": "tech:screen_replace_mocha_keylight_hand_matte",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
@@ -9564,292 +10965,112 @@
     "type": "tool"
    },
    {
-    "source": "tech:documentary_war_map_theme",
+    "source": "shelf:marketing/brand_content#0",
     "target": "tool:EffectCraft",
     "type": "tool"
    },
    {
-    "source": "tech:path_carousel_3d_two_expressions",
+    "source": "tech:floating_clones_levitation",
     "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:invert_chromatic_flash",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:cutaway/quality_bar#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#13",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:mixed_media_collage_type",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:beat_sync_background_flicker_reveal",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:blobbylize_gradient_shimmer_text",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:recolor_dark_garment_roto_lighten_multiply",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/riddle_shorts#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:profile_bounce_split_mask",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/texture_and_finish#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:color_splash_subject_only",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#1",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:finger_point_tracking_to_nulls",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:speed_effect_cutout_zip",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#3",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#2",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:cinematic_look_library_nine_grades",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:lantern_ring_glow_ascii_dust",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/app_workflows#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:prism_lens_smear_14f",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/design_styles#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:flash_whip_silhouette",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#0",
-    "target": "tool:EffectCraft",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:cutaway/quality_bar#1",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "tech:pixel_icon_kinetic_monologue",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#5",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#2",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#4",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/font_library#1",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#10",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#0",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#4",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#3",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#11",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#5",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#0",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:cutaway/quality_bar#0",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#13",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#12",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/hook_library#2",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "tech:mixed_media_collage_type",
-    "target": "tool:HyperFrames",
-    "type": "tool"
-   },
-   {
-    "source": "tech:log_input_transform_any_camera",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:_shared/inspiration_sources#2",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#0",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/app_workflows#0",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/color_grading#0",
-    "target": "tool:Google Flow",
     "type": "tool"
    },
    {
     "source": "shelf:web_app_design/animated_websites#0",
-    "target": "tool:Google Flow",
+    "target": "tool:GSAP",
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#2",
-    "target": "tool:Google Flow",
+    "source": "shelf:web_app_design/storefront_prototypes#2",
+    "target": "tool:GSAP",
     "type": "tool"
    },
    {
-    "source": "shelf:_shared/inspiration_sources#0",
-    "target": "tool:Google Flow",
+    "source": "shelf:editing_vfx/tools_and_repos#10",
+    "target": "tool:GSAP",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/motion_language#0",
+    "target": "tool:GSAP",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/animated_websites#1",
+    "target": "tool:GSAP",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/storefront_prototypes#0",
+    "target": "tool:GSAP",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#6",
+    "target": "tool:GSAP",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#5",
+    "target": "tool:GSAP",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#3",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#12",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#11",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#1",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/animated_websites#1",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/storefront_prototypes#0",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:_shared/inspiration_sources#6",
+    "target": "tool:Three.js",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#5",
+    "target": "tool:Three.js",
     "type": "tool"
    },
    {
     "source": "shelf:ai_generation/shot_composition#2",
-    "target": "tool:Google Flow",
+    "target": "tool:Seedance",
     "type": "tool"
    },
    {
-    "source": "shelf:marketing/image_ad_formats#1",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#2",
-    "target": "tool:Google Flow",
+    "source": "shelf:editing_vfx/color_grading#0",
+    "target": "tool:Seedance",
     "type": "tool"
    },
    {
     "source": "shelf:editing_vfx/cut_grammar#0",
-    "target": "tool:Google Flow",
+    "target": "tool:Seedance",
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/color_and_light#2",
-    "target": "tool:Google Flow",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/shot_composition#0",
+    "source": "shelf:ai_generation/methods#2",
     "target": "tool:Seedance",
     "type": "tool"
    },
@@ -9859,22 +11080,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#0",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "tech:reaction_cutaway_over_dialogue_join",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/color_grading#0",
+    "source": "shelf:ai_generation/cinematic_realism#0",
     "target": "tool:Seedance",
     "type": "tool"
    },
@@ -9884,27 +11090,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#2",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#2",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/cinematic_realism#0",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/shot_composition#2",
-    "target": "tool:Seedance",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/cut_grammar#2",
+    "source": "shelf:ai_generation/shot_composition#0",
     "target": "tool:Seedance",
     "type": "tool"
    },
@@ -9914,7 +11100,37 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/cut_grammar#0",
+    "source": "tech:reaction_cutaway_over_dialogue_join",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/cut_grammar#2",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#1",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition#3",
+    "target": "tool:Seedance",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#0",
     "target": "tool:Seedance",
     "type": "tool"
    },
@@ -9924,22 +11140,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#8",
-    "target": "tool:Higgsfield",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:misc_tools/computer_utilities#0",
-    "target": "tool:Higgsfield",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/methods#0",
-    "target": "tool:Higgsfield",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:youtube_story/viral_formats#2",
+    "source": "shelf:ai_generation/shot_composition#2",
     "target": "tool:Higgsfield",
     "type": "tool"
    },
@@ -9949,12 +11150,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/script_structure#1",
-    "target": "tool:Higgsfield",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:ai_generation/shot_composition#2",
+    "source": "shelf:web_app_design/dev_tools#8",
     "target": "tool:Higgsfield",
     "type": "tool"
    },
@@ -9964,12 +11160,27 @@
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:Kling",
+    "source": "shelf:youtube_story/script_structure#1",
+    "target": "tool:Higgsfield",
     "type": "tool"
    },
    {
-    "source": "tech:log_input_transform_any_camera",
+    "source": "shelf:youtube_story/viral_formats#2",
+    "target": "tool:Higgsfield",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#0",
+    "target": "tool:Higgsfield",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:misc_tools/computer_utilities#0",
+    "target": "tool:Higgsfield",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#1",
     "target": "tool:Kling",
     "type": "tool"
    },
@@ -9979,12 +11190,17 @@
     "type": "tool"
    },
    {
-    "source": "tech:catch_transition_four_layer_sfx",
+    "source": "tech:log_input_transform_any_camera",
+    "target": "tool:Kling",
+    "type": "tool"
+   },
+   {
+    "source": "tech:music_start_three_ways",
     "target": "tool:SoundCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/sound_libraries#2",
+    "source": "shelf:cutaway/quality_bar#2",
     "target": "tool:SoundCraft",
     "type": "tool"
    },
@@ -9994,17 +11210,32 @@
     "type": "tool"
    },
    {
+    "source": "shelf:youtube_story/viral_formats#5",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#4",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/finishing_checklist#0",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:slice_into_cubes_counter",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
     "source": "shelf:editing_vfx/sound_libraries#3",
     "target": "tool:SoundCraft",
     "type": "tool"
    },
    {
-    "source": "shelf:ai_generation/methods#1",
-    "target": "tool:SoundCraft",
-    "type": "tool"
-   },
-   {
-    "source": "tech:music_start_three_ways",
+    "source": "shelf:youtube_story/viral_formats#9",
     "target": "tool:SoundCraft",
     "type": "tool"
    },
@@ -10014,7 +11245,27 @@
     "type": "tool"
    },
    {
-    "source": "shelf:youtube_story/viral_formats#5",
+    "source": "shelf:marketing/brand_content#2",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:tonal_sfx_buildup_music_entrance",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/sound_libraries#2",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:ai_generation/methods#1",
+    "target": "tool:SoundCraft",
+    "type": "tool"
+   },
+   {
+    "source": "tech:catch_transition_four_layer_sfx",
     "target": "tool:SoundCraft",
     "type": "tool"
    },
@@ -10029,12 +11280,12 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/launch_protocols#0",
+    "source": "shelf:editing_vfx/tools_and_repos#9",
     "target": "tool:Claude Code",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#1",
+    "source": "shelf:web_app_design/dev_tools#3",
     "target": "tool:Claude Code",
     "type": "tool"
    },
@@ -10044,52 +11295,7 @@
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#9",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#10",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#0",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#4",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#1",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/animated_websites#0",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#3",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
     "source": "shelf:web_app_design/launch_protocols#1",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#11",
-    "target": "tool:Claude Code",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:misc_tools/business_thinking#0",
     "target": "tool:Claude Code",
     "type": "tool"
    },
@@ -10099,63 +11305,58 @@
     "type": "tool"
    },
    {
-    "source": "shelf:web_app_design/dev_tools#7",
+    "source": "shelf:web_app_design/animated_websites#0",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#4",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#0",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:misc_tools/business_thinking#0",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:web_app_design/dev_tools#1",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#10",
+    "target": "tool:Claude Code",
+    "type": "tool"
+   },
+   {
+    "source": "shelf:editing_vfx/motion_language#0",
     "target": "tool:Claude Code",
     "type": "tool"
    },
    {
     "source": "shelf:editing_vfx/tools_and_repos#1",
-    "target": "tool:Three.js",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/dev_tools#3",
-    "target": "tool:Three.js",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/storefront_prototypes#0",
-    "target": "tool:Three.js",
+    "target": "tool:Claude Code",
     "type": "tool"
    },
    {
     "source": "shelf:editing_vfx/tools_and_repos#11",
-    "target": "tool:Three.js",
+    "target": "tool:Claude Code",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#5",
-    "target": "tool:Three.js",
+    "source": "shelf:web_app_design/dev_tools#7",
+    "target": "tool:Claude Code",
     "type": "tool"
    },
    {
-    "source": "shelf:editing_vfx/tools_and_repos#12",
-    "target": "tool:Three.js",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/storefront_prototypes#2",
-    "target": "tool:GSAP",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#10",
-    "target": "tool:GSAP",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/animated_websites#0",
-    "target": "tool:GSAP",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:web_app_design/storefront_prototypes#0",
-    "target": "tool:GSAP",
-    "type": "tool"
-   },
-   {
-    "source": "shelf:editing_vfx/tools_and_repos#5",
-    "target": "tool:GSAP",
+    "source": "shelf:web_app_design/launch_protocols#0",
+    "target": "tool:Claude Code",
     "type": "tool"
    },
    {
@@ -10189,12 +11390,27 @@
     "type": "creator"
    },
    {
+    "source": "shelf:_shared/design_principles#11",
+    "target": "creator:@aevyvideoschool",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:ai_generation/shot_composition#3",
+    "target": "creator:@aevyvideoschool",
+    "type": "creator"
+   },
+   {
     "source": "shelf:editing_vfx/sound_libraries#1",
     "target": "creator:@aevyvideoschool",
     "type": "creator"
    },
    {
     "source": "shelf:editing_vfx/tools_and_repos#5",
+    "target": "creator:@aevyvideoschool",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:skill_library/about_saving_reels#1",
     "target": "creator:@aevyvideoschool",
     "type": "creator"
    },
@@ -10299,6 +11515,31 @@
     "type": "creator"
    },
    {
+    "source": "shelf:editing_vfx/tools_and_repos#6",
+    "target": "creator:@syntaix.ai",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:editing_vfx/tools_and_repos#14",
+    "target": "creator:@syntaix.ai",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:web_app_design/animated_websites#1",
+    "target": "creator:@syntaix.ai",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:marketing/brand_content#1",
+    "target": "creator:@robertmckeaveney",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:youtube_story/channel_growth#2",
+    "target": "creator:@robertmckeaveney",
+    "type": "creator"
+   },
+   {
     "source": "shelf:marketing/image_ad_formats#0",
     "target": "creator:@deepaksisodiadesigns",
     "type": "creator"
@@ -10386,6 +11627,16 @@
    {
     "source": "shelf:youtube_story/riddle_shorts#1",
     "target": "creator:@mind_hex_real",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#0",
+    "target": "creator:@visionmachina",
+    "type": "creator"
+   },
+   {
+    "source": "shelf:youtube_story/viral_formats#9",
+    "target": "creator:@visionmachina",
     "type": "creator"
    },
    {
