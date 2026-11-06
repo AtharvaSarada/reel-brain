@@ -304,7 +304,12 @@ def main():
     items = []
     for r in rows:
         cat = category(r)
-        link = (r.get("Link") or "").split("?")[0]
+        raw = r.get("Link") or ""
+        link, _, q = raw.partition("?")
+        if "youtube.com/watch" in link:  # keep the video id; it is the whole link
+            from urllib.parse import parse_qs
+            v = parse_qs(q).get("v")
+            link += ("?v=" + v[0]) if v else ""
         story = cat in ("stories", "recreate")
         title = r.get("Reel") or ""
         if cat == "waiting":
